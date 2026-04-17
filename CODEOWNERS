@@ -1,0 +1,7 @@
+# Platform owns the auth hot path and infra.
+/packages/auth/                @andofoods/platform
+/packages/config/              @andofoods/platform
+/packages/db/                  @andofoods/platform
+/infra/                        @andofoods/platform
+/.github/                      @andofoods/platform
+/apps/workspace/app/(admin)/   @andofoods/platform

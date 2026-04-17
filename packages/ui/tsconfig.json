@@ -1,0 +1,6 @@
+{
+  "extends": "@ando/tsconfig/react-lib.json",
+  "compilerOptions": { "outDir": "dist", "rootDir": "src" },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["dist", "node_modules", "test"]
+}

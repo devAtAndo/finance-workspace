@@ -1,0 +1,27 @@
+# Local development reverse proxy for *.localtest.me subdomains.
+# localtest.me resolves to 127.0.0.1 publicly; no /etc/hosts edits needed.
+#
+# Start the apps on the ports below, then run:
+#   caddy run --config Caddyfile
+#
+# First-time TLS: `caddy trust` installs the local CA into the macOS keychain.
+
+{
+    local_certs
+    auto_https disable_redirects
+}
+
+workspace.localtest.me {
+    tls internal
+    reverse_proxy localhost:3000
+}
+
+petty-cash.localtest.me {
+    tls internal
+    reverse_proxy localhost:3001
+}
+
+rider-payments.localtest.me {
+    tls internal
+    reverse_proxy localhost:3002
+}

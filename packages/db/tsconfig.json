@@ -1,0 +1,6 @@
+{
+  "extends": "@ando/tsconfig/node-lib.json",
+  "compilerOptions": { "outDir": "dist", "rootDir": "src" },
+  "include": ["src/**/*.ts"],
+  "exclude": ["dist", "node_modules", "test"]
+}

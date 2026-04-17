@@ -1,0 +1,42 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "ui": "stream",
+  "globalDependencies": [".env", ".env.local", "tsconfig.base.json"],
+  "globalEnv": [
+    "NODE_ENV",
+    "CI",
+    "CF_ACCESS_TEAM_DOMAIN",
+    "CF_ACCESS_AUD_WORKSPACE",
+    "CF_ACCESS_AUD_PETTY_CASH",
+    "CF_ACCESS_AUD_RIDER_PAYMENTS",
+    "IAM_DATABASE_URL",
+    "WORKSPACE_ENABLED",
+    "PETTY_CASH_AUTH_V2",
+    "RIDER_CF_ACCESS"
+  ],
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", ".next/**", "!.next/cache/**"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "typecheck": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "test": {
+      "dependsOn": ["^build"],
+      "outputs": ["coverage/**"]
+    },
+    "clean": {
+      "cache": false
+    }
+  }
+}

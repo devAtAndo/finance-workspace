@@ -1,0 +1,48 @@
+{
+  "name": "@ando/auth",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cloudflare Access JWT verification and app-level RBAC for Ando Finance apps.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./middleware": {
+      "types": "./dist/middleware.d.ts",
+      "import": "./dist/middleware.js"
+    },
+    "./testing": {
+      "types": "./dist/testing.d.ts",
+      "import": "./dist/testing.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "lint": "eslint src",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "clean": "rm -rf dist .turbo *.tsbuildinfo"
+  },
+  "dependencies": {
+    "@ando/config": "workspace:*",
+    "jose": "^5.9.3"
+  },
+  "devDependencies": {
+    "@ando/eslint-config": "workspace:*",
+    "@ando/tsconfig": "workspace:*",
+    "@types/node": "^20.16.10",
+    "@vitest/coverage-v8": "^2.1.2",
+    "eslint": "^9.11.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.2"
+  }
+}

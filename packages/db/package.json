@@ -1,0 +1,45 @@
+{
+  "name": "@ando/db",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kysely-based data access for the iam Postgres schema (users, app_access, audit_log).",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./schema": {
+      "types": "./dist/schema.d.ts",
+      "import": "./dist/schema.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "lint": "eslint src",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist .turbo *.tsbuildinfo"
+  },
+  "dependencies": {
+    "@ando/auth": "workspace:*",
+    "@ando/config": "workspace:*",
+    "kysely": "^0.27.4",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@ando/eslint-config": "workspace:*",
+    "@ando/tsconfig": "workspace:*",
+    "@types/node": "^20.16.10",
+    "@types/pg": "^8.11.10",
+    "eslint": "^9.11.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.2"
+  }
+}
