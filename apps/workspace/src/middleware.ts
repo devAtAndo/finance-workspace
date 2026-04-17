@@ -1,9 +1,5 @@
 import { NextResponse, type NextRequest } from 'next/server';
-import { evaluateWorkspaceAccess, getJwksFetcher } from '@/lib/auth';
-import { getHyperdriveIam } from '@/lib/cf';
-import { env } from '@ando/config/env';
 import { flags } from '@ando/config/flags';
-import { getDb, iam } from '@ando/db';
 
 export const config = {
   matcher: ['/((?!_next/|favicon|no-access|api/test/).*)'],
@@ -14,9 +10,22 @@ export async function middleware(req: NextRequest) {
     return new NextResponse('workspace is disabled', { status: 503 });
   }
 
-  // Prime @ando/db with the Hyperdrive binding when running on Cloudflare
-  // Workers. On Node the binding is undefined and getDb falls back to
-  // process.env.IAM_DATABASE_URL.
+  // Lazy imports — @ando/db pulls in `pg` which needs Node `crypto`; that
+  // module can't be evaluated at the top of an edge-runtime middleware file.
+  // Loading only when we actually plan to use them keeps the happy 503 path
+  // clean of Node-only deps.
+  const [
+    { evaluateWorkspaceAccess, getJwksFetcher },
+    { getHyperdriveIam },
+    { env },
+    { getDb, iam },
+  ] = await Promise.all([
+    import('@/lib/auth'),
+    import('@/lib/cf'),
+    import('@ando/config/env'),
+    import('@ando/db'),
+  ]);
+
   const hyperdrive = await getHyperdriveIam();
   if (hyperdrive) getDb({ hyperdrive });
 

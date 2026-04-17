@@ -6,7 +6,7 @@ import {
   type MiddlewareRedirect,
   type MiddlewareResult,
 } from '@ando/auth';
-import { buildLoginUrl } from './loginUrl.js';
+import { buildLoginUrl } from './loginUrl';
 
 export interface WorkspaceAuthOpts {
   teamDomain: string;

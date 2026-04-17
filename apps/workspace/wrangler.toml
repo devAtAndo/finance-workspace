@@ -32,3 +32,10 @@ directory = ".open-next/assets"
 NODE_ENV = "production"
 CF_ACCESS_TEAM_DOMAIN = "ando.cloudflareaccess.com"
 WORKSPACE_ENABLED = "false"
+# Placeholders — @ando/config/env requires all of these to load. Real values
+# replace via `wrangler secret put CF_ACCESS_AUD_WORKSPACE` after Access is
+# provisioned.
+CF_ACCESS_AUD_WORKSPACE = "placeholder"
+CF_ACCESS_AUD_PETTY_CASH = "placeholder"
+CF_ACCESS_AUD_RIDER_PAYMENTS = "placeholder"
+IAM_DATABASE_URL = "postgres://dummy:dummy@127.0.0.1:5432/dummy"
