@@ -1,16 +1,14 @@
 import { PrismaClient } from '@prisma/client';
-import { PrismaPg } from '@prisma/adapter-pg';
-import pg from 'pg';
-
-const { Pool } = pg;
+import { PrismaNeon } from '@prisma/adapter-neon';
+import { Pool } from '@neondatabase/serverless';
 
 const globalForPrisma = globalThis as unknown as { prisma?: PrismaClient };
 
 function createClient(): PrismaClient {
   const connectionString = process.env.DATABASE_URL;
   if (!connectionString) throw new Error('DATABASE_URL is required');
-  const pool = new Pool({ connectionString, max: 3 });
-  const adapter = new PrismaPg(pool);
+  const pool = new Pool({ connectionString });
+  const adapter = new PrismaNeon(pool);
   return new PrismaClient({ adapter });
 }
 

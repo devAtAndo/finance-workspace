@@ -11,12 +11,17 @@ function gone(): Response {
   );
 }
 
-export async function GET(req: Request): Promise<Response> {
+// NextAuth's handler needs both (req, ctx) — the ctx carries the `[...nextauth]`
+// catchall param. Forwarding both is required; otherwise NextAuth throws
+// `Cannot destructure property 'nextauth' of 'e2.query' as it is undefined`.
+type RouteContext = { params: { nextauth: string[] } };
+
+export async function GET(req: Request, ctx: RouteContext): Promise<Response> {
   if (getAuthMode() === 'cfaccess') return gone();
-  return handler(req);
+  return (handler as unknown as (r: Request, c: RouteContext) => Promise<Response>)(req, ctx);
 }
 
-export async function POST(req: Request): Promise<Response> {
+export async function POST(req: Request, ctx: RouteContext): Promise<Response> {
   if (getAuthMode() === 'cfaccess') return gone();
-  return handler(req);
+  return (handler as unknown as (r: Request, c: RouteContext) => Promise<Response>)(req, ctx);
 }
