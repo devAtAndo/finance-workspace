@@ -1,0 +1,82 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  BRANCH_USER
+  FINANCE
+  ADMIN
+}
+
+enum RequestStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+model Branch {
+  id            String   @id @default(cuid())
+  name          String   @unique
+  floatLimit    Int      @default(5000) // Ksh, in whole shillings
+  currentBalance Int     @default(5000)
+  thresholdPct  Int      @default(80)   // notify when usage >= this %
+  notifiedAtBalance Int? // guard against repeat notifications on same cycle
+  createdAt     DateTime @default(now())
+
+  users    User[]
+  expenses Expense[]
+  requests ReimbursementRequest[]
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String
+  password  String
+  role      Role
+  branchId  String?
+  branch    Branch?  @relation(fields: [branchId], references: [id])
+  createdAt DateTime @default(now())
+
+  expenses           Expense[]
+  reviewedRequests   ReimbursementRequest[] @relation("ReviewedBy")
+  submittedRequests  ReimbursementRequest[] @relation("SubmittedBy")
+}
+
+model Expense {
+  id          String   @id @default(cuid())
+  branchId    String
+  branch      Branch   @relation(fields: [branchId], references: [id])
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  amount      Int      // Ksh
+  description String
+  receiptUrl  String?
+  ocrAmount   Int?
+  ocrText     String?
+  requestId   String?
+  request     ReimbursementRequest? @relation(fields: [requestId], references: [id])
+  createdAt   DateTime @default(now())
+}
+
+model ReimbursementRequest {
+  id           String        @id @default(cuid())
+  branchId     String
+  branch       Branch        @relation(fields: [branchId], references: [id])
+  submittedById String
+  submittedBy  User          @relation("SubmittedBy", fields: [submittedById], references: [id])
+  totalAmount  Int
+  status       RequestStatus @default(PENDING)
+  notes        String?
+  reviewedById String?
+  reviewedBy   User?         @relation("ReviewedBy", fields: [reviewedById], references: [id])
+  reviewedAt   DateTime?
+  submittedAt  DateTime      @default(now())
+
+  expenses Expense[]
+}

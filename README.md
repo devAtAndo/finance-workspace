@@ -83,7 +83,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the monorepo-level history and [HANDOFF.m
 
 - **Phase 0** ✅ — Monorepo + shared packages scaffolded.
 - **Phase 1** ✅ — Workspace launcher MVP at `apps/workspace/`.
-- **Phase 2** — Petty Cash migrates off NextAuth (dual-run `PETTY_CASH_AUTH_V2`).
+- **Phase 2** ✅ (MVP) — Petty Cash imported as `apps/petty-cash/` with dual-run infra behind `PETTY_CASH_AUTH_V2`. Per-route migrations follow in Phase 2.x.
 - **Phase 3** — Rider Payments migrates off Supabase Auth (dual-run `RIDER_CF_ACCESS`).
 - **Phase 4** — Admin UI + audit log viewer.
 - **Phase 5** — Hardening (passkeys via CF, log streaming, SAML path).

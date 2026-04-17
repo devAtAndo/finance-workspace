@@ -8,6 +8,14 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ### Added
 
+- **Phase 2 — Petty Cash dual-run** (2026-04-17):
+  - Imported petty-cash as `apps/petty-cash/` (Next.js 14.2, Prisma + Postgres).
+  - `PETTY_CASH_AUTH_V2` dispatcher in `src/lib/authDispatcher.ts`; `getPrincipal` / `requirePrincipal` wraps both NextAuth and `@ando/auth` paths behind a single call site.
+  - `middleware.ts` no-ops in legacy mode, gates via `evaluateAccess(appSlug='petty-cash')` in V2 mode.
+  - `/api/auth/[...nextauth]/*` returns 410 in V2 mode.
+  - `requireAdmin()` refactored onto `getPrincipal` as the first migrated call site.
+  - 19 new Vitest cases; monorepo test count now 71.
+
 - **Phase 1 — Workspace launcher MVP** (2026-04-17):
   - `apps/workspace` (Next.js 14.2) scaffolded at `workspace.andofoods.co`.
   - Flag-gated middleware (`WORKSPACE_ENABLED`) + `iam`-tolerant 503 path.

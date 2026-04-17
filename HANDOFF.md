@@ -4,6 +4,63 @@ Living session log. Updated at the end of every work session. Top entry is curre
 
 ---
 
+## 2026-04-17 — Phase 2 MVP: Petty Cash dual-run scaffolding
+
+### Shipped
+
+- Imported `petty-cash` as `apps/petty-cash/` (non-destructive — original sibling folder remains as a safety net).
+- Rewired to the shared packages (`@ando/auth`, `@ando/config`, `@ando/db`, `@ando/ui`, `@ando/tsconfig`, `@ando/eslint-config`).
+- `src/lib/authDispatcher.ts` — `getAuthMode()` reads `PETTY_CASH_AUTH_V2`.
+- `src/lib/getPrincipal.ts` — unified `getPrincipal()` / `requirePrincipal()` with **lazy dynamic imports** so legacy mode never loads V2 deps and vice versa.
+- `middleware.ts` — no-op in legacy mode; full CF Access gate in V2 mode with `x-ando-principal` propagation and 503 on iam outage.
+- `/api/auth/[...nextauth]/route.ts` — delegates to NextAuth when legacy; returns **410 Gone** when V2 is on, so no new NextAuth sessions are created during cutover.
+- `src/lib/admin.ts` — `requireAdmin()` rebuilt on `getPrincipal()`; return type now `LocalPrincipal | null` (`.userId` replacing `.id`). Updated `api/admin/users/[id]` accordingly.
+- `src/app/no-access/page.tsx` for the middleware rewrite target.
+- `postcss.config.cjs` (was `.js`) so ESM package works.
+- Root `pnpm.onlyBuiltDependencies` permits Prisma / esbuild / tesseract postinstalls.
+- Full per-app docs: `SPEC.md`, `README.md`, `CLAUDE.md`, `HANDOFF.md`, `CHANGELOG.md`.
+- Changeset `.changeset/phase-2-petty-cash-dual-run.md` (petty-cash minor; auth/config/db patches).
+
+### TDD catches this session
+
+- Dynamic-import path-string mismatch between `vi.mock(...)` and runtime `import()` under Next's bundler resolution — fixed by removing `.js` extensions from app-internal imports and matching `vi.mock` paths.
+- `requireAdmin` return-shape change surfaced the one `.id` → `.userId` call site at typecheck, not at runtime. Static types caught it.
+- PostCSS config ESM breakage — caught by first Vitest run. `.js` → `.cjs`.
+
+### Validated
+
+- `pnpm typecheck` ✅
+- `pnpm lint` ✅ (2 existing-code lint issues autofixed)
+- `pnpm test` ✅ — 71 Vitest cases across 11 tasks (21 config + 13 auth + 2 db + 1 ui + 15 workspace + 19 petty-cash + 4 skipped Playwright).
+- `pnpm build` ✅ — all 15 petty-cash routes compile; Prisma client generates during build.
+
+### In-progress
+
+_(Phase 2 MVP complete. Phase 2.x per-route migrations follow.)_
+
+### Next
+
+- **Phase 2.1:** migrate `api/requests/*` and `api/expenses` routes onto `getPrincipal`.
+- **Phase 2.2:** migrate `/admin`, `/branch`, `/finance` server pages.
+- **Phase 2.3:** migrate `Header.tsx` client `useSession` — need a decision on client-side principal source in V2 mode.
+- **Phase 2.4:** Prisma migration dropping `User.password` after 2-week dual-run bake.
+- **Phase 3:** Rider Payments migration behind `RIDER_CF_ACCESS`.
+
+### Open questions
+
+1. Hosting target — Vercel for all three? Same project or three?
+2. `iam.audit_log` retention window.
+3. Email sender for CF OTP — CF default or `noreply@andofoods.co`?
+4. iam migration ownership — platform team vs per-app.
+5. `/admin` route gating — separate CF Access app for 1h session duration, or role-only?
+6. When do we delete the legacy `/Users/asifkhan/claude-ak/coding-projects/petty-cash` sibling folder? Proposed: after Phase 2.4 + 1-week soak.
+
+### Flags touched
+
+- `PETTY_CASH_AUTH_V2` — now wired into `apps/petty-cash/middleware.ts`, `apps/petty-cash/src/lib/authDispatcher.ts`, and `apps/petty-cash/src/app/api/auth/[...nextauth]/route.ts`. Default off.
+
+---
+
 ## 2026-04-17 — Phase 1: Workspace launcher MVP
 
 ### Shipped

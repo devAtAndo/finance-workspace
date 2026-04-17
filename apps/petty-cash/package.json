@@ -1,0 +1,56 @@
+{
+  "name": "@ando/petty-cash",
+  "version": "0.1.0",
+  "private": true,
+  "description": "petty-cash.andofoods.co — branch petty cash tracking, migrated onto @ando/auth.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3001 -H 0.0.0.0",
+    "build": "prisma generate && next build",
+    "start": "next start -p 3001",
+    "lint": "eslint src middleware.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf .next .turbo",
+    "db:push": "prisma db push",
+    "db:seed": "tsx prisma/seed.ts",
+    "db:studio": "prisma studio"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@ando/auth": "workspace:*",
+    "@ando/config": "workspace:*",
+    "@ando/db": "workspace:*",
+    "@ando/ui": "workspace:*",
+    "@prisma/client": "^5.22.0",
+    "bcryptjs": "^2.4.3",
+    "next": "14.2.33",
+    "next-auth": "^4.24.11",
+    "nodemailer": "^7.0.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tesseract.js": "^5.1.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@ando/eslint-config": "workspace:*",
+    "@ando/tsconfig": "workspace:*",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.16.10",
+    "@types/nodemailer": "^7.0.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.11.0",
+    "postcss": "^8.4.49",
+    "prisma": "^5.22.0",
+    "tailwindcss": "^3.4.14",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.2"
+  }
+}
