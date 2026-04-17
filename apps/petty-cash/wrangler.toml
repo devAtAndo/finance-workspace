@@ -1,0 +1,29 @@
+# Cloudflare Worker for petty-cash
+# Legacy NextAuth mode (PETTY_CASH_AUTH_V2=false) — ships with its own
+# login, backed by a Supabase Postgres.
+
+name = "ando-petty-cash"
+main = ".open-next/worker.js"
+compatibility_date = "2026-04-01"
+compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
+
+workers_dev = true
+
+[assets]
+binding = "ASSETS"
+directory = ".open-next/assets"
+
+# Non-secret env. Secrets (DATABASE_URL, NEXTAUTH_SECRET) set via:
+#   wrangler secret put DATABASE_URL
+#   wrangler secret put NEXTAUTH_SECRET
+[vars]
+NODE_ENV = "production"
+NEXTAUTH_URL = "https://ando-petty-cash.philip-ndegwa.workers.dev"
+PETTY_CASH_AUTH_V2 = "false"
+# Placeholders so @ando/config/env loads when middleware.ts imports it (even
+# though we're not using V2 yet).
+CF_ACCESS_TEAM_DOMAIN = "ando.cloudflareaccess.com"
+CF_ACCESS_AUD_WORKSPACE = "placeholder"
+CF_ACCESS_AUD_PETTY_CASH = "placeholder"
+CF_ACCESS_AUD_RIDER_PAYMENTS = "placeholder"
+IAM_DATABASE_URL = "postgres://dummy:dummy@127.0.0.1:5432/dummy"
