@@ -2,7 +2,9 @@ node_modules/
 .pnpm-store/
 dist/
 .next/
+.open-next/
 .turbo/
+.wrangler/
 coverage/
 .nyc_output/
 *.tsbuildinfo
