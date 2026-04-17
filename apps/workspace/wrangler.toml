@@ -1,0 +1,35 @@
+# Cloudflare Worker for workspace.andofoods.co
+# Deploy via OpenNext: `pnpm --filter @ando/workspace deploy`
+
+name = "ando-workspace"
+main = ".open-next/worker.js"
+compatibility_date = "2026-04-01"
+compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
+
+workers_dev = false
+
+[assets]
+binding = "ASSETS"
+directory = ".open-next/assets"
+
+[[routes]]
+pattern = "workspace.andofoods.co"
+custom_domain = true
+
+# Hyperdrive binding for the shared iam Postgres (Supabase project `andofoods-iam`).
+# Create this once in the Cloudflare dashboard:
+#   Dashboard → Workers & Pages → Hyperdrive → Create a configuration
+#   Pick the Supabase connection pooler URL (port 6543).
+# Then replace `__HYPERDRIVE_ID__` with the real config id.
+[[hyperdrive]]
+binding = "HYPERDRIVE_IAM"
+id = "__HYPERDRIVE_ID__"
+
+# Environment variables. Secrets (IAM_DATABASE_URL fallback etc.) set via:
+#   wrangler secret put CF_ACCESS_AUD_WORKSPACE
+[vars]
+NODE_ENV = "production"
+CF_ACCESS_TEAM_DOMAIN = "ando.cloudflareaccess.com"
+WORKSPACE_ENABLED = "true"
+
+# Per-env overrides (dev / preview / production) can be added via [env.*] blocks.

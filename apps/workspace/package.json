@@ -13,7 +13,11 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "clean": "rm -rf .next .turbo dist"
+    "clean": "rm -rf .next .turbo dist .open-next",
+    "cf:build": "opennextjs-cloudflare build",
+    "cf:preview": "opennextjs-cloudflare preview",
+    "cf:deploy": "opennextjs-cloudflare deploy",
+    "cf:dryrun": "opennextjs-cloudflare build && wrangler deploy --dry-run"
   },
   "dependencies": {
     "@ando/auth": "workspace:*",
@@ -27,12 +31,14 @@
   "devDependencies": {
     "@ando/eslint-config": "workspace:*",
     "@ando/tsconfig": "workspace:*",
+    "@opennextjs/cloudflare": "^1.0.0",
     "@types/node": "^20.16.10",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.1",
     "eslint": "^9.11.0",
     "eslint-config-next": "14.2.15",
     "typescript": "^5.6.3",
-    "vitest": "^2.1.2"
+    "vitest": "^2.1.2",
+    "wrangler": "^3.80.0"
   }
 }

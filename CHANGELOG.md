@@ -8,6 +8,13 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ### Added
 
+- **Phase 4.1 — Workspace Cloudflare Workers deploy scaffold** (2026-04-17):
+  - `@ando/db.getDb()` now accepts a Cloudflare Hyperdrive binding (5 new Vitest cases); old `connectionString` / env-var paths unchanged.
+  - `apps/workspace`: `wrangler.toml`, `open-next.config.ts`, `src/lib/cf.ts`, `cf:*` scripts; middleware primes `@ando/db` with the Hyperdrive binding under Workers (Node local dev unchanged).
+  - `docs/hosting-cloudflare.md` — top-to-bottom deploy runbook (Supabase `andofoods-iam` project → Terraform apply → Hyperdrive configs → Worker secrets → DNS → dual-run flag flips → post-bake cleanup).
+  - Monorepo Vitest count: **97**.
+  - Phase 4.2 (petty-cash Prisma driver adapter + Email Workers) and 4.3 (rider-payments Next 16 verification) follow as independent PRs.
+
 - **Phase 3 — Rider Payments dual-run** (2026-04-17):
   - Imported `rider-payments` as `apps/rider-payments/` (Next.js 16.2, React 19, Supabase Postgres + direct pg pools).
   - `RIDER_CF_ACCESS` dispatcher; `src/proxy.ts` now branches between the legacy Supabase-session gate and a new `evaluateAccess(appSlug='rider-payments')` gate with lazy V2 imports.

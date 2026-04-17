@@ -4,6 +4,14 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Phase 4.1 — Cloudflare Workers deploy target (2026-04-17)
+
+- `wrangler.toml` with `workspace.andofoods.co` custom-domain routing + `HYPERDRIVE_IAM` binding placeholder.
+- `open-next.config.ts` using `@opennextjs/cloudflare`'s `defineCloudflareConfig`.
+- `src/lib/cf.ts` — lazy `getHyperdriveIam()` helper that resolves to `undefined` under Node local dev.
+- `middleware.ts` now primes `@ando/db` with the Hyperdrive binding when running on Workers; local dev and Vitest unchanged.
+- `cf:build` / `cf:preview` / `cf:deploy` / `cf:dryrun` scripts.
+
 ### Added
 
 - Next.js 14.2 app scaffolded at `workspace.andofoods.co`.

@@ -4,6 +4,48 @@ Living session log. Updated at the end of every work session. Top entry is curre
 
 ---
 
+## 2026-04-17 — Phase 4.1: Workspace on Cloudflare Workers (scaffold)
+
+### Shipped
+
+- `@ando/db.getDb()` takes a `{ hyperdrive }` binding option. Precedence: hyperdrive > connectionString > `IAM_DATABASE_URL`. 5 Vitest cases added; monorepo total now **97**.
+- `@ando/db` public surface exports `GetDbOpts`, `HyperdriveLike`, `_resetDbForTests`.
+- `apps/workspace`:
+  - `wrangler.toml` — routes `workspace.andofoods.co` as a custom domain, declares `HYPERDRIVE_IAM` binding + `nodejs_compat` flag.
+  - `open-next.config.ts` via `@opennextjs/cloudflare`.
+  - `src/lib/cf.ts` — lazy `getHyperdriveIam()` (Node-safe no-op).
+  - `middleware.ts` primes `@ando/db` with the binding when present.
+  - `cf:build` / `cf:preview` / `cf:deploy` / `cf:dryrun` scripts.
+  - Dev-deps: `@opennextjs/cloudflare`, `wrangler`.
+- Root-level `docs/hosting-cloudflare.md` — full deploy runbook.
+
+### What this does _not_ prove
+
+- I did not run `opennextjs-cloudflare build` or `wrangler deploy --dry-run` — both require real env vars / CF account auth and would add noise to the commit. The code is type-clean and the plumbing matches OpenNext's documented shape. First real deploy will surface any gaps; runbook has a Troubleshooting section.
+- `HYPERDRIVE_IAM` binding id in `wrangler.toml` is a placeholder (`__HYPERDRIVE_ID__`). Must be replaced before `wrangler deploy` — see runbook step 3.
+
+### Validated
+
+- `pnpm typecheck / lint / test / build` all green on Node.
+- Monorepo Vitest count: **97** (was 92).
+
+### Next
+
+- **Phase 4.2:** Petty Cash on Cloudflare. Bigger lift — needs Prisma driver adapter (`@prisma/adapter-pg` + `previewFeatures = ["driverAdapters"]`) and a swap of `nodemailer` to Cloudflare Email Workers via a new `packages/email`. Tesseract.js stays client-side.
+- **Phase 4.3:** Rider Payments on Cloudflare. Verify `@opennextjs/cloudflare` supports Next.js 16.2 (this is the risky one; may need Next 15 downgrade or wait for OpenNext 2.x).
+- **Phase 4.4:** Hyperdrive Terraform + DNS automation — eliminate the manual-dashboard step 3 in the runbook.
+
+### Flags touched
+
+- None. `WORKSPACE_ENABLED` already in `wrangler.toml [vars]` defaulting to `"true"` in production (override per env if needed).
+
+### Open questions
+
+- Custom sender for CF Email Workers (`noreply@andofoods.co`)? Decision needed before Phase 4.2 email swap.
+- Incremental cache: `dummy` (in-memory) today. Upgrade to KV once a namespace is provisioned.
+
+---
+
 ## 2026-04-17 — Phase 3 MVP: Rider Payments dual-run
 
 ### Shipped

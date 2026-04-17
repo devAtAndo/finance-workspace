@@ -1,4 +1,4 @@
-export { getDb, closeDb } from './client.js';
+export { getDb, closeDb, _resetDbForTests, type GetDbOpts, type HyperdriveLike } from './client.js';
 export { iam, type IamRepo } from './iam.js';
 export type {
   Database,
