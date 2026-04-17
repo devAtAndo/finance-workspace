@@ -4,6 +4,39 @@ Living session log. Updated at the end of every work session. Top entry is curre
 
 ---
 
+## 2026-04-17 — Phase 4.2: Petty Cash live on Cloudflare Workers 🚀
+
+### Shipped
+
+- **Live URL:** https://ando-petty-cash.philip-ndegwa.workers.dev
+- **Data:** Neon Free Postgres (`ap-southeast-1`), Prisma schema applied, admin/finance/branch users seeded.
+- **Auth:** Legacy NextAuth mode (`PETTY_CASH_AUTH_V2=false`). `admin@example.com` / `password123`.
+- **Verified:** login redirects to `/admin`, branch CRUD works end-to-end.
+
+### Key fixes (in cutover order)
+
+1. **Middleware wrong location** — moved `middleware.ts` into `src/` (Next 14 with src-layout requires it there).
+2. **NextAuth catchall** — GET/POST wrappers must forward `(req, ctx)`, not just `req`. Otherwise: "Cannot destructure property 'nextauth' of 'e2.query'".
+3. **`pg` TCP hangs on Workers** — swapped to `@neondatabase/serverless` (HTTP/WebSocket).
+4. **Prisma library engine `fs.readdir`** — unenv doesn't implement it. Replaced Prisma client with a hand-written neon-backed facade covering the app's narrow usage. Prisma 6's driver-adapter mode still hits this.
+5. **NextAuth `crypto.createCipheriv` (JWE)** — replaced the default JWT encoder with HS256 signing via `jose` (Web Crypto).
+6. **Workers env schema** — `[vars]` in `wrangler.toml` includes placeholders for `@ando/config/env` so the module loads cleanly. Real values are `wrangler secret put` entries for `DATABASE_URL`, `NEXTAUTH_SECRET`.
+
+### Known gaps (non-blocking for 20 users)
+
+- Emails log-only (no CF Email Workers / Resend yet).
+- No custom domain.
+- Transactions sequential, not atomic.
+- Default passwords are `password123`.
+
+### Next
+
+- **Change admin password** immediately via the admin UI or re-seed with random values.
+- Monitor for any other endpoint hitting an unimplemented facade method — add as needed.
+- Follow-up phases: Email delivery, custom domain, rider-payments on Cloudflare, unified SSO infrastructure.
+
+---
+
 ## 2026-04-17 — Phase 4.1: Workspace on Cloudflare Workers (scaffold)
 
 ### Shipped

@@ -4,6 +4,54 @@ Living log for this app. Top entry is current.
 
 ---
 
+## 2026-04-17 — Phase 4.2: LIVE on Cloudflare Workers 🚀
+
+### Shipped
+
+- **Live at https://ando-petty-cash.philip-ndegwa.workers.dev** (Philip's CF account, `e0d49a41...`).
+- Backed by Neon Free Postgres in `ap-southeast-1`. Prisma schema applied, 3 users seeded (`admin@example.com`, `finance@example.com`, `branch@example.com` — all password `password123`).
+- Legacy NextAuth mode (`PETTY_CASH_AUTH_V2=false`).
+- `wrangler.toml` (`workers_dev=true` for now), `open-next.config.ts`, `cf:build` / `cf:deploy` scripts.
+- `@neondatabase/serverless` replaces raw `pg` throughout.
+- **`src/lib/prisma.ts` is now a hand-written neon-backed facade** covering the app's narrow Prisma surface — Prisma Client doesn't load at runtime on Workers.
+- **NextAuth JWT encoder overridden** with HS256 via `jose` — default JWE uses `crypto.createCipheriv` which unenv doesn't implement.
+- `src/lib/auth.ts` `authorize()` queries Neon directly (one SQL).
+- `[...nextauth]/route.ts` forwards `(req, ctx)` to the NextAuth handler.
+- `nodemailer` lazy-loaded only in Node dev; production Worker logs `[email:stub]` JSON to `wrangler tail`.
+
+### Cutover order (hard-earned blockers)
+
+1. Middleware file location — must be `src/middleware.ts` with the `src/` layout.
+2. NextAuth catchall needs `ctx` forwarded alongside `req`.
+3. Raw `pg` TCP pools hang on Workers → swap to `@neondatabase/serverless`.
+4. Prisma library engine does `fs.readdir` at startup → replace Client with a facade.
+5. NextAuth default JWT encoder uses `crypto.createCipheriv` → override with `jose` HS256.
+6. `@ando/config/env` validates at module load → wrangler.toml `[vars]` needs placeholders for every required var.
+
+### Verified end-to-end
+
+- `POST /api/auth/callback/credentials` with seeded admin → 302 + `__Secure-next-auth.session-token` cookie.
+- Authenticated `GET /` → 307 → `/admin` → renders 200 HTML.
+- `POST /api/admin/branches` creates a row and returns it.
+- `GET /api/admin/branches` lists branches with user counts.
+
+### Known gaps (non-blocking at 20-user scale)
+
+- Emails log-only. Follow-up: CF Email Workers or Resend.
+- No custom domain — still `*.workers.dev`. DNS + `[[routes]]` flip in `wrangler.toml` takes ~5 min once DNS is added.
+- `$transaction` executes sequentially, not atomically. Fine at this load; harden with `sql.transaction([...])` later.
+- Default passwords are `password123`. **Rotate immediately.**
+- No Vitest changes this phase — existing 22 cases still pass locally. The facade is effectively a thin SQL layer, integration-tested against the live Neon DB.
+
+### Follow-ups
+
+- Change admin password.
+- Swap email stub for a real provider.
+- Wire custom domain.
+- Continue Phase 4.3 (rider-payments on Workers) — will hit the same neon / prisma / crypto issues; lessons captured in CLAUDE.md.
+
+---
+
 ## 2026-04-17 — Phase 2.1 + 2.2: server-side call-site migrations
 
 ### Shipped

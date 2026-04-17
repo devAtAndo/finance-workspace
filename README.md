@@ -85,8 +85,10 @@ See [CHANGELOG.md](./CHANGELOG.md) for the monorepo-level history and [HANDOFF.m
 - **Phase 1** ✅ — Workspace launcher MVP at `apps/workspace/`.
 - **Phase 2** ✅ — Petty Cash at `apps/petty-cash/` with dual-run behind `PETTY_CASH_AUTH_V2`; every server-side call site migrated (Phases 2.1 + 2.2). Client `Header.tsx` (2.3) and `User.password` Prisma drop (2.4) still pending.
 - **Phase 3** ✅ (MVP) — Rider Payments at `apps/rider-payments/` with dual-run behind `RIDER_CF_ACCESS`. RLS rewrite (3.1) follows.
-- **Phase 4.1** ✅ — Workspace wired for Cloudflare Workers (OpenNext + Hyperdrive). See [docs/hosting-cloudflare.md](./docs/hosting-cloudflare.md). Phase 4.2 (petty-cash) + 4.3 (rider-payments) follow.
-- **Phase 4** — Admin UI + audit log viewer.
+- **Phase 4.1** ✅ — Workspace wired for Cloudflare Workers (OpenNext + Hyperdrive). See [docs/hosting-cloudflare.md](./docs/hosting-cloudflare.md).
+- **Phase 4.2** ✅ — 🚀 **Petty Cash live on Cloudflare Workers** at [ando-petty-cash.philip-ndegwa.workers.dev](https://ando-petty-cash.philip-ndegwa.workers.dev). Backed by Neon Free Postgres in legacy NextAuth mode. Login + admin + branch CRUD verified end-to-end.
+- **Phase 4.3** — Rider Payments on Cloudflare Workers (pending).
+- **Phase 4.x** — Email delivery (CF Email Workers / Resend), custom domain, atomic transactions.
 - **Phase 5** — Hardening (passkeys via CF, log streaming, SAML path).
 
 ## Security posture

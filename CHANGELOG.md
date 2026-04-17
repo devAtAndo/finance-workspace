@@ -8,6 +8,17 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ### Added
 
+- **Phase 4.2 — Petty Cash live on Cloudflare Workers** (2026-04-17):
+  - 🚀 Live at https://ando-petty-cash.philip-ndegwa.workers.dev — login + admin + branch CRUD all functional.
+  - Swapped from a raw-`pg` approach to `@neondatabase/serverless` (HTTP/WebSocket driver) after discovering TCP pools don't work in the Workers runtime.
+  - Replaced Prisma client with a hand-written neon-backed facade at `apps/petty-cash/src/lib/prisma.ts` covering the narrow subset the app uses (branch/user/expense/reimbursementRequest + $transaction). Prisma's library engine does an `fs.readdir` at startup that Workers' unenv shim rejects; facade avoids engine entirely.
+  - Replaced NextAuth's default JWT encoder with HS256 signing via `jose` (Web Crypto). NextAuth v4's default uses `crypto.createCipheriv` which unenv doesn't implement.
+  - Auth path (`src/lib/auth.ts`) uses `@neondatabase/serverless` directly for the single user-by-email lookup.
+  - Added Next 14 `[...nextauth]` catchall route wrapper that forwards both `req` and `ctx` to the handler (NextAuth crashes without the route context).
+  - `nodemailer` wrapped so it only lazy-loads in local Node dev; production Worker path logs `[email:stub]` JSON to `wrangler tail`. Follow-up: CF Email Workers or Resend.
+  - Provisioned Neon Free Postgres (`ap-southeast-1`), applied Prisma schema, seeded admin/finance/branch users.
+  - Deploy: `pnpm --filter @ando/petty-cash cf:build && pnpm --filter @ando/petty-cash cf:deploy` against Philip's Cloudflare account (`e0d49a41...`).
+
 - **Phase 4.1 — Workspace Cloudflare Workers deploy scaffold** (2026-04-17):
   - `@ando/db.getDb()` now accepts a Cloudflare Hyperdrive binding (5 new Vitest cases); old `connectionString` / env-var paths unchanged.
   - `apps/workspace`: `wrangler.toml`, `open-next.config.ts`, `src/lib/cf.ts`, `cf:*` scripts; middleware primes `@ando/db` with the Hyperdrive binding under Workers (Node local dev unchanged).

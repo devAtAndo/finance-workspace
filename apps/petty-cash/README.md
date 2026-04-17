@@ -1,8 +1,10 @@
 # @ando/petty-cash
 
-`petty-cash.andofoods.co` — branch petty-cash tracking. Mid-migration from standalone NextAuth to the shared `@ando/auth` SSO fabric behind a feature flag.
+🚀 **Live:** https://ando-petty-cash.philip-ndegwa.workers.dev
 
-See [`SPEC.md`](./SPEC.md) for the migration contract, [`CLAUDE.md`](./CLAUDE.md) for invariants, and [`HANDOFF.md`](./HANDOFF.md) for current session state.
+Branch petty-cash tracking, running on Cloudflare Workers in legacy NextAuth mode. Future: migrate behind the shared `@ando/auth` SSO fabric (`PETTY_CASH_AUTH_V2=true`).
+
+See [`SPEC.md`](./SPEC.md) for the migration contract, [`CLAUDE.md`](./CLAUDE.md) for invariants and Worker gotchas, and [`HANDOFF.md`](./HANDOFF.md) for current session state.
 
 ## What it does
 
@@ -10,24 +12,38 @@ Branches spend against a recurring float (default KES 5,000). When usage hits 80
 
 ## Stack
 
-- Next.js 14.2 (App Router, TypeScript)
-- Prisma + Postgres (business data — expenses, requests, branches, users)
-- `@ando/auth` + `@ando/db` + Cloudflare Access (V2 auth path)
-- NextAuth v4 (legacy auth path — dual-run, scheduled for removal after 2-week bake)
-- Tesseract.js for receipt OCR
-- Tailwind CSS
+- **Next.js 14.2** (App Router, TypeScript)
+- **Cloudflare Workers** via `@opennextjs/cloudflare`
+- **Neon Serverless Postgres** — HTTP/WebSocket driver (`@neondatabase/serverless`)
+- **Hand-written neon-backed facade** at `src/lib/prisma.ts` that mimics the Prisma Client API — Prisma's library engine does an `fs.readdir` at startup that Workers' unenv shim rejects
+- **NextAuth v4** with HS256 JWTs via `jose` (Web Crypto). Legacy auth path; dual-run flag for future migration to `@ando/auth` + Cloudflare Access
+- **Tesseract.js** for receipt OCR (client-side)
+- **Tailwind CSS**
+- Emails: log-only on Workers for now (`console.info('[email:stub]', ...)` → visible via `wrangler tail`). Nodemailer lazy-loads only in local Node dev. Follow-up: CF Email Workers or Resend.
 
 ## Run locally
 
 ```bash
-cp .env.example .env.local                     # fill DATABASE_URL, NEXTAUTH_SECRET, CF_ACCESS_*
-pnpm --filter @ando/petty-cash db:push         # Prisma schema to local DB
-pnpm --filter @ando/petty-cash db:seed         # seed admin + branches
+cp .env.example .env.local                     # fill DATABASE_URL, NEXTAUTH_SECRET
+pnpm --filter @ando/petty-cash db:push         # apply Prisma schema to DB
+pnpm --filter @ando/petty-cash db:seed         # seed admin + finance + branch users
 pnpm --filter @ando/petty-cash dev             # http://localhost:3001
-
-# Local SSO via Caddy + *.localtest.me (from monorepo root)
-caddy run --config ../../Caddyfile             # https://petty-cash.localtest.me
 ```
+
+## Deploy to Cloudflare Workers
+
+```bash
+# Set secrets once
+cd apps/petty-cash
+CLOUDFLARE_ACCOUNT_ID=<account-id> pnpm exec wrangler secret put DATABASE_URL     # Neon connection string
+CLOUDFLARE_ACCOUNT_ID=<account-id> pnpm exec wrangler secret put NEXTAUTH_SECRET  # openssl rand -base64 32
+
+# Build + deploy
+pnpm cf:build                                  # builds @ando/* deps then bundles with OpenNext
+CLOUDFLARE_ACCOUNT_ID=<account-id> pnpm exec wrangler deploy
+```
+
+First-deploy mode uses `workers_dev = true` → lands at `ando-petty-cash.<subdomain>.workers.dev`. For a custom domain, uncomment the `[[routes]]` block in `wrangler.toml` and flip `workers_dev = false`.
 
 ## The dual-run flag
 

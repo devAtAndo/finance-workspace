@@ -11,20 +11,23 @@ Guidance for future Claude sessions (and humans) working in this repo.
 
 ## Entry points by concern
 
-| Concern                     | File                                                                                                                           |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Cloudflare Access JWT shape | `packages/auth/src/types.ts`, `packages/auth/SPEC.md`                                                                          |
-| JWT verification            | `packages/auth/src/verifyCfAccessJwt.ts`                                                                                       |
-| Per-app middleware          | `packages/auth/src/middleware.ts`                                                                                              |
-| Env / flags / app registry  | `packages/config/src/{env,apps,flags}.ts`                                                                                      |
-| iam schema (authoritative)  | `infra/migrations/0001_iam_schema.sql`                                                                                         |
-| iam data access             | `packages/db/src/iam.ts`                                                                                                       |
-| Local subdomain dev         | `Caddyfile`                                                                                                                    |
-| E2E auth scenarios          | `e2e/tests/auth.spec.ts`                                                                                                       |
-| Cloudflare Access infra     | `infra/cloudflare/main.tf`                                                                                                     |
-| Workspace launcher          | `apps/workspace/middleware.ts`, `apps/workspace/src/app/page.tsx`                                                              |
-| Petty Cash dual-run         | `apps/petty-cash/src/lib/authDispatcher.ts`, `apps/petty-cash/src/lib/getPrincipal.ts`, `apps/petty-cash/middleware.ts`        |
-| Rider Payments dual-run     | `apps/rider-payments/src/lib/authDispatcher.ts`, `apps/rider-payments/src/lib/api-auth.ts`, `apps/rider-payments/src/proxy.ts` |
+| Concern                     | File                                                                                                                                               |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Cloudflare Access JWT shape | `packages/auth/src/types.ts`, `packages/auth/SPEC.md`                                                                                              |
+| JWT verification            | `packages/auth/src/verifyCfAccessJwt.ts`                                                                                                           |
+| Per-app middleware          | `packages/auth/src/middleware.ts`                                                                                                                  |
+| Env / flags / app registry  | `packages/config/src/{env,apps,flags}.ts`                                                                                                          |
+| iam schema (authoritative)  | `infra/migrations/0001_iam_schema.sql`                                                                                                             |
+| iam data access             | `packages/db/src/iam.ts`                                                                                                                           |
+| Local subdomain dev         | `Caddyfile`                                                                                                                                        |
+| E2E auth scenarios          | `e2e/tests/auth.spec.ts`                                                                                                                           |
+| Cloudflare Access infra     | `infra/cloudflare/main.tf`                                                                                                                         |
+| Workspace launcher          | `apps/workspace/src/middleware.ts`, `apps/workspace/src/app/page.tsx`                                                                              |
+| Petty Cash dual-run         | `apps/petty-cash/src/lib/authDispatcher.ts`, `apps/petty-cash/src/lib/getPrincipal.ts`, `apps/petty-cash/src/middleware.ts`                        |
+| Petty Cash live URL         | https://ando-petty-cash.philip-ndegwa.workers.dev (Phase 4.2; Neon Postgres, NextAuth legacy mode)                                                 |
+| Petty Cash neon facade      | `apps/petty-cash/src/lib/prisma.ts` — hand-written, replaces Prisma Client because the library engine's `fs.readdir` startup call fails on Workers |
+| Rider Payments dual-run     | `apps/rider-payments/src/lib/authDispatcher.ts`, `apps/rider-payments/src/lib/api-auth.ts`, `apps/rider-payments/src/proxy.ts`                     |
+| Cloudflare hosting runbook  | `docs/hosting-cloudflare.md`                                                                                                                       |
 
 ## Invariants (do not break)
 
@@ -35,6 +38,16 @@ Guidance for future Claude sessions (and humans) working in this repo.
 5. **Errors are class-based** (`UnauthorizedError`, `ForbiddenError`). Callers map them to HTTP — never string-match.
 6. **Changesets required** when `packages/**` or `apps/**` changes. CI enforces.
 7. **Strict TDD.** Red test first, always. Coverage thresholds on `@ando/auth` in `packages/auth/vitest.config.ts`.
+
+## Cloudflare Workers runtime gotchas (hard-earned — see Phase 4.2 HANDOFF)
+
+- **Prisma library engine does `fs.readdir` at startup** → unenv rejects it. Don't import `@prisma/client` in any Worker hot path. Use neon-backed facades or raw SQL via `@neondatabase/serverless`.
+- **Raw `pg` TCP pools hang on Workers** → use `@neondatabase/serverless` (HTTP/WebSocket). Applies to any direct Postgres access.
+- **NextAuth's default JWT encoder uses `crypto.createCipheriv`** → unenv doesn't implement it. Override `jwt.encode` / `jwt.decode` with HS256 via `jose` (Web Crypto).
+- **Next 14 middleware must live at `src/middleware.ts`** when using the src/ directory layout. At project root it's silently ignored.
+- **`[...nextauth]` catchall** needs both `req` and `ctx` forwarded to the handler — otherwise "Cannot destructure property 'nextauth' of 'e2.query'".
+- **`nodejs_compat` + `compatibility_date >= 2024-09-23`** enables the newer Node API surface, but many modules are still stubs (unenv). Test the specific APIs your deps use.
+- **`wrangler.toml [vars]`** must include placeholders for every env var your app's config module parses at startup — otherwise the Worker crashes before middleware runs.
 
 ## Common gotchas
 
