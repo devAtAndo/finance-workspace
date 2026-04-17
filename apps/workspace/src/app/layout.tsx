@@ -5,7 +5,7 @@ export const metadata = {
   description: 'Launcher and admin for Ando Finance apps.',
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: ReactNode }): ReactNode {
   return (
     <html lang="en">
       <body style={{ margin: 0, fontFamily: 'system-ui, sans-serif', color: '#111' }}>

@@ -1,0 +1,2379 @@
+OrderDate,Hour,OrderID,Alternate_Id,Restaurant,Location,Platform,TotalSales
+"Nov 6, 2025",13.0,E3753,d311e99e-8294-4ea3-8a62-c7860c4e3753,Siam - Thai Kitchen,NSK NRB,Uber KE,1890.0
+"Nov 6, 2025",17.0,66951,a1db4ea7-4976-49d8-aaba-6fbc0b766951,Siam - Thai Kitchen,Village Market NRB,Uber KE,2390.0
+"Nov 6, 2025",13.0,C851C,510b3a2f-1439-431f-a743-5196b35c851c,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1500.0
+"Nov 6, 2025",12.0,17A3F,88bf6653-8268-4004-a679-5f5a19617a3f,Little Italy,Kilimani NRB,Uber KE,2250.0
+"Nov 6, 2025",21.0,360EA,f23ed8a5-0965-4c75-a146-a9a71cd360ea,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1140.0
+"Nov 6, 2025",18.0,0D2F0,4b934bbd-7fdf-4bf8-b220-0f587270d2f0,Kai Sushi Bar,Village Market NRB,Uber KE,7040.0
+"Nov 6, 2025",19.0,DD3D4,d390f304-1588-4c00-9af2-ea35084dd3d4,Marty's Famous Burgers,Kilimani NRB,Uber KE,2080.0
+"Nov 6, 2025",8.0,088F9,b203c4ca-6fc4-4636-84a1-6c36dcb088f9,SuperWings,null,Uber KE,10260.0
+"Nov 6, 2025",9.0,139333,11986,Khan's - Pakistani Kitchen,Westlands NRB,ANDO App,920.0
+"Nov 6, 2025",18.0,676E0,0ee617a6-4279-489a-bab1-02e454f676e0,Pasta Della Nonna,NSK NRB,Uber KE,2200.0
+"Nov 6, 2025",12.0,101477071505,101477071505,Siam - Thai Kitchen,NSK NRB,Glovo,2780.0
+"Nov 6, 2025",18.0,1ANDMBP05669,LTHCQF4T52GW,ANDO,Westlands NRB,ANDO,1250.0
+"Nov 6, 2025",19.0,2442F,7d8c02d1-9003-468b-870d-f73bda42442f,Marty's Famous Burgers,Hurlingham NRB,Uber KE,1390.0
+"Nov 6, 2025",11.0,C7204,c4780c7d-1567-4658-a195-72c5ee5c7204,Marty's Famous Burgers,Village Market NRB,Uber KE,4110.0
+"Nov 6, 2025",14.0,D189C,174ada5a-872c-4ce2-9aa4-2a8ad80d189c,Kai Sushi Bar,Ngong Rd NRB,Uber KE,2230.0
+"Nov 6, 2025",11.0,24404,776fad5c-5d41-4194-9cc2-dadcc3f24404,DILLI! - Curries & Grill,Westlands NRB,Uber KE,990.0
+"Nov 6, 2025",21.0,ALTI05351,LTHCQJWHNDCZ,Little Italy,null,ANDO,950.0
+"Nov 6, 2025",21.0,6746B,5feca9dc-9a38-4542-a0c2-29bd3eb6746b,Little Italy,Kilimani NRB,Uber KE,1050.0
+"Nov 6, 2025",20.0,48F04,7fd815b0-0820-47df-a1bc-71c8d2048f04,Marty's Famous Burgers,Westlands NRB,Uber KE,1101.0
+"Nov 6, 2025",19.0,3F473,d2ea0208-5786-44d6-a212-c5c67753f473,Little Italy,Cape Town SA,Uber SA,159.0
+"Nov 6, 2025",16.0,13B51,86e6554e-e1f8-4db2-b4eb-6c9dd8413b51,SuperWings,Kilimani NRB,Uber KE,993.0
+"Nov 6, 2025",19.0,E476C,d0ae2ce2-4938-4e54-9d92-ea722cfe476c,Little Italy,Westlands NRB,Uber KE,3650.0
+"Nov 6, 2025",12.0,39E8A,60e5ebee-c915-4764-8ba8-4090ba039e8a,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1215.0
+"Nov 6, 2025",19.0,936B0,4c6db5e1-e1b2-4ada-ae6f-043aee4936b0,Siam - Thai Kitchen,NSK NRB,Uber KE,1730.0
+"Nov 6, 2025",15.0,A9E26,23ad1e18-1517-4062-af6f-1dfba2ca9e26,ANDO Kitchens,Kilimani NRB,Uber KE,1310.0
+"Nov 6, 2025",12.0,A8FDC,ec914e38-e5c2-476b-8755-cc0c049a8fdc,Siam - Thai Kitchen,NSK NRB,Uber KE,1310.0
+"Nov 6, 2025",12.0,9C447,e4eb4cf9-3262-4c7d-90ee-49ff5599c447,Marty's Famous Burgers,Hurlingham NRB,Uber KE,1090.0
+"Nov 6, 2025",10.0,4CC48,0dd276da-3eb1-4432-835f-b64cbf34cc48,Marty's Famous Burgers,Hurlingham NRB,Uber KE,2080.0
+"Nov 6, 2025",16.0,AMR01685,LTHCQC1QHSIH,Little Italy,null,ANDO,1180.0
+"Nov 6, 2025",17.0,138425,12000,Siam - Thai Kitchen,Kilimani NRB,ANDO App,1680.0
+"Nov 6, 2025",12.0,BF027,a2514a2e-031b-4854-ac3b-6a2ecafbf027,Little Italy,Kilimani NRB,Uber KE,6050.0
+"Nov 6, 2025",13.0,8CA87,cbdae769-1aee-492f-9089-a26b94e8ca87,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,1150.0
+"Nov 6, 2025",18.0,D119B,ede90f05-626b-42b7-8f84-f9d9daad119b,Marty's Famous Burgers,Westlands NRB,Uber KE,1290.0
+"Nov 6, 2025",20.0,AMR01693,LTHCQIR2B90M,Little Italy,null,ANDO,340.0
+"Nov 6, 2025",19.0,2B27A,e17fb02a-0871-41a8-bf51-46d50d12b27a,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1600.0
+"Nov 6, 2025",14.0,54A4E,3a874ef7-bcbb-4dd6-a356-7725ea654a4e,SuperWings,null,Uber KE,2750.0
+"Nov 6, 2025",15.0,65DC2,97fef7db-a7d7-4886-92fa-301f25065dc2,Little Italy,Village Market NRB,Uber KE,4460.0
+"Nov 6, 2025",20.0,ALTI05342,LTHCQIRAN5OJ,Little Italy,null,ANDO,1830.0
+"Nov 6, 2025",19.0,101477460377,101477460377,Siam - Thai Kitchen,Kilimani NRB,Glovo,3800.0
+"Nov 6, 2025",20.0,1ANDMBP05673,LTHCQIPVSDN9,ANDO,Westlands NRB,ANDO,1200.0
+"Nov 6, 2025",19.0,C6AD2,ebdd7f51-a51a-494f-bf5c-2b418b4c6ad2,Marty's Famous Burgers,Village Market NRB,Uber KE,3230.0
+"Nov 6, 2025",20.0,00D20,35011c69-b7df-4f4d-8527-3bd4bf600d20,Little Italy,Cape Town SA,Uber SA,325.0
+"Nov 6, 2025",20.0,436A9,31815c68-13c0-48d6-8c8b-a56b809436a9,Little Italy,Cape Town SA,Uber SA,415.0
+"Nov 6, 2025",13.0,135463,11992,Bibi's Swahili Kitchen,Kilimani NRB,ANDO App,1740.0
+"Nov 6, 2025",17.0,95F72,4a379d02-4cbe-41d6-9ac6-112dca295f72,Little Italy,Cape Town SA,Uber SA,135.0
+"Nov 6, 2025",16.0,E5ACA,517b9ada-4322-4196-9903-cee8402e5aca,SuperWings,Kilimani NRB,Uber KE,1513.0
+"Nov 6, 2025",16.0,EADB9,fcbac148-9116-48b7-b593-550b165eadb9,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,1699.0
+"Nov 6, 2025",22.0,6C224,eae1423c-f397-49d2-b253-dd59f8c6c224,Siam - Thai Kitchen,NSK NRB,Uber KE,4270.0
+"Nov 6, 2025",20.0,707A7,757b1a86-0cc0-4007-9e06-2d6e4d0707a7,DILLI! - Curries & Grill,Westlands NRB,Uber KE,3210.0
+"Nov 6, 2025",14.0,101477150922,101477150922,SuperWings,AURO,Glovo,3900.0
+"Nov 6, 2025",20.0,7D9D7,0092c6d2-df11-4e69-bba3-027329c7d9d7,Little Italy,Kilimani NRB,Uber KE,2210.0
+"Nov 6, 2025",12.0,101477066402,101477066402,ANDO Kitchens,Kilimani NRB,Glovo,2400.0
+"Nov 6, 2025",19.0,FA262,75324413-f309-4489-a893-d2cabf0fa262,Little Italy,Westlands NRB,Uber KE,1750.0
+"Nov 6, 2025",20.0,AMR01695,LT4TJDA37DSXG,Little Italy,null,ANDO,340.0
+"Nov 6, 2025",13.0,BF760,171d0723-40bc-4e4d-8139-e808ab5bf760,Little Italy,Kilimani NRB,Uber KE,1220.0
+"Nov 6, 2025",16.0,47B88,0b98266e-5e45-4f19-986d-43538a647b88,Marty's Famous Burgers,Hurlingham NRB,Uber KE,7010.0
+"Nov 6, 2025",19.0,0CD4C,1b6e5650-e4db-448b-99c1-5643b190cd4c,Siam - Thai Kitchen,Kilimani NRB,Uber KE,2509.0
+"Nov 6, 2025",20.0,25E25,ad7980ce-ed7d-40a6-997f-11949c425e25,Kai Sushi Bar,Village Market NRB,Uber KE,1815.0
+"Nov 6, 2025",15.0,112128,11995,DILLI! - Curries & Grill,Westlands NRB,ANDO App,1950.0
+"Nov 6, 2025",19.0,B0FC8,fee6a813-a74a-4e5a-8bd9-b9c12e1b0fc8,Siam - Thai Kitchen,NSK NRB,Uber KE,2770.0
+"Nov 6, 2025",19.0,1ANDMBP05671,LTHCQGV7YCU3,ANDO,Westlands NRB,ANDO,1690.0
+"Nov 6, 2025",16.0,ADLY05323,LTHCQBQW3GD3,Little Italy,null,ANDO,1680.0
+"Nov 6, 2025",18.0,26C8C,395d9ce4-1969-406d-98c8-2021aad26c8c,Little Italy,Kilimani NRB,Uber KE,2490.0
+"Nov 6, 2025",19.0,96C69,f23ce094-e488-4bd0-8cb0-f63ab4696c69,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,3550.0
+"Nov 6, 2025",14.0,17644,843cebad-fb45-4a14-b2a2-c22d76917644,Siam - Thai Kitchen,NSK NRB,Uber KE,3430.0
+"Nov 6, 2025",14.0,ALTI05321,LTHCQ7RQYIK4,Little Italy,null,ANDO,1640.0
+"Nov 6, 2025",17.0,0BC22,ccc9841b-f73e-42ff-9e7f-d1c20f60bc22,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,2280.0
+"Nov 6, 2025",20.0,AMR01692,LT4TJD5V1S1MG,Little Italy,null,ANDO,1090.0
+"Nov 6, 2025",18.0,ALTI05324,LT4TJBZ6OVQ5A,Little Italy,null,ANDO,2780.0
+"Nov 6, 2025",17.0,2547E,5f271304-5246-4720-bac3-d2d5a212547e,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,2190.0
+"Nov 6, 2025",16.0,ANDVI00003,LTHCQC3DNRF3,ANDO,Village Market NRB,ANDO,2890.0
+"Nov 6, 2025",20.0,101477539337,101477539337,Little Italy,NSK NRB,Glovo,5320.0
+"Nov 6, 2025",18.0,00424,bc2e3eda-962a-4216-a99c-5df35da00424,Kai Sushi Bar,Village Market NRB,Uber KE,3810.0
+"Nov 6, 2025",18.0,69BAC,1033fd61-d483-4a84-90c5-dd836dd69bac,Bibi's Swahili Kitchen,null,Uber KE,2575.0
+"Nov 6, 2025",13.0,ALTI05320,LTHCQ65Z4OCT,Little Italy,null,ANDO,390.0
+"Nov 6, 2025",14.0,42F02,f461e2bd-a4c6-4a2a-834d-9b7e17442f02,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1480.0
+"Nov 6, 2025",20.0,1DD8B,8f20d3f8-5424-4dbe-ad1d-9de521b1dd8b,Little Italy,Cape Town SA,Uber SA,180.0
+"Nov 6, 2025",19.0,101477472920,101477472920,Siam - Thai Kitchen,NSK NRB,Glovo,3220.0
+"Nov 6, 2025",20.0,651C7,6fcd0c7d-c464-4ee6-a51c-131f655651c7,SuperWings,Village Market NRB,Uber KE,993.0
+"Nov 6, 2025",19.0,21F98,9dcba978-2f40-4afc-8f9a-a02287121f98,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1500.0
+"Nov 6, 2025",18.0,08E60,2d5cd1de-d48b-4230-a98d-d1dc4e508e60,Tandoori Patio,null,Uber KE,2670.0
+"Nov 6, 2025",18.0,AMR01687,LTHCQFYU32TD,Little Italy,null,ANDO,3800.0
+"Nov 6, 2025",19.0,AMR01688,LTHCQGXHRT4M,Little Italy,null,ANDO,1130.0
+"Nov 6, 2025",12.0,C7635,202f31f5-42fa-41c7-85fc-f635b98c7635,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,1215.0
+"Nov 6, 2025",13.0,BA8E4,86a6a95c-81c7-471b-8924-495740bba8e4,Marty's Famous Burgers,Kilimani NRB,Uber KE,3700.0
+"Nov 6, 2025",15.0,101477240388,101477240388,ANDO Kitchens,Kilimani NRB,Glovo,5200.0
+"Nov 6, 2025",13.0,E75CB,aa905f28-f938-4732-8aea-467afb6e75cb,Little Italy,Westlands NRB,Uber KE,2750.0
+"Nov 6, 2025",21.0,B31E1,00b6577c-8038-4e96-a459-6972308b31e1,Siam - Thai Kitchen,NSK NRB,Uber KE,2780.0
+"Nov 6, 2025",19.0,AKLL10015,LTHCQHLS77DI,ANDO,Kilimani NRB,ANDO,1470.0
+"Nov 6, 2025",18.0,02DF3,03fb65bf-e448-42e2-b1d4-805e55402df3,Little Italy,Westlands NRB,Uber KE,710.0
+"Nov 6, 2025",13.0,101477122757,101477122757,Little Italy,Kilimani NRB,Glovo,2880.0
+"Nov 6, 2025",13.0,101477097920,101477097920,Little Italy,NSK NRB,Glovo,2820.0
+"Nov 6, 2025",20.0,EFD2D,2d6528ba-9758-47c7-aef0-c63c118efd2d,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,2970.0
+"Nov 6, 2025",15.0,E77A8,e47fee94-c2ee-41de-a89c-48a3a22e77a8,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,4710.0
+"Nov 6, 2025",19.0,ALTI05332,LT4TJCOSZ2FS8,Little Italy,null,ANDO,3720.0
+"Nov 6, 2025",17.0,B953A,81e64748-741c-4a73-bf32-15f958db953a,Little Italy,Westlands NRB,Uber KE,3490.0
+"Nov 6, 2025",18.0,101477398665,101477398665,ANDO Kitchens,Westlands NRB,Glovo,3640.0
+"Nov 6, 2025",20.0,04337,595dd9e9-4757-4ad7-97f7-0c5c62e04337,Bibi's Swahili Kitchen,null,Uber KE,950.0
+"Nov 6, 2025",19.0,ALTI05334,LTHCQH9CP9T8,Little Italy,null,ANDO,1530.0
+"Nov 6, 2025",19.0,ANDOWES00327452,LTHCQGJ4Z5P9,ANDO,Westlands NRB,ANDO,4000.0
+"Nov 6, 2025",16.0,5E69D,5c7af65d-e44a-4170-bd0e-ff1d0ab5e69d,"Pizza Corner, Since 1989",null,Uber KE,3425.0
+"Nov 6, 2025",19.0,B4DCC,ee65b25e-5779-45d7-8ee2-5f27713b4dcc,DILLI! - Curries & Grill,Westlands NRB,Uber KE,2250.0
+"Nov 6, 2025",13.0,101477119738,101477119738,ANDO Kitchens,Westlands NRB,Glovo,2380.0
+"Nov 6, 2025",19.0,AMR01690,LT4TJCSWVGXPM,Little Italy,null,ANDO,1080.0
+"Nov 6, 2025",20.0,ALTI05340,LT4TJD1BLPODK,Little Italy,null,ANDO,1370.0
+"Nov 6, 2025",18.0,2CE47,4714a8c4-5060-46ca-bb77-9c8def12ce47,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1590.0
+"Nov 6, 2025",21.0,15984,2ca4ea6e-b245-4a61-a304-035554c15984,"Pot of Jollof Kitchen, Kilimani",Kilimani NRB,Uber KE,3760.0
+"Nov 6, 2025",13.0,2F124,b902e5f5-aa04-4002-b909-f21bf652f124,Siam - Thai Kitchen,Kilimani NRB,Uber KE,3089.0
+"Nov 6, 2025",16.0,ANDVI00008,LT4TJBGYRMTJU,ANDO,Village Market NRB,ANDO,2320.0
+"Nov 6, 2025",20.0,7D4C7,ccd93cbf-7030-4a8e-a8bd-890053a7d4c7,Marty's Famous Burgers,Village Market NRB,Uber KE,2240.0
+"Nov 6, 2025",17.0,68E6A,ac9a4889-7dbd-45f9-8cb1-468f28868e6a,Pasta Della Nonna,NSK NRB,Uber KE,3500.0
+"Nov 6, 2025",13.0,E23EE,de653ed3-ed26-4773-bc19-10eb230e23ee,DILLI! - Curries & Grill,Westlands NRB,Uber KE,2690.0
+"Nov 6, 2025",11.0,34943,f67873a8-faa2-4f3d-a9a4-439d27634943,Little Italy,Cape Town SA,Uber SA,300.0
+"Nov 6, 2025",18.0,17ACB,2dff784a-56cb-4cdb-a9b5-5f6504817acb,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1350.0
+"Nov 6, 2025",16.0,BBBA1,cf34011e-b805-4e12-9ae4-58294f1bbba1,Siam - Thai Kitchen,NSK NRB,Uber KE,3130.0
+"Nov 6, 2025",12.0,2F5C4,e83fabd5-6c32-44ef-a101-594372a2f5c4,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1250.0
+"Nov 6, 2025",20.0,BA9FA,859cb4cc-15df-4c87-9af3-4687c11ba9fa,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1190.0
+"Nov 6, 2025",14.0,DD3B3,504b1239-2ea5-46f0-853a-939db2fdd3b3,Little Italy,Kilimani NRB,Uber KE,1170.0
+"Nov 6, 2025",19.0,ALTI05328,LTHCQG6KQFZL,Little Italy,null,ANDO,1190.0
+"Nov 6, 2025",19.0,0CE3F,28b969a2-9930-4da5-8d28-6bf5ec70ce3f,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,990.0
+"Nov 6, 2025",15.0,47F74,f0792d7e-0d1a-4194-99a1-747bdd947f74,Marty's Famous Burgers,Westlands NRB,Uber KE,1101.0
+"Nov 6, 2025",11.0,1E869,9b633c07-c6d2-4a23-94a1-8b4fbfb1e869,SuperWings,null,Uber KE,2800.0
+"Nov 6, 2025",21.0,733B0,d802b2d6-54fa-4ffd-b0b7-718f02e733b0,Open House Restaurant,null,Uber KE,4690.0
+"Nov 6, 2025",17.0,A31AC,cbe25dd5-044f-44ee-bf3c-e285d48a31ac,Little Italy,Westlands NRB,Uber KE,1220.0
+"Nov 6, 2025",17.0,81608,12ac153a-de9f-4f81-ab99-476b24081608,Kai Sushi Bar,Ngong Rd NRB,Uber KE,3220.0
+"Nov 6, 2025",16.0,EF491,01615dcf-c940-4ec0-abec-dad3542ef491,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,990.0
+"Nov 6, 2025",18.0,12B6C,351819e0-2c62-4c41-a0ae-ec2c47e12b6c,Tandoori Patio,null,Uber KE,1985.0
+"Nov 6, 2025",12.0,FF96A,f0c1b024-0271-436b-93da-d1d4bffff96a,Siam - Thai Kitchen,NSK NRB,Uber KE,1290.0
+"Nov 6, 2025",19.0,830F6,0bdb8792-e2e1-43c9-b2e6-7c8d001830f6,Tandoori Patio,null,Uber KE,2270.0
+"Nov 6, 2025",16.0,8D824,b9dc2201-bdcf-446f-85f6-ee2280c8d824,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,2180.0
+"Nov 6, 2025",13.0,AKLL10011,LTHCQ6GHV21U,ANDO,Kilimani NRB,ANDO,2490.0
+"Nov 6, 2025",19.0,9A01A,60099507-dbde-452a-a922-651c7b79a01a,Siam - Thai Kitchen,NSK NRB,Uber KE,2910.0
+"Nov 6, 2025",20.0,E22EF,b2424f3e-18e2-4785-968e-b8d0986e22ef,Little Italy,Kilimani NRB,Uber KE,1360.0
+"Nov 6, 2025",14.0,127717,11994,Siam - Thai Kitchen,NSK NRB,ANDO App,2780.0
+"Nov 6, 2025",15.0,ANDOWES00327449,LTHCQ9UL6XZS,ANDO,Westlands NRB,ANDO,2640.0
+"Nov 6, 2025",11.0,26EC4,b220ebd5-cfd8-4582-aea0-c18934c26ec4,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1130.0
+"Nov 6, 2025",22.0,AMR01697,LT4TJE0WFN6UI,Little Italy,null,ANDO,2340.0
+"Nov 6, 2025",14.0,90122,f432211d-e195-43ba-9fad-cd4cdd190122,Little Italy,Kilimani NRB,Uber KE,2070.0
+"Nov 6, 2025",16.0,C6762,635299b7-cd17-4bae-ad6c-9a93a0cc6762,Bombay Canteen - Chai & Snacks,Westlands NRB,Uber KE,930.0
+"Nov 6, 2025",14.0,ALTI05322,LTHCQ8QGTC50,Little Italy,null,ANDO,1090.0
+"Nov 6, 2025",12.0,77160,5158d3e2-699d-4af4-8c73-20245a577160,Little Italy,Kilimani NRB,Uber KE,1390.0
+"Nov 6, 2025",21.0,ALTI05349,LTHCQJSONXXG,Little Italy,null,ANDO,880.0
+"Nov 6, 2025",20.0,6B933,97113a5e-cb6b-4ea5-84f2-8c0cd5d6b933,ANDO Kitchens,Westlands NRB,Uber KE,1490.0
+"Nov 6, 2025",18.0,5F155,158c6a11-909e-4e68-aff0-7482b0d5f155,Little Italy,Westlands NRB,Uber KE,1610.0
+"Nov 6, 2025",19.0,79A8A,ea4ed843-f2eb-4ab3-994b-c8f8fa179a8a,Little Italy,Cape Town SA,Uber SA,135.0
+"Nov 6, 2025",16.0,139762,11999,Bibi's Swahili Kitchen,Kilimani NRB,ANDO App,1470.0
+"Nov 6, 2025",12.0,ALTI05318,LTHCQ54P1BJW,Little Italy,null,ANDO,1090.0
+"Nov 6, 2025",21.0,ALTI05344,LTHCQJAAHBUA,Little Italy,null,ANDO,550.0
+"Nov 6, 2025",21.0,ALTI05346,LTHCQJDCK8WJ,Little Italy,null,ANDO,1550.0
+"Nov 6, 2025",16.0,AMR01686,LTHCQC30SOD8,Little Italy,null,ANDO,2320.0
+"Nov 6, 2025",14.0,101477175155,101477175155,Kai Sushi Bar,AURO,Glovo,3180.0
+"Nov 6, 2025",19.0,101477463665,101477463665,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,1060.0
+"Nov 6, 2025",17.0,EC346,bb7402ce-9900-4fb1-b81e-45daa27ec346,"Burger Hut, Since 1986",null,Uber KE,2815.0
+"Nov 6, 2025",12.0,CE82B,a3cb995f-89c2-498a-a4da-9acfe19ce82b,Siam - Thai Kitchen,Village Market NRB,Uber KE,1880.0
+"Nov 6, 2025",19.0,101477455020,101477455020,Marty's Famous Burgers,Kilimani NRB,Glovo,2600.0
+"Nov 6, 2025",20.0,D60CE,3c24d6f1-b17f-420c-baa2-6c8b923d60ce,Little Italy,Kilimani NRB,Uber KE,1990.0
+"Nov 6, 2025",17.0,438A6,7049020b-dc28-4950-aa3e-5203183438a6,"Burger Hut, Since 1986",null,Uber KE,2670.0
+"Nov 6, 2025",18.0,C8505,d8ba38e6-1832-405d-a450-500f391c8505,Siam - Thai Kitchen,Village Market NRB,Uber KE,2680.0
+"Nov 6, 2025",12.0,80A89,d77d6646-765e-4c35-a836-45dd62480a89,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,1165.0
+"Nov 6, 2025",20.0,E9DBB,cca4f5d3-563c-47dd-a8bf-5bcff56e9dbb,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1739.0
+"Nov 6, 2025",18.0,101477405691,101477405691,Little Italy,Kilimani NRB,Glovo,3720.0
+"Nov 6, 2025",15.0,76196,3aef9437-18b1-43eb-bc6f-89ce1a076196,Pasta Della Nonna,Hurlingham NRB,Uber KE,1290.0
+"Nov 6, 2025",11.0,101477051783,101477051783,Siam - Thai Kitchen,NSK NRB,Glovo,7740.0
+"Nov 6, 2025",21.0,ALTI05348,LT4TJDHCN4K2M,Little Italy,null,ANDO,1090.0
+"Nov 6, 2025",17.0,A5C44,881db8d3-b086-447b-8cd2-08aa1e9a5c44,Kai Sushi Bar,Village Market NRB,Uber KE,7210.0
+"Nov 6, 2025",20.0,7612F,7ade6ecd-1d8a-4091-8772-72473787612f,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1140.0
+"Nov 6, 2025",12.0,34B58,95b1a51e-480c-46ae-8a9c-172d81934b58,Siam - Thai Kitchen,NSK NRB,Uber KE,1340.0
+"Nov 6, 2025",20.0,15142,4e814c42-7a17-4556-bc67-40a34e815142,TastiWOK,null,Uber KE,1940.0
+"Nov 6, 2025",22.0,C1A80,fed36328-69ba-47cd-b8d1-b278aa0c1a80,Little Italy,Westlands NRB,Uber KE,1450.0
+"Nov 6, 2025",12.0,9E437,df4b5970-ec8d-4c0f-b414-a8686419e437,Little Italy,Westlands NRB,Uber KE,1220.0
+"Nov 6, 2025",13.0,101477132100,101477132100,Kai Sushi Bar,AURO,Glovo,10770.0
+"Nov 6, 2025",19.0,ALTI05337,LTHCQHFF9LC0,Little Italy,null,ANDO,3100.0
+"Nov 6, 2025",16.0,ANDVI00001,LTHCQBY3G3ZW,ANDO,Village Market NRB,ANDO,3270.0
+"Nov 6, 2025",20.0,ALTI05341,LTHCQIET4OBG,Little Italy,null,ANDO,1090.0
+"Nov 6, 2025",20.0,4A0CA,c478f262-14b3-4e6b-9f84-d7981684a0ca,ANDO Kitchens,Kilimani NRB,Uber KE,1360.0
+"Nov 6, 2025",20.0,C8C6B,8c5f4c42-68d6-4b0b-8b5d-56928eac8c6b,Kai Sushi Bar,Ngong Rd NRB,Uber KE,4040.0
+"Nov 6, 2025",14.0,4E193,9b751ef5-3a43-4fd9-84b6-e9c67344e193,"Lagos Suya Spot, Nigerian Restaurant",null,Uber KE,2840.0
+"Nov 6, 2025",11.0,8C712,42c0f1fd-f692-41ff-8221-cb0f2718c712,Marty's Famous Burgers,Hurlingham NRB,Uber KE,2000.0
+"Nov 6, 2025",18.0,57D5D,37ae8e5b-45b8-4c50-b499-98bbeb457d5d,SuperWings,Westlands NRB,Uber KE,1811.0
+"Nov 6, 2025",21.0,90BE0,292f4031-6840-4138-be99-a0fa87590be0,Siam - Thai Kitchen,NSK NRB,Uber KE,1320.0
+"Nov 6, 2025",20.0,101477515959,101477515959,Siam - Thai Kitchen,NSK NRB,Glovo,5060.0
+"Nov 6, 2025",12.0,C5926,53a531e9-8c69-4e6f-b576-114668cc5926,Little Italy,Kilimani NRB,Uber KE,1720.0
+"Nov 6, 2025",20.0,AKLL10016,LTHCQI8GV0DM,ANDO,Kilimani NRB,ANDO,1680.0
+"Nov 6, 2025",12.0,A2662,98326be4-4fb3-4537-a86d-d5c0dcfa2662,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1040.0
+"Nov 6, 2025",18.0,2F18F,4bef2f98-3e6e-4a30-8195-927f64b2f18f,Kai Sushi Bar,Ngong Rd NRB,Uber KE,5810.0
+"Nov 6, 2025",16.0,139573,11996,Afrinaija Pots Restaurant,Kigali Rwanda,ANDO App,12000.0
+"Nov 6, 2025",12.0,101477070884,101477070884,Siam - Thai Kitchen,NSK NRB,Glovo,2380.0
+"Nov 6, 2025",18.0,4B7F8,dcbf5c00-592d-4771-94f2-46f7bf44b7f8,Kai Sushi Bar,null,Uber KE,4570.0
+"Nov 6, 2025",14.0,CA608,2d151fac-dd39-4e8a-926c-32d9130ca608,Bibi's Swahili Kitchen,null,Uber KE,1090.0
+"Nov 6, 2025",20.0,AMR01691,LT4TJD3FPSAMW,Little Italy,null,ANDO,920.0
+"Nov 6, 2025",11.0,3DB03,8fbb67e7-4316-479f-a381-260e4c53db03,Siam - Thai Kitchen,Village Market NRB,Uber KE,4040.0
+"Nov 6, 2025",20.0,ALTI05339,LTHCQI3MW9CF,Little Italy,null,ANDO,2540.0
+"Nov 6, 2025",21.0,23FC1,54695079-576e-4530-9f19-c02779e23fc1,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,1249.0
+"Nov 6, 2025",12.0,0C798,74fad857-fc8e-4e52-92e7-d8898700c798,Little Italy,Kilimani NRB,Uber KE,1270.0
+"Nov 6, 2025",13.0,54934,3574e67a-82da-4ae7-b551-feb45d354934,Kai Sushi Bar,null,Uber KE,2020.0
+"Nov 6, 2025",13.0,34D7B,4741b42b-b368-4505-b238-d7bb0ea34d7b,Little Italy,Kilimani NRB,Uber KE,1960.0
+"Nov 6, 2025",11.0,92724,2da820a2-b29e-40c2-8721-3a7d63b92724,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,1190.0
+"Nov 6, 2025",20.0,ANDOWES00327456,LT4TJCYSE7888,ANDO,Westlands NRB,ANDO,1420.0
+"Nov 6, 2025",11.0,9B877,250a73c9-ae70-4d38-91c9-3f452859b877,Little Italy,Village Market NRB,Uber KE,2840.0
+"Nov 6, 2025",16.0,101477291607,101477291607,DILLI! - Curries & Grill,Westlands NRB,Glovo,2380.0
+"Nov 6, 2025",18.0,101477415883,101477415883,Kai Sushi Bar,AURO,Glovo,12320.0
+"Nov 6, 2025",19.0,D216D,b627c54d-9f71-4be0-b36c-e2de537d216d,Siam - Thai Kitchen,Kilimani NRB,Uber KE,4679.0
+"Nov 6, 2025",20.0,C0629,604282f8-1e7b-445f-87f9-106c900c0629,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1190.0
+"Nov 6, 2025",19.0,ALTI05330,LTHCQGO7XYSO,Little Italy,null,ANDO,880.0
+"Nov 6, 2025",22.0,BA23E,08d0bec8-c82c-4530-a10a-581ff46ba23e,Little Italy,Westlands NRB,Uber KE,2270.0
+"Nov 6, 2025",16.0,D18DA,36a46ad9-6f05-4213-8cf3-f3fabb6d18da,Siam - Thai Kitchen,Kilimani NRB,Uber KE,3799.0
+"Nov 6, 2025",12.0,BA947,0eca11c9-99fa-4407-adaf-dc1d9a4ba947,ANDO Kitchens,Kilimani NRB,Uber KE,1340.0
+"Nov 6, 2025",21.0,4BECE,df1836f6-4efb-43a3-adfd-eb198384bece,Siam - Thai Kitchen,NSK NRB,Uber KE,3450.0
+"Nov 6, 2025",15.0,101477221146,101477221146,Little Italy,Kilimani NRB,Glovo,2920.0
+"Nov 6, 2025",18.0,C4B02,40388393-c6cf-4e75-a99f-0ab0828c4b02,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1040.0
+"Nov 6, 2025",19.0,ANDOWES00327454,LTHCQGW6UIRY,ANDO,Westlands NRB,ANDO,2920.0
+"Nov 6, 2025",13.0,58705,4e404203-80cb-415e-9344-f812c7658705,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1319.0
+"Nov 6, 2025",16.0,101477302149,101477302149,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,6510.0
+"Nov 6, 2025",13.0,BF6DE,0f4c537f-dfc0-4460-991d-a0ca4c8bf6de,"Pot of Jollof Kitchen, Westlands ",Westlands NRB,Uber KE,1165.0
+"Nov 6, 2025",21.0,92309,9881525c-5d44-44d3-a1cd-8e9e4ef92309,Siam - Thai Kitchen,NSK NRB,Uber KE,5100.0
+"Nov 6, 2025",20.0,E907E,6d07b5fd-5a0b-49d0-807c-240d7dee907e,ANDO Kitchens,Kilimani NRB,Uber KE,1000.0
+"Nov 6, 2025",19.0,ANDVI00011,LTHCQHHEZYRL,ANDO,Village Market NRB,ANDO,2650.0
+"Nov 6, 2025",13.0,4B953,20f313d9-8541-4a85-bb5e-c7506a84b953,"Om El Dunia, Authentic Arabian Flavors",null,Uber KE,1057.0
+"Nov 6, 2025",21.0,91DEE,180a3394-c1cd-46da-93cb-d99541491dee,Little Italy,Kilimani NRB,Uber KE,2390.0
+"Nov 6, 2025",18.0,D28EE,d2ddd189-ff3f-48cf-90a8-7f26b7dd28ee,All Day Drinks,Village Market NRB,Uber KE,4500.0
+"Nov 6, 2025",21.0,ALTI05352,LT4TJDKRJOW12,Little Italy,null,ANDO,2580.0
+"Nov 6, 2025",12.0,101477091498,101477091498,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,1170.0
+"Nov 6, 2025",13.0,101477118635,101477118635,Siam - Thai Kitchen,NSK NRB,Glovo,1200.0
+"Nov 6, 2025",13.0,F1CC6,e2e6f4df-6f90-4a73-a032-c34a218f1cc6,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,1130.0
+"Nov 6, 2025",18.0,53C41,7933bede-2e42-410c-82c3-3e86b6453c41,"Pizza Corner, Since 1989",null,Uber KE,2075.0
+"Nov 6, 2025",15.0,101477249215,101477249215,Marty's Famous Burgers,Kilimani NRB,Glovo,2980.0
+"Nov 6, 2025",17.0,03A80,eccfa949-8804-4ca6-814e-694049f03a80,"Lagos Suya Spot, Nigerian Restaurant",null,Uber KE,3200.0
+"Nov 6, 2025",12.0,0398F,17788c76-5ebe-4a36-86f6-688c2fa0398f,Kai Sushi Bar,null,Uber KE,2980.0
+"Nov 6, 2025",15.0,394A9,a2a3f0ae-6134-41dc-90de-eef3fc9394a9,Marty's Famous Burgers,Westlands NRB,Uber KE,1590.0
+"Nov 6, 2025",19.0,1FB78,a5976d7d-652f-4fa7-96fd-786ed561fb78,Kai Sushi Bar,Ngong Rd NRB,Uber KE,3720.0
+"Nov 6, 2025",19.0,3BA3B,c0698dcc-b5d7-45fd-9ca4-9ae73063ba3b,Siam - Thai Kitchen,Kilimani NRB,Uber KE,3279.0
+"Nov 6, 2025",14.0,15631,4d160d34-b872-4a7e-af0b-cc34e0715631,Siam - Thai Kitchen,NSK NRB,Uber KE,2560.0
+"Nov 6, 2025",12.0,130832,11991,Khan's - Pakistani Kitchen,Westlands NRB,ANDO App,2640.0
+"Nov 6, 2025",11.0,A798E,cf90354d-4300-43f3-80df-4aad91ca798e,Siam - Thai Kitchen,NSK NRB,Uber KE,2040.0
+"Nov 6, 2025",16.0,BA250,4bd09ee1-eed0-47de-b677-4e784a0ba250,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,3130.0
+"Nov 6, 2025",17.0,95609,eebf715d-81a4-4a23-a6d9-ca16b2995609,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,5190.0
+"Nov 6, 2025",20.0,1ANDMBP05672,LTHCQI8BX7CP,ANDO,Westlands NRB,ANDO,2260.0
+"Nov 6, 2025",20.0,4C9FB,4ebfcfd1-cd96-487e-9c7a-1cc8ea74c9fb,ANDO Kitchens,Westlands NRB,Uber KE,3000.0
+"Nov 6, 2025",18.0,FEACF,d40da5c4-7446-4d46-92f4-f25bcd7feacf,Kai Sushi Bar,Ngong Rd NRB,Uber KE,3485.0
+"Nov 6, 2025",14.0,7AD8F,082c7d1f-1bfe-4ca9-b314-d0621aa7ad8f,Kai Sushi Bar,Ngong Rd NRB,Uber KE,3520.0
+"Nov 6, 2025",19.0,ALTI05336,LTHCQHE3I709,Little Italy,null,ANDO,2340.0
+"Nov 6, 2025",21.0,ALTI05347,LTHCQJGU6YH3,Little Italy,null,ANDO,1590.0
+"Nov 6, 2025",20.0,AMR01694,LT4TJD9763TI8,Little Italy,null,ANDO,880.0
+"Nov 6, 2025",16.0,AKLL10013,LTHCQBMG6M7U,ANDO,Kilimani NRB,ANDO,1740.0
+"Nov 6, 2025",13.0,2E09E,b046f7ba-4461-4837-806c-8e163822e09e,"Ichiban Sushi, Westlands ",Westlands NRB,Uber KE,1590.0
+"Nov 6, 2025",18.0,67BF9,ea865f6a-26d7-4d13-b33a-3a3db4867bf9,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1110.0
+"Nov 6, 2025",20.0,101477540416,101477540416,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,970.0
+"Nov 6, 2025",16.0,F9B1F,5db3f696-32a5-4951-be3e-a21bc24f9b1f,Pasta Della Nonna,NSK NRB,Uber KE,1520.0
+"Nov 6, 2025",17.0,5A454,d4564595-fda9-4381-b78f-bacab605a454,Kai Sushi Bar,Ngong Rd NRB,Uber KE,7200.0
+"Nov 6, 2025",13.0,63C3A,3d3a8b37-d2a5-4468-b529-9f40fc563c3a,Little Italy,Village Market NRB,Uber KE,1450.0
+"Nov 6, 2025",18.0,91BE3,e291c088-6733-4352-bb07-048dda591be3,Marty's Famous Burgers,Hurlingham NRB,Uber KE,1090.0
+"Nov 6, 2025",13.0,81616,0e9970eb-1419-4929-899f-8e8bcb581616,"Ando Foods, Village Market",Village Market NRB,Uber KE,1220.0
+"Nov 6, 2025",14.0,84398,d6a748c3-57a0-4bba-bbfb-0efe14f84398,Marty's Famous Burgers,Village Market NRB,Uber KE,1130.0
+"Nov 6, 2025",14.0,2F9A3,c86e9f13-d87a-4b67-b462-aeb731d2f9a3,Siam - Thai Kitchen,NSK NRB,Uber KE,1610.0
+"Nov 6, 2025",22.0,186FD,5f5928f4-0970-432f-a178-4faa020186fd,Siam - Thai Kitchen,NSK NRB,Uber KE,1540.0
+"Nov 6, 2025",10.0,136566,11988,Marty's Famous Burgers,Kilimani NRB,ANDO App,2490.0
+"Nov 6, 2025",20.0,C123B,7b5b077a-c5a4-4d8e-aa55-828cb8cc123b,Marty's Famous Burgers,Kilimani NRB,Uber KE,1340.0
+"Nov 6, 2025",13.0,3F115,a4466bd6-9172-469f-9a84-90b07f43f115,Little Italy,Kilimani NRB,Uber KE,1220.0
+"Nov 6, 2025",13.0,844F6,38158f04-953d-44b3-819f-036db7e844f6,Little Italy,Kilimani NRB,Uber KE,2430.0
+"Nov 6, 2025",22.0,3A8D0,41b96291-34cc-43e0-a864-67b80d03a8d0,Pasta Della Nonna,NSK NRB,Uber KE,1410.0
+"Nov 6, 2025",9.0,424FB,a765e410-8ccf-428f-940c-6a9cc36424fb,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1490.0
+"Nov 6, 2025",20.0,ECED0,7f973d79-4852-4a87-badb-1de6c64eced0,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1520.0
+"Nov 6, 2025",19.0,FED45,3ba7e012-b466-4065-a0bf-4e8d27afed45,Siam - Thai Kitchen,NSK NRB,Uber KE,1290.0
+"Nov 6, 2025",19.0,195DA,dbc00747-dbf2-4c95-a6c0-54215cd195da,Pasta Della Nonna,NSK NRB,Uber KE,1860.0
+"Nov 6, 2025",18.0,EA44C,d98f9ee0-7938-4be4-86fb-4fd826dea44c,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1880.0
+"Nov 6, 2025",20.0,9F87E,19668d20-412e-4c5c-a57f-cfcb0ed9f87e,Little Italy,Cape Town SA,Uber SA,135.0
+"Nov 6, 2025",17.0,24916,02c94c23-088a-460c-977e-6277d9d24916,All Day Drinks,Village Market NRB,Uber KE,5950.0
+"Nov 6, 2025",20.0,D647C,925e8501-58d8-4dd5-9728-ff2fe1ad647c,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,2570.0
+"Nov 6, 2025",13.0,2F8B0,c040ea5d-3b03-4d8c-8dda-54237d72f8b0,ANDO Kitchens,Kilimani NRB,Uber KE,2120.0
+"Nov 6, 2025",19.0,04C8C,21f78533-02a8-4cea-9a0b-5bbc17b04c8c,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,1939.0
+"Nov 6, 2025",15.0,7D0B1,2abdb81c-69bd-4076-a148-de71de97d0b1,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1090.0
+"Nov 6, 2025",16.0,119940,11997,Marty's Famous Burgers,Kilimani NRB,ANDO App,2700.0
+"Nov 6, 2025",19.0,8382E,92aa1229-5d51-4838-8f9e-01fa4a18382e,"Open House Restaurant, Karen (Crossroad)",null,Uber KE,900.0
+"Nov 6, 2025",12.0,5C65F,64594eb8-760d-4c94-8c39-2ad18625c65f,Little Italy,Kilimani NRB,Uber KE,1720.0
+"Nov 6, 2025",14.0,20256,adf3737e-e1fe-4c01-8fda-8b5158920256,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1060.0
+"Nov 6, 2025",18.0,AEAA9,725dd92c-96e3-4826-a716-8f4edbcaeaa9,Little Italy,Westlands NRB,Uber KE,2740.0
+"Nov 6, 2025",13.0,173EF,9ea1fdfc-86b0-42a3-b616-e89318a173ef,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,1389.0
+"Nov 6, 2025",19.0,ALTI05331,LTHCQGTPNZ27,Little Italy,null,ANDO,920.0
+"Nov 6, 2025",21.0,ANDVI00014,LTHCQJI3V03R,ANDO,Village Market NRB,ANDO,1240.0
+"Nov 6, 2025",18.0,D377A,1ae4ff28-25bd-4210-aad3-549eefbd377a,Little Italy,Village Market NRB,Uber KE,1350.0
+"Nov 6, 2025",18.0,101477432217,101477432217,Little Italy,Kilimani NRB,Glovo,3400.0
+"Nov 6, 2025",19.0,005EC,3f62f5f0-7e79-40fc-9e6d-3d85f86005ec,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,1940.0
+"Nov 6, 2025",15.0,ANDOWES00327447,LTHCQ9K8UDN9,ANDO,Westlands NRB,ANDO,1690.0
+"Nov 6, 2025",19.0,2D9EC,97ac8d81-d554-48ca-82b3-161e2392d9ec,Siam - Thai Kitchen,NSK NRB,Uber KE,590.0
+"Nov 6, 2025",12.0,AD19E,9502da67-99ac-4033-b9e6-f313cf5ad19e,Siam - Thai Kitchen,Village Market NRB,Uber KE,5580.0
+"Nov 6, 2025",16.0,2CAF1,8cf552c9-9504-44dc-b321-6595bc62caf1,Little Italy,Westlands NRB,Uber KE,2190.0
+"Nov 6, 2025",18.0,ALTI05325,LT4TJC2D2CR7C,Little Italy,null,ANDO,2970.0
+"Nov 6, 2025",13.0,AMR01681,LT4TJ9PE6JDKK,Little Italy,null,ANDO,590.0
+"Nov 6, 2025",20.0,101477521976,101477521976,Little Italy,NSK NRB,Glovo,3500.0
+"Nov 6, 2025",19.0,CF95B,c6a6a431-ff1b-4359-8be4-53faf68cf95b,Open House Restaurant,null,Uber KE,2600.0
+"Nov 6, 2025",16.0,ANDVI00002,LT4TJBC3LKKM8,ANDO,Village Market NRB,ANDO,900.0
+"Nov 6, 2025",21.0,91438,c26b6976-faa5-4c2c-9a1e-238ebd791438,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1090.0
+"Nov 6, 2025",11.0,E2FF3,44d74209-e35a-4f6d-bf1d-d3b23c7e2ff3,Marty's Famous Burgers,Hurlingham NRB,Uber KE,950.0
+"Nov 6, 2025",18.0,76C14,65af47c1-9b2e-4659-8444-971704e76c14,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,2205.0
+"Nov 6, 2025",21.0,ALTI05350,LTHCQJT8QHVN,Little Italy,null,ANDO,1440.0
+"Nov 6, 2025",14.0,AFDA0,7618ad48-0ef9-4044-b4d1-fbe7755afda0,SuperWings,null,Uber KE,1880.0
+"Nov 6, 2025",18.0,63C59,d1f5d917-c7f5-429a-a0e4-f81314363c59,Siam - Thai Kitchen,NSK NRB,Uber KE,2630.0
+"Nov 6, 2025",18.0,70379,7f06ebeb-8fd2-4734-82aa-368e25570379,Bibi's Swahili Kitchen,null,Uber KE,1250.0
+"Nov 6, 2025",13.0,CA2B9,077947b2-1fd1-4028-9ad8-cead96cca2b9,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1930.0
+"Nov 6, 2025",13.0,1D949,df4ace81-2c52-45c9-83a4-cfe67391d949,TastiWOK,null,Uber KE,1725.0
+"Nov 6, 2025",19.0,917BC,66e5501d-97b6-4981-b2b5-e6ac305917bc,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1930.0
+"Nov 6, 2025",19.0,831F1,e56ea011-4a74-4bf2-9c54-cd333fd831f1,"Om El Dunia, Authentic Arabian Flavors",null,Uber KE,1940.0
+"Nov 6, 2025",20.0,ANDVI00012,LTHCQICDBKVC,ANDO,Village Market NRB,ANDO,950.0
+"Nov 6, 2025",15.0,8D718,18d0c60a-9bfb-495f-b84c-13a2b5e8d718,"Pot of Jollof Kitchen, Lavington",null,Uber KE,2265.0
+"Nov 6, 2025",11.0,F9D17,1df5dbea-61e0-4539-ba1f-67a654ff9d17,DILLI! - Curries & Grill,Westlands NRB,Uber KE,2270.0
+"Nov 6, 2025",14.0,9CA5A,db93bd3d-6cd9-4e78-91f1-6df809c9ca5a,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1710.0
+"Nov 6, 2025",19.0,ALTI05335,LTHCQHAWHLPZ,Little Italy,null,ANDO,1090.0
+"Nov 6, 2025",18.0,529FC,6106160b-5d22-42ae-aae4-756de46529fc,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,2180.0
+"Nov 6, 2025",18.0,D7B65,b178971c-50cc-4fd2-97d4-44608edd7b65,Tandoori Patio,null,Uber KE,1845.0
+"Nov 6, 2025",18.0,101477403564,101477403564,Little Italy,Kilimani NRB,Glovo,2160.0
+"Nov 6, 2025",13.0,FA234,dc537d79-f3b7-4330-a7de-16fafcefa234,Little Italy,Westlands NRB,Uber KE,1610.0
+"Nov 6, 2025",15.0,C877E,4b494815-39e5-4d15-9a47-b9063f5c877e,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1339.0
+"Nov 6, 2025",9.0,120785,11987,Little Italy,NSK NRB,ANDO App,1190.0
+"Nov 6, 2025",19.0,EA66D,d393ba4d-4442-41bd-a49f-84d6335ea66d,Open House Restaurant,null,Uber KE,2575.0
+"Nov 6, 2025",21.0,1323B,2d61987f-363d-4e4d-b0bc-60b5dbc1323b,SuperWings,Westlands NRB,Uber KE,2450.0
+"Nov 6, 2025",18.0,501D9,fa1f3a4d-c76a-4a05-bfd0-0d0226d501d9,Little Italy,Westlands NRB,Uber KE,1130.0
+"Nov 6, 2025",21.0,E2B73,ce5fd20b-78a9-44cc-9df8-d0e81a1e2b73,Bibi's Swahili Kitchen,null,Uber KE,1290.0
+"Nov 6, 2025",13.0,101477093687,101477093687,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,1610.0
+"Nov 6, 2025",15.0,AB200,5bf3c6b5-662f-4258-8c38-1d0aaa4ab200,Open House Restaurant,null,Uber KE,2925.0
+"Nov 6, 2025",19.0,ALTI05338,LTHCQHI3LFZU,Little Italy,null,ANDO,2180.0
+"Nov 6, 2025",12.0,3BEAE,d9035282-3fc5-4a1c-af1e-bc0e4ca3beae,Little Italy,Cape Town SA,Uber SA,180.0
+"Nov 6, 2025",14.0,4FC37,e221fda7-04f2-4224-9bd8-47ac1934fc37,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,2410.0
+"Nov 6, 2025",16.0,C7FD7,62269a9b-c007-4d6d-a5bf-a003cc5c7fd7,Kai Sushi Bar,Village Market NRB,Uber KE,7620.0
+"Nov 6, 2025",13.0,ANDOWES00327445,LTHCQ6QCJ245,ANDO,Westlands NRB,ANDO,1180.0
+"Nov 6, 2025",22.0,8B594,60dbe8a2-cbd7-48b4-adb0-86fd9b08b594,Siam - Thai Kitchen,NSK NRB,Uber KE,5300.0
+"Nov 6, 2025",21.0,1FE69,18d1bbce-0c9f-4394-ba12-5df77f41fe69,Little Italy,Westlands NRB,Uber KE,1630.0
+"Nov 6, 2025",16.0,101477302535,101477302535,Siam - Thai Kitchen,NSK NRB,Glovo,1840.0
+"Nov 6, 2025",19.0,0CCCE,3eb9950b-fdb2-4616-9fb2-c550e3a0ccce,Siam - Thai Kitchen,NSK NRB,Uber KE,1760.0
+"Nov 6, 2025",15.0,A6151,ed81a600-d6b3-4447-88ae-bbd9297a6151,Little Italy,Westlands NRB,Uber KE,4890.0
+"Nov 6, 2025",22.0,ALTI05353,LTHCQKZ8FOTG,Little Italy,null,ANDO,950.0
+"Nov 6, 2025",16.0,67CEB,e1b8fbdd-9309-4856-bf42-0fb567367ceb,Little Italy,Cape Town SA,Uber SA,194.0
+"Nov 6, 2025",21.0,ALTI05345,LTHCQJBX2NQ2,Little Italy,null,ANDO,1900.0
+"Nov 6, 2025",20.0,101477500831,101477500831,Marty's Famous Burgers,Westlands NRB,Glovo,2600.0
+"Nov 6, 2025",11.0,95F86,705fb3e0-471f-4f0a-8269-241736395f86,SuperWings,null,Uber KE,2155.0
+"Nov 6, 2025",19.0,101477473155,101477473155,Marty's Famous Burgers,Kilimani NRB,Glovo,2200.0
+"Nov 6, 2025",17.0,ANDVI00009,LTHCQD04OOD0,ANDO,Village Market NRB,ANDO,1820.0
+"Nov 6, 2025",17.0,101477381676,101477381676,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,4700.0
+"Nov 6, 2025",20.0,C8CAE,d13feb2d-dffa-4ab6-b6e4-13c162dc8cae,Little Italy,Westlands NRB,Uber KE,1270.0
+"Nov 6, 2025",13.0,101477103691,101477103691,Little Italy,NSK NRB,Glovo,3120.0
+"Nov 6, 2025",15.0,AKLL10012,LT4TJALOB0L6Q,ANDO,Kilimani NRB,ANDO,20.0
+"Nov 6, 2025",18.0,D45DC,77eb8b4e-9435-4223-a7df-e1f99f9d45dc,Kai Sushi Bar,Village Market NRB,Uber KE,2675.0
+"Nov 6, 2025",12.0,101477076629,101477076629,Siam - Thai Kitchen,NSK NRB,Glovo,2780.0
+"Nov 6, 2025",15.0,101477239615,101477239615,Curry Club,Westlands NRB,Glovo,2500.0
+"Nov 6, 2025",19.0,7A9F5,5d52b626-5a02-4a17-acf3-2638a347a9f5,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1140.0
+"Nov 6, 2025",13.0,4D132,35abc716-5f26-4849-910d-1b656c64d132,"Pot of Jollof Kitchen, Lavington",null,Uber KE,1665.0
+"Nov 6, 2025",21.0,1ADLY02876,LTHCQJEWPKZY,Little Italy,null,ANDO,2020.0
+"Nov 6, 2025",18.0,101477412193,101477412193,SuperWings,Kilimani NRB,Glovo,2300.0
+"Nov 6, 2025",19.0,51148,f0f4cb04-bdb3-423a-9106-e9b120551148,ANDO Kitchens,Kilimani NRB,Uber KE,1990.0
+"Nov 6, 2025",12.0,101477079083,101477079083,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,6840.0
+"Nov 6, 2025",19.0,92DD4,aa77faa3-41b4-41ba-b4d1-06a812392dd4,Siam - Thai Kitchen,Kilimani NRB,Uber KE,3709.0
+"Nov 6, 2025",15.0,54949,c9bce96d-a331-41fe-acd1-b32e1ab54949,Tandoori Patio,null,Uber KE,9220.0
+"Nov 6, 2025",19.0,04D05,b86b71b1-3e87-4c7a-a0e9-8be6aec04d05,Little Italy,Westlands NRB,Uber KE,1800.0
+"Nov 6, 2025",14.0,101477138528,101477138528,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,6690.0
+"Nov 6, 2025",15.0,93FF5,a4f3c11b-68f1-40fb-b527-ba1cd5c93ff5,Marty's Famous Burgers,Hurlingham NRB,Uber KE,1190.0
+"Nov 6, 2025",15.0,ANDOWES00327450,LTHCQA5RWTQ9,ANDO,Westlands NRB,ANDO,600.0
+"Nov 6, 2025",19.0,101477434883,101477434883,DILLI! - Curries & Grill,Village Market NRB,Glovo,1980.0
+"Nov 6, 2025",13.0,101477113863,101477113863,Little Italy,NSK NRB,Glovo,2240.0
+"Nov 6, 2025",17.0,2128B,adc30941-0fc2-4043-82a0-063c45f2128b,Little Italy,Cape Town SA,Uber SA,159.0
+"Nov 6, 2025",22.0,60C4D,0cf7edb1-1878-408c-ae89-98d7d8960c4d,Siam - Thai Kitchen,NSK NRB,Uber KE,1290.0
+"Nov 6, 2025",17.0,101477382504,101477382504,Pasta Della Nonna,NSK NRB,Glovo,3100.0
+"Nov 6, 2025",20.0,57A80,abe7ee8e-52af-4c2d-90e3-43ba79c57a80,Marty's Famous Burgers,Village Market NRB,Uber KE,3030.0
+"Nov 6, 2025",19.0,101477475603,101477475603,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,3750.0
+"Nov 6, 2025",19.0,ALTI05333,LT4TJCQYLSYWG,Little Italy,null,ANDO,3170.0
+"Nov 6, 2025",12.0,00279,4f7364c5-114b-438c-afe2-f6a615600279,"Pot of Jollof Kitchen, Kilimani",Kilimani NRB,Uber KE,9655.0
+"Nov 6, 2025",20.0,101477521652,101477521652,Kai Sushi Bar,AURO,Glovo,14280.0
+"Nov 6, 2025",16.0,101477325644,101477325644,ANDO Kitchens,Kilimani NRB,Glovo,2800.0
+"Nov 6, 2025",20.0,101477553646,101477553646,Kai Sushi Bar,AURO,Glovo,1790.0
+"Nov 6, 2025",13.0,DD66E,f1fdb59f-bc1e-4c7d-bad2-7030016dd66e,"Ichiban Sushi, Westlands ",Westlands NRB,Uber KE,2760.0
+"Nov 6, 2025",20.0,B76B3,8c80f408-4a9a-4e3f-b16a-5ab087fb76b3,Pasta Della Nonna,NSK NRB,Uber KE,2440.0
+"Nov 6, 2025",19.0,ANDOWES00327455,LTHCQHC4X1DF,ANDO,Westlands NRB,ANDO,1670.0
+"Nov 6, 2025",18.0,51830,b2a54a54-c852-4382-87b2-c7ef99951830,Siam - Thai Kitchen,Village Market NRB,Uber KE,8170.0
+"Nov 6, 2025",12.0,ALTI05319,LTHCQ5G0V86I,Little Italy,null,ANDO,920.0
+"Nov 6, 2025",21.0,9BACB,907aacd8-5cc7-431a-8721-086a0b89bacb,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1879.0
+"Nov 6, 2025",18.0,27800,6d48de5d-579c-49ff-82af-32ae63227800,DILLI! - Curries & Grill,Westlands NRB,Uber KE,920.0
+"Nov 6, 2025",22.0,ALTI05355,LT4TJE85VDBIY,Little Italy,null,ANDO,390.0
+"Nov 6, 2025",12.0,266D0,76a19aec-480c-48ba-9fbe-81af531266d0,Siam - Thai Kitchen,Kilimani NRB,Uber KE,2039.0
+"Nov 6, 2025",20.0,101477534288,101477534288,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,1170.0
+"Nov 6, 2025",11.0,65EE0,5a32887d-439c-4ef3-af6b-8fca35b65ee0,Little Italy,Kilimani NRB,Uber KE,1220.0
+"Nov 6, 2025",17.0,37360,7ae8cc68-c99a-430d-8402-811bef537360,DILLI! - Curries & Grill,Westlands NRB,Uber KE,2060.0
+"Nov 6, 2025",21.0,ADLY05343,LTHCQJA64QSB,Little Italy,null,ANDO,1740.0
+"Nov 6, 2025",19.0,95F5D,9e938aad-7d82-438c-a0e0-d47fb5495f5d,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1060.0
+"Nov 6, 2025",17.0,70435,00591f14-72ba-44ca-a75b-7c7d98c70435,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1260.0
+"Nov 6, 2025",17.0,06F87,a6bf8ae4-881f-48b8-aab6-a783d5d06f87,Siam - Thai Kitchen,NSK NRB,Uber KE,1190.0
+"Nov 6, 2025",12.0,ANDOWES00327444,LTHCQ57F7P9G,ANDO,Westlands NRB,ANDO,920.0
+"Nov 6, 2025",14.0,101477144178,101477144178,Little Italy,NSK NRB,Glovo,2640.0
+"Nov 6, 2025",19.0,3BDA1,00062c85-0818-47ae-87ce-8fc25143bda1,Marty's Famous Burgers,Kilimani NRB,Uber KE,1090.0
+"Nov 6, 2025",12.0,B4C22,9641f002-5dc1-441d-80af-7deac36b4c22,Little Italy,Westlands NRB,Uber KE,1220.0
+"Nov 6, 2025",17.0,874F5,1f3d5269-63af-49df-8624-dbcc376874f5,Little Italy,Westlands NRB,Uber KE,1700.0
+"Nov 6, 2025",12.0,101477079935,101477079935,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,1170.0
+"Nov 6, 2025",11.0,B60C9,062f6271-3698-47d1-9d7e-20430bcb60c9,Tandoori Patio,null,Uber KE,4240.0
+"Nov 6, 2025",12.0,78C22,3a0ecc7e-30cb-4a2c-acb0-6ea674678c22,Little Italy,Village Market NRB,Uber KE,1270.0
+"Nov 6, 2025",19.0,ANDOWES00327453,LTHCQGQQ6UAR,ANDO,Westlands NRB,ANDO,1360.0
+"Nov 6, 2025",13.0,24D4D,00593e2f-c29f-4ed5-94e4-3b2dc7824d4d,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1450.0
+"Nov 6, 2025",19.0,7EF73,5f50f9b6-8739-4bea-8d95-57d71077ef73,"Pizza Corner, Since 1989",null,Uber KE,7750.0
+"Nov 6, 2025",18.0,CC8AF,4f42a4e4-d281-410a-9459-7e9f84ccc8af,ANDO Kitchens,Kilimani NRB,Uber KE,4440.0
+"Nov 6, 2025",11.0,1A3C1,2a8d7024-f21d-4ac5-8e92-4850fa11a3c1,Little Italy,Westlands NRB,Uber KE,2670.0
+"Nov 6, 2025",13.0,03C53,cd547c8b-6500-4b34-94e1-f89a45303c53,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,1865.0
+"Nov 6, 2025",18.0,101477401592,101477401592,Kai Sushi Bar,AURO,Glovo,9630.0
+"Nov 6, 2025",20.0,F3304,fa5861f5-a191-47f9-9b5d-ec9bd03f3304,"Burger Hut, Since 1986",null,Uber KE,830.0
+"Nov 6, 2025",20.0,6FD79,1a0f4437-d3db-48b0-94a5-dc646876fd79,SuperWings,Village Market NRB,Uber KE,2983.0
+"Nov 6, 2025",21.0,101477563520,101477563520,Little Italy,NSK NRB,Glovo,2820.0
+"Nov 6, 2025",13.0,EA468,2651170c-0f6c-45c8-b045-14e1b65ea468,Open House Restaurant,null,Uber KE,6940.0
+"Nov 6, 2025",21.0,674D2,fed942c8-007c-430e-a298-d7a1b98674d2,Little Italy,Kilimani NRB,Uber KE,4220.0
+"Nov 6, 2025",20.0,63101,0ea06b6c-94e8-4d34-8913-2372bf563101,Little Italy,Cape Town SA,Uber SA,180.0
+"Nov 6, 2025",14.0,AMR01683,LTHCQ8RZAT6Z,Little Italy,null,ANDO,1080.0
+"Nov 6, 2025",18.0,2319B,93ffa2fe-9e9e-47b7-8fbb-600f46c2319b,Siam - Thai Kitchen,NSK NRB,Uber KE,710.0
+"Nov 6, 2025",19.0,ADAB3,23fbf154-eef7-42e2-85dc-f9640bcadab3,Kai Sushi Bar,Ngong Rd NRB,Uber KE,2065.0
+"Nov 6, 2025",12.0,C97D3,b7217caf-e25e-4724-ad00-08ceb99c97d3,Siam - Thai Kitchen,NSK NRB,Uber KE,2030.0
+"Nov 6, 2025",19.0,5C714,2d4bd096-c26d-4a5d-81db-480c42b5c714,Little Italy,Kilimani NRB,Uber KE,1320.0
+"Nov 6, 2025",14.0,BEC95,b95edd9d-16b6-489a-a709-4d4e80abec95,Marty's Famous Burgers,Hurlingham NRB,Uber KE,1140.0
+"Nov 6, 2025",22.0,AMR01696,LTHCQL5FGU1A,Little Italy,null,ANDO,790.0
+"Nov 6, 2025",16.0,1114F,553766c3-fd9f-4e71-87a8-fdd25bb1114f,All Day Drinks,Village Market NRB,Uber KE,1910.0
+"Nov 6, 2025",17.0,5A817,d9cf49d9-8ba4-455d-8b4a-5f23b8c5a817,Biryani Blues,null,Uber KE,3940.0
+"Nov 6, 2025",19.0,AMR01689,LTHCQH2NR12H,Little Italy,null,ANDO,920.0
+"Nov 6, 2025",20.0,ANDVI00013,LTHCQIPIZJWL,ANDO,Village Market NRB,ANDO,1670.0
+"Nov 6, 2025",19.0,ALTI05329,LTHCQGCDEHYA,Little Italy,null,ANDO,1090.0
+"Nov 6, 2025",20.0,101477498999,101477498999,SuperWings,Westlands NRB,Glovo,3100.0
+"Nov 6, 2025",13.0,BA4BB,783d63c0-a36a-4809-9f1a-eb9605bba4bb,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,1130.0
+"Nov 6, 2025",16.0,DC519,422a4aa3-acd8-4741-b708-47430eedc519,Marty's Famous Burgers,Hurlingham NRB,Uber KE,1620.0
+"Nov 6, 2025",16.0,97AEE,7bb1a235-eb9f-462f-9f0c-ae139af97aee,SuperWings,null,Uber KE,5320.0
+"Nov 6, 2025",14.0,AMR01682,LTHCQ8R1LF7L,Little Italy,null,ANDO,1080.0
+"Nov 6, 2025",22.0,ALTI05354,LT4TJDVPAJLFS,Little Italy,null,ANDO,1090.0
+"Nov 6, 2025",19.0,101477484460,101477484460,Kai Sushi Bar,AURO,Glovo,2880.0
+"Nov 6, 2025",13.0,8225A,7b1fefc9-c513-4ca1-bcbc-d5d05e08225a,Little Italy,Westlands NRB,Uber KE,1220.0
+"Nov 6, 2025",13.0,91D18,69067663-3de4-44bb-8e33-65f31e191d18,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1730.0
+"Nov 6, 2025",14.0,A121A,1254281e-cec4-4ef3-8d36-d331f86a121a,Pasta Della Nonna,NSK NRB,Uber KE,2920.0
+"Nov 6, 2025",16.0,ANDVI00007,LTHCQCDPCTSN,ANDO,Village Market NRB,ANDO,390.0
+"Nov 6, 2025",18.0,ALTI05326,LT4TJCD5EC6KC,Little Italy,null,ANDO,1490.0
+"Nov 6, 2025",12.0,9C652,be587185-703a-40c0-87ef-80c52609c652,SuperWings,Village Market NRB,Uber KE,800.0
+"Nov 6, 2025",16.0,AC154,1ab86d98-7f3d-4509-993f-0f73ecbac154,Little Italy,Westlands NRB,Uber KE,3700.0
+"Nov 6, 2025",11.0,101477053694,101477053694,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,3270.0
+"Nov 6, 2025",16.0,ANDVI00005,LTHCQCAXX8L4,ANDO,Village Market NRB,ANDO,1140.0
+"Nov 6, 2025",18.0,5D546,a8ecbfb2-313a-4031-b6fd-be5e9195d546,Little Italy,Cape Town SA,Uber SA,318.0
+"Nov 6, 2025",18.0,3FD36,2d1b1dcf-a61c-43a1-9be8-5118b543fd36,ANDO Kitchens,Westlands NRB,Uber KE,4400.0
+"Nov 6, 2025",12.0,1568E,59909541-6247-465c-ac28-746059f1568e,Little Italy,Westlands NRB,Uber KE,2520.0
+"Nov 6, 2025",12.0,9E45D,9671f987-ba2b-463f-9ca9-26481c59e45d,"Pot of Jollof Kitchen, Westlands ",Westlands NRB,Uber KE,2040.0
+"Nov 6, 2025",21.0,528B4,9a642e1e-8a28-4c84-9258-a192c55528b4,Marty's Famous Burgers,Westlands NRB,Uber KE,2333.0
+"Nov 6, 2025",12.0,4B98D,ca20afcb-9596-4032-9a23-f386b9b4b98d,"Burger Hut, Since 1986",null,Uber KE,1400.0
+"Nov 6, 2025",12.0,B6016,b820cf8d-1c40-40ab-a5d6-0634b57b6016,ANDO Kitchens,Westlands NRB,Uber KE,4830.0
+"Nov 6, 2025",12.0,62305,0d84db69-99ff-4348-94c5-63cafcd62305,Little Italy,Kilimani NRB,Uber KE,1420.0
+"Nov 6, 2025",19.0,101477473930,101477473930,DILLI! - Curries & Grill,Village Market NRB,Glovo,2540.0
+"Nov 6, 2025",19.0,2529A,c0d288d8-1ef6-4397-b409-5dcdd192529a,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1400.0
+"Nov 6, 2025",14.0,9CDBF,f80d4056-fa44-4625-82ee-7b07ec79cdbf,Little Italy,Kilimani NRB,Uber KE,5480.0
+"Nov 6, 2025",19.0,101477440761,101477440761,ANDO Kitchens,Kilimani NRB,Glovo,2100.0
+"Nov 6, 2025",20.0,101477530004,101477530004,Marty's Famous Burgers,Westlands NRB,Glovo,2700.0
+"Nov 6, 2025",21.0,101477587223,101477587223,Siam - Thai Kitchen,NSK NRB,Glovo,2780.0
+"Nov 6, 2025",20.0,3206C,e1577c98-5009-4227-911d-c2068ff3206c,Siam - Thai Kitchen,Kilimani NRB,Uber KE,4189.0
+"Nov 6, 2025",21.0,101477623331,101477623331,Siam - Thai Kitchen,NSK NRB,Glovo,10660.0
+"Nov 6, 2025",20.0,B0BC1,c3b78f2e-dcd5-4a9c-b3b8-31c458cb0bc1,Siam - Thai Kitchen,Kilimani NRB,Uber KE,2079.0
+"Nov 6, 2025",20.0,101477514113,101477514113,Marty's Famous Burgers,Kilimani NRB,Glovo,2340.0
+"Nov 6, 2025",19.0,95A54,fca2be33-1037-4f4f-a93d-c4e29fe95a54,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1659.0
+"Nov 6, 2025",12.0,2BF40,fec2fce4-6c9b-4813-acd6-53b0a1d2bf40,Little Italy,Village Market NRB,Uber KE,1420.0
+"Nov 6, 2025",15.0,ANDOWES00327451,LTHCQAQEIG96,ANDO,Westlands NRB,ANDO,1100.0
+"Nov 6, 2025",11.0,A7DBE,9ad99355-8349-4145-b3b3-4a9b0d0a7dbe,SuperWings,null,Uber KE,3180.0
+"Nov 6, 2025",14.0,15534,e14cf545-428f-47b5-a75a-e6b52ee15534,Little Italy,Westlands NRB,Uber KE,1510.0
+"Nov 6, 2025",19.0,18F14,035de2e2-b115-4b40-ac04-865127118f14,Kai Sushi Bar,Ngong Rd NRB,Uber KE,3720.0
+"Nov 6, 2025",16.0,ANDVI00004,LTHCQC9G87ZO,ANDO,Village Market NRB,ANDO,780.0
+"Nov 6, 2025",19.0,101477484847,101477484847,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,970.0
+"Nov 6, 2025",17.0,9FA27,cc4fe6c4-7448-491e-b4b5-8d2efa19fa27,Marty's Famous Burgers,Westlands NRB,Uber KE,2330.0
+"Nov 6, 2025",14.0,770F7,b5132cda-eb4d-4b8a-9ac1-6091748770f7,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1140.0
+"Nov 6, 2025",13.0,EB358,a955296f-ea33-4139-b2dd-2261c74eb358,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1100.0
+"Nov 6, 2025",19.0,CFF4B,a3c6420b-1b96-4ec1-ac81-cf2aeedcff4b,Kai Sushi Bar,null,Uber KE,1795.0
+"Nov 6, 2025",11.0,F29C2,df609d2b-53a9-4862-8e50-1c7585cf29c2,DILLI! - Curries & Grill,Westlands NRB,Uber KE,3720.0
+"Nov 6, 2025",20.0,101477548502,101477548502,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,2970.0
+"Nov 6, 2025",17.0,7A670,c0a80acf-0e72-4e8b-982b-ad903ff7a670,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,3405.0
+"Nov 6, 2025",18.0,FF3A4,775cd12d-cbce-4429-9ba5-7c91c45ff3a4,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,2970.0
+"Nov 6, 2025",13.0,64A37,75ba0b34-7d46-41e5-8263-b0a8d0764a37,Little Italy,Westlands NRB,Uber KE,3850.0
+"Nov 6, 2025",18.0,3E235,98ea5f3d-cfe1-48fb-bb5e-29745813e235,Little Italy,Kilimani NRB,Uber KE,2150.0
+"Nov 6, 2025",19.0,A9AAA,a9d4ee0d-d93d-463f-8239-c8c4d4ca9aaa,Little Italy,Village Market NRB,Uber KE,1270.0
+"Nov 6, 2025",14.0,101477168303,101477168303,Kai Sushi Bar,AURO,Glovo,10140.0
+"Nov 6, 2025",18.0,49893,2a247aab-8bc6-4eea-a9af-5a996d949893,Open House Restaurant,null,Uber KE,3075.0
+"Nov 6, 2025",12.0,EEC50,f9c81a2e-4076-48b1-b3be-cca9d67eec50,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,1130.0
+"Nov 6, 2025",19.0,101477454686,101477454686,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,970.0
+"Nov 6, 2025",12.0,CDBDA,eee09a04-604f-426c-bd1b-41e0cb2cdbda,Open House Restaurant,null,Uber KE,7525.0
+"Nov 6, 2025",16.0,64C56,934def06-dba3-48b6-9c2c-de8a20164c56,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1140.0
+"Nov 6, 2025",16.0,ANDVI00006,LT4TJBFF2IU3E,ANDO,Village Market NRB,ANDO,950.0
+"Nov 6, 2025",15.0,ANDOWES00327448,LT4TJAOA093MG,ANDO,Westlands NRB,ANDO,1560.0
+"Nov 6, 2025",19.0,AA305,25f687e0-0007-4a9d-a94d-f5a76cdaa305,Marty's Famous Burgers,Westlands NRB,Uber KE,2523.0
+"Nov 6, 2025",12.0,00909,2139591e-aa17-440b-a18b-8112e0c00909,Siam - Thai Kitchen,NSK NRB,Uber KE,1340.0
+"Nov 6, 2025",12.0,AD41B,9f08d3a4-e9e7-421a-80d9-b1ba604ad41b,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1040.0
+"Nov 6, 2025",20.0,101477525662,101477525662,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,1340.0
+"Nov 6, 2025",20.0,101477540824,101477540824,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,2640.0
+"Nov 6, 2025",16.0,136717,11998,Bibi's Swahili Kitchen,Kilimani NRB,ANDO App,1470.0
+"Nov 6, 2025",18.0,ANDVI00010,LT4TJCCWRMHDU,ANDO,Village Market NRB,ANDO,1390.0
+"Nov 6, 2025",14.0,F7098,380fd488-b223-49cc-8bca-c781acaf7098,SuperWings,Village Market NRB,Uber KE,1450.0
+"Nov 6, 2025",16.0,A4CF5,62dfd586-616c-4ca5-ab2a-2e02131a4cf5,Little Italy,Westlands NRB,Uber KE,2580.0
+"Nov 6, 2025",19.0,A4771,a9e6a0d3-77a1-4457-9bc6-9b570f7a4771,Little Italy,Cape Town SA,Uber SA,165.0
+"Nov 6, 2025",14.0,ANDOWES00327446,LTHCQ8ZTI3AD,ANDO,Westlands NRB,ANDO,1690.0
+"Nov 6, 2025",13.0,6B9CA,f0eded6a-fc16-4537-a9d1-ce2e1dc6b9ca,Marty's Famous Burgers,Kilimani NRB,Uber KE,1340.0
+"Nov 6, 2025",12.0,89935,1735d5f3-ae10-4813-ba85-44fcb4189935,"Pot of Jollof Kitchen, Lavington",null,Uber KE,2235.0
+"Nov 6, 2025",18.0,1ANDMBP05668,LTHCQEPNPQYC,ANDO,Westlands NRB,ANDO,1950.0
+"Nov 6, 2025",18.0,FCD3E,39090044-3d7c-4402-936b-d658dd0fcd3e,Siam - Thai Kitchen,Kilimani NRB,Uber KE,2039.0
+"Nov 6, 2025",19.0,1ANDMBP05670,LTHCQGHVDLST,ANDO,Westlands NRB,ANDO,4120.0
+"Nov 6, 2025",15.0,101477235205,101477235205,Little Italy,NSK NRB,Glovo,2140.0
+"Nov 6, 2025",14.0,101477163967,101477163967,Little Italy,Kilimani NRB,Glovo,3900.0
+"Nov 6, 2025",21.0,2E0A2,0673180e-dcc3-4540-bde7-82547142e0a2,Tandoori Patio,null,Uber KE,1845.0
+"Nov 6, 2025",19.0,BF482,826381be-ab20-4f5c-8e04-fbfb48fbf482,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1180.0
+"Nov 6, 2025",14.0,AMR01684,LTHCQ98UN3OV,Little Italy,null,ANDO,1740.0
+"Nov 6, 2025",21.0,4F249,8d42ea69-de73-459f-855f-fd7a02f4f249,Little Italy,Cape Town SA,Uber SA,135.0
+"Nov 6, 2025",19.0,65B6A,d74bec01-8c15-4256-8d06-183161a65b6a,TastiWOK,null,Uber KE,4600.0
+"Nov 6, 2025",12.0,6A7CB,787496bc-d74c-4ddb-9ae5-64e987f6a7cb,Little Italy,Village Market NRB,Uber KE,1490.0
+"Nov 6, 2025",10.0,60F37,24b45fdc-8e31-46fc-850c-500ada060f37,SuperWings,null,Uber KE,6135.0
+"Nov 6, 2025",12.0,656FD,2c887883-61a9-4ddd-961b-665a8f0656fd,Little Italy,Kilimani NRB,Uber KE,1440.0
+"Nov 6, 2025",16.0,C22B9,241b9d5c-428e-4f2e-bbcb-432ba1dc22b9,ANDO Kitchens,Kilimani NRB,Uber KE,2340.0
+"Nov 6, 2025",10.0,D89B8,df174d39-32ef-4235-9bf3-85ff8a7d89b8,Marty's Famous Burgers,Westlands NRB,Uber KE,901.0
+"Nov 6, 2025",19.0,ADLY05327,LT4TJCG3XXLXW,Little Italy,null,ANDO,2380.0
+"Nov 6, 2025",19.0,614E2,f02367c2-4d56-4a7c-b4a0-7bdf984614e2,Tandoori Patio,null,Uber KE,6360.0
+"Nov 6, 2025",12.0,F9D32,5e167136-8dd9-4a1f-bc65-dc3e8f0f9d32,Siam - Thai Kitchen,NSK NRB,Uber KE,1290.0
+"Nov 6, 2025",13.0,E8E2D,ed9f5ed5-816b-43c4-911e-13017bfe8e2d,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,920.0
+"Nov 6, 2025",12.0,101477090931,101477090931,Siam - Thai Kitchen,Kilimani NRB,Glovo,2380.0
+"Nov 6, 2025",16.0,61CAA,420e1432-00eb-4671-b620-40eae5b61caa,"Burger Hut, Since 1986",null,Uber KE,1535.0
+"Nov 6, 2025",19.0,B4A93,89426f5d-fb1e-4083-a80f-70690b1b4a93,"Om El Dunia, Authentic Arabian Flavors",null,Uber KE,3443.0
+"Nov 6, 2025",19.0,AKLL10014,LTHCQGL17FRB,ANDO,Kilimani NRB,ANDO,2700.0
+"Nov 6, 2025",14.0,55526,6c0bd529-9ad5-48a4-91c9-7da25e555526,Siam - Thai Kitchen,Village Market NRB,Uber KE,2840.0
+"Nov 6, 2025",18.0,52973,8a5b611a-c93d-44be-9c36-8308ffd52973,Siam - Thai Kitchen,Kilimani NRB,Uber KE,3299.0
+"Nov 6, 2025",13.0,38980,6c15ef9c-eb2e-402c-84a2-a83e66b38980,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1190.0
+"Nov 6, 2025",10.0,101477033017,101477033017,Siam - Thai Kitchen,NSK NRB,Glovo,2100.0
+"Nov 6, 2025",21.0,7D135,1832ad88-0b27-4c64-bddd-38076ed7d135,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1329.0
+"Nov 6, 2025",17.0,A619E,62333d07-34e3-46ba-b9b1-f15fd3aa619e,Bibi's Swahili Kitchen,null,Uber KE,1050.0
+"Nov 6, 2025",13.0,BBA4E,8ae258df-8a40-4a9d-a98b-3d43005bba4e,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1390.0
+"Nov 6, 2025",16.0,C4F4F,5d318a99-b703-485d-ae9b-9c5e522c4f4f,Little Italy,Kilimani NRB,Uber KE,1760.0
+"Nov 6, 2025",19.0,76E52,26a0452e-242d-401a-891c-976c96276e52,ANDO Kitchens,Kilimani NRB,Uber KE,1240.0
+"Nov 6, 2025",14.0,24F80,cc7679c6-bfc0-4825-b65e-2dcb2c724f80,Little Italy,Kilimani NRB,Uber KE,1610.0
+"Nov 6, 2025",20.0,AA728,52d71ea8-cfe6-48d6-8678-bd094daaa728,Little Italy,Westlands NRB,Uber KE,1220.0
+"Nov 6, 2025",12.0,101477077643,101477077643,Siam - Thai Kitchen,NSK NRB,Glovo,2380.0
+"Nov 6, 2025",21.0,101477616319,101477616319,Pasta Della Nonna,NSK NRB,Glovo,5460.0
+"Nov 6, 2025",16.0,249A3,59b81659-7c53-4d0c-954f-ae05a35249a3,Little Italy,Kilimani NRB,Uber KE,1700.0
+"Nov 6, 2025",10.0,123815,11989,Tandoori Patio,AURO,ANDO App,1900.0
+"Nov 6, 2025",21.0,C5602,60ba3480-1af2-409c-b802-95ca009c5602,Open House Restaurant,null,Uber KE,3240.0
+"Nov 6, 2025",18.0,A4D90,599e4c2b-b794-448a-9adc-324d44ea4d90,Little Italy,Westlands NRB,Uber KE,1610.0
+"Nov 6, 2025",16.0,BE057,41614c6e-9818-4c65-a2e8-2562142be057,Kai Sushi Bar,Ngong Rd NRB,Uber KE,2585.0
+"Nov 6, 2025",13.0,0F86F,182bc241-be0e-4041-9413-e04aae00f86f,Siam - Thai Kitchen,NSK NRB,Uber KE,1390.0
+"Nov 6, 2025",18.0,101477429953,101477429953,Siam - Thai Kitchen,NSK NRB,Glovo,3780.0
+"Nov 6, 2025",11.0,20682,1b6743e6-47b4-4488-a179-cf589a220682,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,1130.0
+"Nov 6, 2025",14.0,101477149314,101477149314,Little Italy,NSK NRB,Glovo,3800.0
+"Nov 6, 2025",14.0,101477186634,101477186634,Siam - Thai Kitchen,Kilimani NRB,Glovo,2780.0
+"Nov 6, 2025",17.0,9DA82,a7c083ec-d295-48e6-b1a4-a76ea329da82,Kai Sushi Bar,Ngong Rd NRB,Uber KE,3280.0
+"Nov 6, 2025",15.0,005A4,f89074ea-8fa2-4ff7-a292-5d5bd91005a4,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1090.0
+"Nov 6, 2025",13.0,79E36,542764f9-b04a-4b9b-9385-cd88afc79e36,Siam - Thai Kitchen,Village Market NRB,Uber KE,2580.0
+"Nov 6, 2025",12.0,DE3D4,c5175e8a-e24f-42a7-b58b-92ef488de3d4,Siam - Thai Kitchen,NSK NRB,Uber KE,1630.0
+"Nov 6, 2025",18.0,0384B,75ec109f-aa51-4db6-9567-abd58f30384b,Little Italy,Kilimani NRB,Uber KE,1150.0
+"Nov 6, 2025",20.0,853EC,21e0929d-6cf3-46ba-8ccd-bab079e853ec,Siam - Thai Kitchen,NSK NRB,Uber KE,3580.0
+"Nov 6, 2025",18.0,790CC,d279b0e5-855d-44c1-b59d-10fae7e790cc,"Pot of Jollof Kitchen, Westlands ",Westlands NRB,Uber KE,1810.0
+"Nov 6, 2025",13.0,1DD39,54d2714d-6a6f-4369-9f24-e0845d31dd39,ANDO Kitchens,Kilimani NRB,Uber KE,1820.0
+"Nov 6, 2025",18.0,D4B00,4595c8ed-8fcf-44d6-b0e5-52369c4d4b00,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1090.0
+"Nov 6, 2025",17.0,101477363549,101477363549,Little Italy,NSK NRB,Glovo,2140.0
+"Nov 6, 2025",20.0,23075,14b349b1-e579-47ee-9883-04ea8f423075,Siam - Thai Kitchen,NSK NRB,Uber KE,2300.0
+"Nov 6, 2025",19.0,AC99D,d6539079-6fad-44ba-8222-787752eac99d,Little Italy,Westlands NRB,Uber KE,1170.0
+"Nov 6, 2025",15.0,101477220519,101477220519,Siam - Thai Kitchen,Kilimani NRB,Glovo,6440.0
+"Nov 6, 2025",11.0,785E1,6e02f056-c318-448a-aa5f-e39bed1785e1,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,990.0
+"Nov 6, 2025",19.0,60B36,903db5da-0e51-4cf2-be2f-39b1e9560b36,Little Italy,Cape Town SA,Uber SA,130.0
+"Nov 6, 2025",16.0,3C527,3b96fd6f-7c57-47e1-a39c-eb9980c3c527,Siam - Thai Kitchen,NSK NRB,Uber KE,1860.0
+"Nov 6, 2025",20.0,E76A3,d6dfa8cd-d3b1-423a-bdaf-4b2bb3ae76a3,Siam - Thai Kitchen,NSK NRB,Uber KE,2600.0
+"Nov 6, 2025",22.0,803DD,6b3effb0-fb70-4e1f-bc1c-d4439e5803dd,Little Italy,Westlands NRB,Uber KE,4430.0
+"Nov 6, 2025",13.0,139677,11993,Pot of Jollof Kitchen,AURO,ANDO App,2110.0
+"Nov 6, 2025",19.0,38449,6203f0de-c1cc-45f4-bc8f-44d1e5738449,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1650.0
+"Nov 6, 2025",11.0,137434,11990,Little Italy,NSK NRB,ANDO App,1400.0
+"Nov 6, 2025",14.0,93C91,66a98588-0b4a-4cf5-b8a2-f95fa4f93c91,Marty's Famous Burgers,Kilimani NRB,Uber KE,3330.0
+"Nov 6, 2025",20.0,A6DF5,a5d14225-ba19-49e8-b2de-cc297d1a6df5,Siam - Thai Kitchen,NSK NRB,Uber KE,2130.0
+"Nov 6, 2025",14.0,FC8AB,e2e06f2e-6e48-4044-a6fe-184f7d5fc8ab,Little Italy,Cape Town SA,Uber SA,135.0
+"Nov 6, 2025",14.0,2D0EE,6f21a11b-6a1b-4dcc-981b-4a39b5f2d0ee,ANDO Kitchens,Kilimani NRB,Uber KE,1760.0
+"Nov 6, 2025",18.0,D91BD,820ffa93-29eb-4f5c-b6ba-0c2e384d91bd,Siam - Thai Kitchen,NSK NRB,Uber KE,1480.0
+"Nov 6, 2025",13.0,DED65,24c0611e-a027-4228-a491-5ed234eded65,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1450.0
+"Nov 6, 2025",19.0,D3DE6,1f186ad8-9f5d-4e29-93d1-90eb984d3de6,Siam - Thai Kitchen,NSK NRB,Uber KE,1390.0
+"Nov 6, 2025",15.0,07FF8,11c8467d-20c0-4449-8a8f-66ef69607ff8,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1090.0
+"Nov 6, 2025",12.0,91E0F,e49a1b44-0487-4be4-943b-f9893e291e0f,Siam - Thai Kitchen,NSK NRB,Uber KE,1780.0
+"Nov 6, 2025",18.0,97188,26dab976-8dec-4ec1-9f5f-6610dc297188,Bibi's Swahili Kitchen,null,Uber KE,2825.0
+"Nov 5, 2025",20.0,941DE,49831231-addb-4d71-a30d-56c85dd941de,Siam - Thai Kitchen,NSK NRB,Uber KE,6230.0
+"Nov 5, 2025",20.0,ALTI05316,LTHCPED7G3TG,Little Italy,null,ANDO,1170.0
+"Nov 5, 2025",15.0,ANDOWES00327433,LTHCP6NZAD4H,ANDO,Westlands NRB,ANDO,3100.0
+"Nov 5, 2025",19.0,95CDC,4906b766-1b06-47c6-bf37-85c96e195cdc,Marty's Famous Burgers,Hurlingham NRB,Uber KE,1800.0
+"Nov 5, 2025",18.0,E0C6F,e5b0a3f9-b85e-4592-b662-1617bc7e0c6f,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,2080.0
+"Nov 5, 2025",17.0,0B07C,4d864f1a-9cb1-43d4-b5fa-662269f0b07c,Siam - Thai Kitchen,Village Market NRB,Uber KE,3555.0
+"Nov 5, 2025",12.0,3AAC2,555ddf02-ebcf-4a31-b46e-b1302363aac2,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,2160.0
+"Nov 5, 2025",16.0,C261F,2170ede9-226e-4023-ad2a-88a8444c261f,ANDO Kitchens,Kilimani NRB,Uber KE,1680.0
+"Nov 5, 2025",10.0,AKLL10005,LT4TIXH1IPKCS,ANDO,Kilimani NRB,ANDO,1960.0
+"Nov 5, 2025",13.0,B65D0,cd65fb75-ff31-4af8-a60f-33347b3b65d0,Kai Sushi Bar,Ngong Rd NRB,Uber KE,2290.0
+"Nov 5, 2025",15.0,23DDB,f4de40c6-b7c2-4dc9-ab60-deba7e123ddb,"Ichiban Sushi ,Village Market",Village Market NRB,Uber KE,2490.0
+"Nov 5, 2025",11.0,CF34F,0f884b1c-3db9-4ac5-bc77-af1479acf34f,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,1415.0
+"Nov 5, 2025",18.0,ADLY05305,LTHCPBNNO6NE,Little Italy,null,ANDO,4940.0
+"Nov 5, 2025",19.0,13C8D,b2b2dcf3-ca65-4f22-9650-fc93ecd13c8d,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,1215.0
+"Nov 5, 2025",18.0,1ANDMBP05666,LT4TJ1740STAC,ANDO,Westlands NRB,ANDO,890.0
+"Nov 5, 2025",18.0,D9158,81b2be1b-fd56-48bc-ab6d-9696a37d9158,ANDO Kitchens,Kilimani NRB,Uber KE,1320.0
+"Nov 5, 2025",14.0,08697,5690e872-9db6-4f96-9105-4ab815508697,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1720.0
+"Nov 5, 2025",19.0,83B4B,534d2baf-f607-46ea-9119-d6ab5e683b4b,Siam - Thai Kitchen,Village Market NRB,Uber KE,4295.0
+"Nov 5, 2025",13.0,DVM31647,LTHCP2TLC6NW,ANDO,Village Market NRB,ANDO,2560.0
+"Nov 5, 2025",18.0,02415,02300f41-96f6-496a-b4f0-1af362302415,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1450.0
+"Nov 5, 2025",14.0,DVM31649,LTHCP4G44B01,ANDO,Village Market NRB,ANDO,1190.0
+"Nov 5, 2025",21.0,101476733858,101476733858,Little Italy,NSK NRB,Glovo,2420.0
+"Nov 5, 2025",11.0,101476204942,101476204942,Siam - Thai Kitchen,NSK NRB,Glovo,5060.0
+"Nov 5, 2025",17.0,101476507039,101476507039,Siam - Thai Kitchen,NSK NRB,Glovo,8760.0
+"Nov 5, 2025",18.0,101476564577,101476564577,Siam - Thai Kitchen,NSK NRB,Glovo,2100.0
+"Nov 5, 2025",14.0,DVM31648,LTHCP40MWS0V,ANDO,Village Market NRB,ANDO,350.0
+"Nov 5, 2025",18.0,101476551313,101476551313,ANDO Kitchens,Westlands NRB,Glovo,4420.0
+"Nov 5, 2025",19.0,101476612443,101476612443,ANDO Kitchens,Westlands NRB,Glovo,13400.0
+"Nov 5, 2025",13.0,101476255406,101476255406,Pasta Della Nonna,NSK NRB,Glovo,4100.0
+"Nov 5, 2025",19.0,101476639744,101476639744,Pasta Della Nonna,Kilimani NRB,Glovo,3080.0
+"Nov 5, 2025",16.0,D52B5,bd011425-ea49-4420-8eb8-e9e7ffdd52b5,Open House Restaurant,null,Uber KE,2550.0
+"Nov 5, 2025",16.0,8A3D6,08f42f9a-54fd-4e86-adab-75542a18a3d6,"Lagos Suya Spot, Nigerian Restaurant",null,Uber KE,3675.0
+"Nov 5, 2025",14.0,ED7B5,597220a4-3f25-4c63-9b23-4b1486fed7b5,Little Italy,Cape Town SA,Uber SA,145.0
+"Nov 5, 2025",18.0,DVM31653,LTHCPBGUGAD6,ANDO,Village Market NRB,ANDO,1040.0
+"Nov 5, 2025",16.0,101476440949,101476440949,Little Italy,Kilimani NRB,Glovo,2820.0
+"Nov 5, 2025",13.0,101476291902,101476291902,Little Italy,Kilimani NRB,Glovo,11940.0
+"Nov 5, 2025",12.0,101476244412,101476244412,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,1120.0
+"Nov 5, 2025",19.0,101476595353,101476595353,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,3110.0
+"Nov 5, 2025",19.0,DC84D,ed6b175c-c5eb-48d1-aa52-4ac527edc84d,Kai Sushi Bar,null,Uber KE,2910.0
+"Nov 5, 2025",15.0,101476358940,101476358940,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,2520.0
+"Nov 5, 2025",14.0,C8E15,db8b0c13-48af-4fe0-ad41-718f882c8e15,Open House Restaurant,null,Uber KE,2650.0
+"Nov 5, 2025",17.0,101476500609,101476500609,DILLI! - Curries & Grill,Westlands NRB,Glovo,3580.0
+"Nov 5, 2025",17.0,101476493800,101476493800,Little Italy,NSK NRB,Glovo,4360.0
+"Nov 5, 2025",20.0,58A40,aeaca39c-e8d7-4f5d-a2c8-16e875358a40,"Ichiban Sushi, Kilimani",Kilimani NRB,Uber KE,1680.0
+"Nov 5, 2025",14.0,3DB19,464a8a46-5255-4673-ad90-47c34be3db19,Tandoori Patio,null,Uber KE,1695.0
+"Nov 5, 2025",17.0,101476491032,101476491032,Siam - Thai Kitchen,NSK NRB,Glovo,2780.0
+"Nov 5, 2025",17.0,5A089,c77c7f72-acb3-4268-b7f0-dfeeda25a089,Biryani Blues,null,Uber KE,1025.0
+"Nov 5, 2025",12.0,101476231198,101476231198,Siam - Thai Kitchen,NSK NRB,Glovo,9040.0
+"Nov 5, 2025",19.0,AMR01680,LTHCPDD5AG6X,Little Italy,null,ANDO,1420.0
+"Nov 5, 2025",17.0,101476514100,101476514100,DILLI! - Curries & Grill,Westlands NRB,Glovo,4360.0
+"Nov 5, 2025",20.0,68846,f31d14f9-510a-4fe2-a51a-bed1ef068846,"Om El Dunia, Authentic Arabian Flavors",null,Uber KE,1939.0
+"Nov 5, 2025",14.0,101476306774,101476306774,ANDO Kitchens,Westlands NRB,Glovo,3260.0
+"Nov 5, 2025",20.0,CE2FB,95766f3c-5b64-4cd9-ab53-670d22dce2fb,"Pot of Jollof Kitchen, Westlands ",Westlands NRB,Uber KE,2430.0
+"Nov 5, 2025",13.0,101476256037,101476256037,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,3270.0
+"Nov 5, 2025",19.0,101476610921,101476610921,Kai Sushi Bar,AURO,Glovo,3900.0
+"Nov 5, 2025",20.0,86359,e4ecc696-e8b5-4eeb-90e2-f76387086359,Open House Restaurant,null,Uber KE,4975.0
+"Nov 5, 2025",14.0,F0FC7,5f6b2574-5aa6-4f36-b3c4-1b63389f0fc7,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,970.0
+"Nov 5, 2025",15.0,EADF2,8b74cd85-c986-4e9c-b024-8e4ae71eadf2,SuperWings,Village Market NRB,Uber KE,1893.0
+"Nov 5, 2025",13.0,101476263788,101476263788,Kai Sushi Bar,AURO,Glovo,10230.0
+"Nov 5, 2025",13.0,58926,32cd3989-6c81-468b-afdd-23944a858926,"Ichiban Sushi, Kilimani",Kilimani NRB,Uber KE,1650.0
+"Nov 5, 2025",12.0,101476238243,101476238243,Pizza Corner Capital Center,AURO,Glovo,3400.0
+"Nov 5, 2025",13.0,376EE,76c8c215-2e04-4b73-b55d-7f7ea89376ee,Marty's Famous Burgers,Kilimani NRB,Uber KE,3030.0
+"Nov 5, 2025",19.0,764D8,40b3fcfc-d67e-4cac-99b5-b9f5c0c764d8,Little Italy,Cape Town SA,Uber SA,439.0
+"Nov 5, 2025",13.0,90DE8,b817b849-6ff9-44cc-a425-f0c253590de8,Little Italy,Westlands NRB,Uber KE,1220.0
+"Nov 5, 2025",14.0,080F9,3c9336c7-2eba-4c3f-b398-ea3049e080f9,Little Italy,Kilimani NRB,Uber KE,1220.0
+"Nov 5, 2025",21.0,8F8F6,8bebb179-ad01-4b4c-aa92-31bd7cd8f8f6,Little Italy,Village Market NRB,Uber KE,1270.0
+"Nov 5, 2025",13.0,C999A,a934f7ff-539c-4232-85e6-78a7f23c999a,Little Italy,Cape Town SA,Uber SA,145.0
+"Nov 5, 2025",19.0,64AD0,2c4c5ef8-f885-4f1f-8a04-73b0b2564ad0,Little Italy,Cape Town SA,Uber SA,145.0
+"Nov 5, 2025",20.0,A1E48,7182830a-5da8-4a89-a83f-5619f2fa1e48,ANDO Kitchens,Kilimani NRB,Uber KE,1360.0
+"Nov 5, 2025",17.0,DF9B4,be81d01a-4834-48bc-a88c-836c4bbdf9b4,Little Italy,Kilimani NRB,Uber KE,1850.0
+"Nov 5, 2025",16.0,ALTI05302,LTHCP7JF5BV6,Little Italy,null,ANDO,3500.0
+"Nov 5, 2025",12.0,EBE61,81517225-bb62-42a5-8716-f54cba7ebe61,Marty's Famous Burgers,Kilimani NRB,Uber KE,1390.0
+"Nov 5, 2025",15.0,86B98,1d6ad78e-027e-4aa3-b7ae-889fd5486b98,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,3129.0
+"Nov 5, 2025",13.0,AMR01673,LTHCP2SBW278,Little Italy,null,ANDO,920.0
+"Nov 5, 2025",20.0,15BCC,93b9a49a-536b-4b57-bb8a-f98497615bcc,Siam - Thai Kitchen,Kilimani NRB,Uber KE,2709.0
+"Nov 5, 2025",13.0,37A0A,198711fb-8400-4e20-aa1b-2abc22237a0a,ANDO Kitchens,Westlands NRB,Uber KE,3790.0
+"Nov 5, 2025",11.0,A162D,60fcca32-186c-4a46-a388-ad16365a162d,Bombay Canteen - Chai & Snacks,Westlands NRB,Uber KE,2329.0
+"Nov 5, 2025",14.0,E0613,c91f826a-5e6f-4376-90f1-d44109ae0613,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1919.0
+"Nov 5, 2025",8.0,C81EC,5fcf6cdd-4843-40ce-b4f9-010e3bec81ec,Bombay Canteen - Chai & Snacks,Westlands NRB,Uber KE,1829.0
+"Nov 5, 2025",19.0,E86B2,12fbfd16-66ac-4fab-aeaf-f6bd81be86b2,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1079.0
+"Nov 5, 2025",21.0,35DF5,f2ff45d1-55ba-42bd-8eae-5c89eb535df5,Little Italy,Westlands NRB,Uber KE,8780.0
+"Nov 5, 2025",14.0,DDBDA,25f725c9-d965-4640-9910-2cb80e6ddbda,Open House Restaurant,null,Uber KE,3190.0
+"Nov 5, 2025",12.0,1BA77,147a61f4-a20b-456b-955e-2c8b4fa1ba77,Little Italy,Westlands NRB,Uber KE,1170.0
+"Nov 5, 2025",15.0,AMR01677,LT4TIZXBBTJ3C,Little Italy,null,ANDO,3000.0
+"Nov 5, 2025",17.0,8B68B,2e1b0c80-9554-4edb-9b72-2f665848b68b,Siam - Thai Kitchen,Village Market NRB,Uber KE,1390.0
+"Nov 5, 2025",13.0,ALTI05295,LT4TIYXCTZQI2,Little Italy,null,ANDO,2190.0
+"Nov 5, 2025",19.0,FAF0E,7a9e5f74-5f59-447b-9b4e-a6e2fe2faf0e,Little Italy,Kilimani NRB,Uber KE,4540.0
+"Nov 5, 2025",19.0,ALTI05312,LTHCPDS5MX73,Little Italy,null,ANDO,3690.0
+"Nov 5, 2025",14.0,C60BC,b0c022d8-176a-4f81-a942-51076d2c60bc,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,3940.0
+"Nov 5, 2025",19.0,79D54,ada9dc8b-79bb-44be-a1ed-db6d53579d54,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,4250.0
+"Nov 5, 2025",18.0,6471B,5bd0572c-2b84-4259-874e-ce9a9f06471b,Siam - Thai Kitchen,Village Market NRB,Uber KE,1740.0
+"Nov 5, 2025",20.0,ALTI05317,LTHCPEKTS7U6,Little Italy,null,ANDO,1970.0
+"Nov 5, 2025",14.0,A6D03,923574d6-ade9-4f11-8289-e40825fa6d03,SuperWings,Hurlingham NRB,Uber KE,3950.0
+"Nov 5, 2025",17.0,6DA76,a84a9236-354a-4cc1-ae31-d66d9e26da76,Siam - Thai Kitchen,NSK NRB,Uber KE,3730.0
+"Nov 5, 2025",20.0,574F6,ee3abdbc-039e-421d-a19c-14f736f574f6,Little Italy,Westlands NRB,Uber KE,2920.0
+"Nov 5, 2025",20.0,05541,aad948dc-0a38-4304-b966-91d9b3105541,Open House Restaurant,null,Uber KE,3690.0
+"Nov 5, 2025",15.0,335EB,82a59b24-a0ef-4a55-a307-4a09d35335eb,Little Italy,Westlands NRB,Uber KE,1170.0
+"Nov 5, 2025",14.0,DVM31651,LTHCP4O1260G,ANDO,Village Market NRB,ANDO,1360.0
+"Nov 5, 2025",20.0,B4D93,0104d415-56e1-4fb5-b62f-ebdcde9b4d93,Pasta Della Nonna,NSK NRB,Uber KE,2780.0
+"Nov 5, 2025",11.0,CAFE6,e04702c6-36a1-43ad-8986-325b7f9cafe6,Marty's Famous Burgers,Westlands NRB,Uber KE,901.0
+"Nov 5, 2025",20.0,B06A9,a8e84f13-4213-468b-89a0-4edffb7b06a9,"Ichiban Sushi, Westlands ",Westlands NRB,Uber KE,3180.0
+"Nov 5, 2025",12.0,DVM31645,LT1C79JV90VMLC,ANDO,Village Market NRB,ANDO,850.0
+"Nov 5, 2025",13.0,ALTI05293,LTHCP2HTRVFO,Little Italy,null,ANDO,2420.0
+"Nov 5, 2025",15.0,B3916,86c1cb3b-dbdb-4572-bcf1-8441c11b3916,Marty's Famous Burgers,Hurlingham NRB,Uber KE,2480.0
+"Nov 5, 2025",18.0,D6C87,bdb62f9c-51cf-4920-8c75-158b79fd6c87,Siam - Thai Kitchen,NSK NRB,Uber KE,2120.0
+"Nov 5, 2025",16.0,AMR01678,LTHCP7K58FA8,Little Italy,null,ANDO,1290.0
+"Nov 5, 2025",11.0,52879,ebd6b34a-dabb-4741-8adf-3b69fec52879,Little Italy,Village Market NRB,Uber KE,2290.0
+"Nov 5, 2025",19.0,DE96A,1774fa29-d059-45bc-a991-c2672acde96a,Siam - Thai Kitchen,NSK NRB,Uber KE,1980.0
+"Nov 5, 2025",14.0,E88F8,db898649-ec1b-49d8-a39c-6aab502e88f8,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1910.0
+"Nov 5, 2025",20.0,877A2,a3b1c94a-3f29-4e4f-8fda-d3ffdda877a2,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1150.0
+"Nov 5, 2025",14.0,2283B,cc3a222b-654e-47af-bcc7-b5767642283b,Siam - Thai Kitchen,NSK NRB,Uber KE,2460.0
+"Nov 5, 2025",20.0,1ANDMBP05667,LTHCPEGDZDT8,ANDO,Westlands NRB,ANDO,1470.0
+"Nov 5, 2025",14.0,AMR01676,LTHCP4YLXFEE,Little Italy,null,ANDO,1680.0
+"Nov 5, 2025",17.0,8CB1E,e6abe0ab-7403-4b41-a8ad-ee4d95d8cb1e,Siam - Thai Kitchen,NSK NRB,Uber KE,2040.0
+"Nov 5, 2025",19.0,D2EA2,1289d844-70f8-48b2-bf56-6fb18d2d2ea2,Little Italy,Westlands NRB,Uber KE,1320.0
+"Nov 5, 2025",15.0,ACF52,65823b2c-e81b-47e9-bc52-c291755acf52,Marty's Famous Burgers,Kilimani NRB,Uber KE,1650.0
+"Nov 5, 2025",20.0,ALTI05314,LT4TJ1YIF462M,Little Italy,null,ANDO,1370.0
+"Nov 5, 2025",19.0,1A679,6c909aff-b7e2-487b-a218-e8209391a679,Marty's Famous Burgers,Kilimani NRB,Uber KE,1500.0
+"Nov 5, 2025",19.0,5C443,1510bed2-0408-40de-8ca4-6933a785c443,Little Italy,Kilimani NRB,Uber KE,1810.0
+"Nov 5, 2025",15.0,7DBF0,4d77f71f-8e45-4d50-8dd6-7a320e77dbf0,Siam - Thai Kitchen,NSK NRB,Uber KE,1710.0
+"Nov 5, 2025",18.0,AB921,f3f5bc6f-93f4-4e7a-bae4-dd5c0eaab921,Little Italy,Kilimani NRB,Uber KE,1500.0
+"Nov 5, 2025",17.0,05BB8,ce57a51c-5b21-47b7-9143-b24f08905bb8,ANDO Kitchens,Kilimani NRB,Uber KE,1490.0
+"Nov 5, 2025",19.0,1C9EE,e25bc28c-b3fb-4979-b279-a3fa6391c9ee,ANDO Kitchens,Westlands NRB,Uber KE,1460.0
+"Nov 5, 2025",21.0,269B9,48fe7c8e-9757-4eec-9ba3-fc24501269b9,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,3599.0
+"Nov 5, 2025",18.0,ALTI05306,LTHCPC0S02I0,Little Italy,null,ANDO,3180.0
+"Nov 5, 2025",19.0,7D1AE,2949f367-c334-43b9-832f-8b9caa87d1ae,Siam - Thai Kitchen,NSK NRB,Uber KE,1350.0
+"Nov 5, 2025",11.0,0E2D7,a2721958-b37e-4f4d-a730-11215490e2d7,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,2080.0
+"Nov 5, 2025",19.0,746FE,95f9a2c1-8e89-4ac3-a021-9dd6f53746fe,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1530.0
+"Nov 5, 2025",12.0,B8ED1,3ef54441-568d-46ec-aafb-f454361b8ed1,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1480.0
+"Nov 5, 2025",15.0,90B03,cd6072e6-d7ba-4e1f-a2b8-d62bb8f90b03,Little Italy,Westlands NRB,Uber KE,1510.0
+"Nov 5, 2025",18.0,4D52E,8e6d0772-8e56-41bb-97b5-b74cc734d52e,Little Italy,Westlands NRB,Uber KE,2080.0
+"Nov 5, 2025",16.0,53D9B,8bda7543-3878-45ea-85f6-297344453d9b,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1430.0
+"Nov 5, 2025",19.0,7282B,77a745b8-df7d-437b-9bee-b81935a7282b,Siam - Thai Kitchen,NSK NRB,Uber KE,2660.0
+"Nov 5, 2025",14.0,95A98,177dfdf6-366b-4d5c-86ca-d9e27e095a98,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1090.0
+"Nov 5, 2025",13.0,C71A8,5a87dac4-ca3d-4cfc-843c-bb94a7dc71a8,Little Italy,Cape Town SA,Uber SA,145.0
+"Nov 5, 2025",18.0,F20DE,85b84e3e-7118-4523-89c3-91c826af20de,Marty's Famous Burgers,Hurlingham NRB,Uber KE,1190.0
+"Nov 5, 2025",20.0,101476690586,101476690586,ANDO Kitchens,Westlands NRB,Glovo,3160.0
+"Nov 5, 2025",18.0,101476558562,101476558562,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,2970.0
+"Nov 5, 2025",19.0,AD9E7,92f95964-b464-42d4-bd89-1fa229aad9e7,Marty's Famous Burgers,Kilimani NRB,Uber KE,1090.0
+"Nov 5, 2025",18.0,7DDDD,631543e2-02a5-48fe-9434-d1a002e7dddd,Little Italy,Cape Town SA,Uber SA,145.0
+"Nov 5, 2025",20.0,63C9D,a7f66272-d25c-4a57-86ee-e25854c63c9d,Little Italy,Cape Town SA,Uber SA,145.0
+"Nov 5, 2025",19.0,0379A,48fc6d03-55ad-43a5-9c9a-33f30d10379a,Little Italy,Westlands NRB,Uber KE,1330.0
+"Nov 5, 2025",18.0,DC9A6,6b1fa1aa-27ad-4830-b5bb-2c93a23dc9a6,ANDO Kitchens,Kilimani NRB,Uber KE,1270.0
+"Nov 5, 2025",12.0,9A2AD,0e209e56-85f7-4542-a90e-15734189a2ad,Siam - Thai Kitchen,NSK NRB,Uber KE,1050.0
+"Nov 5, 2025",13.0,101476288394,101476288394,SuperWings,AURO,Glovo,1090.0
+"Nov 5, 2025",13.0,82F33,d2e07ca0-77cb-42d4-bdcb-bf4348482f33,Little Italy,Westlands NRB,Uber KE,1220.0
+"Nov 5, 2025",18.0,101476568297,101476568297,ANDO Kitchens,Westlands NRB,Glovo,2380.0
+"Nov 5, 2025",16.0,A4EF9,4aa9062f-70f1-427e-a1fa-63209fca4ef9,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1190.0
+"Nov 5, 2025",16.0,101476440702,101476440702,Little Italy,Kilimani NRB,Glovo,4900.0
+"Nov 5, 2025",12.0,101476231974,101476231974,Siam - Thai Kitchen,NSK NRB,Glovo,3460.0
+"Nov 5, 2025",13.0,162CC,fed8244c-b722-49d5-87d4-3ae1f4b162cc,ANDO Kitchens,Westlands NRB,Uber KE,920.0
+"Nov 5, 2025",21.0,4A5B1,b59a1ab0-6826-4305-9489-534e1d04a5b1,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1090.0
+"Nov 5, 2025",18.0,98F94,fb9275d6-9b03-459b-b1e0-c58ab3c98f94,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1090.0
+"Nov 5, 2025",20.0,101476666570,101476666570,Siam - Thai Kitchen,Kilimani NRB,Glovo,4680.0
+"Nov 5, 2025",18.0,C9997,dd54b907-347f-4e35-a6d5-5b37ca5c9997,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,640.0
+"Nov 5, 2025",11.0,101476217037,101476217037,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,1170.0
+"Nov 5, 2025",20.0,49839,d25af077-1428-4e3d-9232-a782fbf49839,Marty's Famous Burgers,Westlands NRB,Uber KE,2001.0
+"Nov 5, 2025",20.0,9BC2C,96ecdcbd-dc1b-4381-921f-f4a00239bc2c,Marty's Famous Burgers,Westlands NRB,Uber KE,2951.0
+"Nov 5, 2025",20.0,101476646188,101476646188,"Pizza Corner (Village market 00000
+00000 Nairobi
+Kenya) [NBO]",AURO,Glovo,3000.0
+"Nov 5, 2025",18.0,101476553464,101476553464,Pasta Della Nonna,NSK NRB,Glovo,3560.0
+"Nov 5, 2025",12.0,28E1D,85d65cff-6eb7-4bb9-a2c5-a4083e228e1d,SuperWings,Westlands NRB,Uber KE,1661.0
+"Nov 5, 2025",18.0,101476557659,101476557659,Kai Sushi Bar,AURO,Glovo,4770.0
+"Nov 5, 2025",13.0,11E9A,acc975f7-54fb-4a8c-8d5e-d3e053511e9a,Marty's Famous Burgers,Westlands NRB,Uber KE,1101.0
+"Nov 5, 2025",14.0,6F507,6298211d-8417-4037-ba84-a0c9fa16f507,SuperWings,Westlands NRB,Uber KE,1010.0
+"Nov 5, 2025",19.0,300FA,5c7ba6be-3602-4c8a-9a31-4a3f5de300fa,Marty's Famous Burgers,Westlands NRB,Uber KE,1101.0
+"Nov 5, 2025",14.0,9DF1E,f6a5ebbe-ecd2-4246-9127-a8084239df1e,"Pot of Jollof Kitchen, Kilimani",Kilimani NRB,Uber KE,5040.0
+"Nov 5, 2025",17.0,D9033,5cd83073-3fe9-4925-b071-e3100bed9033,Open House Restaurant,null,Uber KE,5240.0
+"Nov 5, 2025",12.0,0483B,1de03933-d27c-4d67-a273-8457d760483b,DILLI! - Curries & Grill,Village Market NRB,Uber KE,3920.0
+"Nov 5, 2025",19.0,101476626016,101476626016,Little Italy,Kilimani NRB,Glovo,5460.0
+"Nov 5, 2025",12.0,101476244801,101476244801,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,2670.0
+"Nov 5, 2025",20.0,9D357,1ef344b2-2269-4d5e-9a89-3fd9c0d9d357,Kai Sushi Bar,null,Uber KE,3120.0
+"Nov 5, 2025",19.0,6AFC2,34b13a33-d8a9-4229-961c-d43abca6afc2,Tandoori Patio,null,Uber KE,2410.0
+"Nov 5, 2025",19.0,101476603667,101476603667,Pizza Corner - NBO - Mpaka rd,AURO,Glovo,3800.0
+"Nov 5, 2025",19.0,101476638371,101476638371,Little Italy,Kilimani NRB,Glovo,4960.0
+"Nov 5, 2025",20.0,F847E,d2070216-292e-4714-8191-79ddf96f847e,Kai Sushi Bar,null,Uber KE,2030.0
+"Nov 5, 2025",12.0,5E69B,020ba002-4b77-413c-8bc5-2afbbcc5e69b,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,1560.0
+"Nov 5, 2025",17.0,447D1,b490fab3-aa19-46f3-8707-79e1dc2447d1,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1595.0
+"Nov 5, 2025",20.0,8C365,33cb5a7b-00a4-4cf1-8d38-4f2d1d38c365,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1530.0
+"Nov 5, 2025",14.0,3D033,94daecfd-c1cc-4795-aec9-816c3803d033,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,1500.0
+"Nov 5, 2025",12.0,101476236994,101476236994,Marty's Famous Burgers,Westlands NRB,Glovo,1980.0
+"Nov 5, 2025",12.0,101476246496,101476246496,Little Italy,NSK NRB,Glovo,1980.0
+"Nov 5, 2025",16.0,101476462767,101476462767,Siam - Thai Kitchen,Kilimani NRB,Glovo,2780.0
+"Nov 5, 2025",13.0,101476268193,101476268193,Siam - Thai Kitchen,Kilimani NRB,Glovo,2780.0
+"Nov 5, 2025",17.0,101476484596,101476484596,Siam - Thai Kitchen,NSK NRB,Glovo,3760.0
+"Nov 5, 2025",19.0,081D2,c11cb8f9-3354-4b5e-9a0b-e67d5fe081d2,Siam - Thai Kitchen,Village Market NRB,Uber KE,1430.0
+"Nov 5, 2025",18.0,101476576274,101476576274,Siam - Thai Kitchen,NSK NRB,Glovo,2780.0
+"Nov 5, 2025",15.0,101476355587,101476355587,ANDO Kitchens,Westlands NRB,Glovo,2380.0
+"Nov 5, 2025",19.0,87C74,c6c8d280-7a63-479b-818f-dcad46387c74,SuperWings,Kilimani NRB,Uber KE,1193.0
+"Nov 5, 2025",13.0,F6B4B,6af13781-32d6-48d7-9f82-f76c7fbf6b4b,Marty's Famous Burgers,Westlands NRB,Uber KE,1133.0
+"Nov 5, 2025",18.0,52B6D,b503f0f0-c608-4fff-9277-4397c1b52b6d,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,3070.0
+"Nov 5, 2025",19.0,D5965,7c5b7492-a4b6-4762-aa1a-46e7007d5965,Little Italy,Village Market NRB,Uber KE,2810.0
+"Nov 5, 2025",18.0,3DDBF,d315c641-7f7f-47c0-8177-a04df483ddbf,Little Italy,Cape Town SA,Uber SA,610.0
+"Nov 5, 2025",11.0,A3396,a7301ca8-e0df-4784-af73-4503531a3396,Little Italy,Cape Town SA,Uber SA,335.0
+"Nov 5, 2025",20.0,3B4A4,95fc84f3-789f-4627-9cdb-808b4593b4a4,Little Italy,Cape Town SA,Uber SA,204.0
+"Nov 5, 2025",20.0,B6E6A,b53ec784-0730-4d70-a99d-fa34b33b6e6a,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,2710.0
+"Nov 5, 2025",19.0,AE166,1706c5a9-c319-4b96-a181-3138b8eae166,Marty's Famous Burgers,Kilimani NRB,Uber KE,2330.0
+"Nov 5, 2025",17.0,2608F,fbda47e4-0d60-443a-b2ba-a54a4572608f,Little Italy,Kilimani NRB,Uber KE,2150.0
+"Nov 5, 2025",11.0,4E759,c040be95-7dd8-45e4-89ec-c31f5ac4e759,Siam - Thai Kitchen,NSK NRB,Uber KE,1830.0
+"Nov 5, 2025",20.0,906C1,a0fca639-52b0-436a-805d-c1b4b05906c1,Siam - Thai Kitchen,NSK NRB,Uber KE,1640.0
+"Nov 5, 2025",17.0,ANDOWES00327435,LT1C7A5VDHAGKG,ANDO,Westlands NRB,ANDO,1840.0
+"Nov 5, 2025",20.0,2D9D2,6cda71e0-a154-46b8-8c44-383b0602d9d2,SuperWings,Hurlingham NRB,Uber KE,1640.0
+"Nov 5, 2025",19.0,01D1D,e1fbc551-aca9-4d3a-b639-416439501d1d,Siam - Thai Kitchen,NSK NRB,Uber KE,2780.0
+"Nov 5, 2025",20.0,79BBD,2370da1b-24a9-4307-b034-00d2e2a79bbd,Siam - Thai Kitchen,NSK NRB,Uber KE,3530.0
+"Nov 5, 2025",12.0,C67A2,2ffc9e53-dd09-466c-b4eb-62d3ac1c67a2,ANDO Kitchens,Westlands NRB,Uber KE,4330.0
+"Nov 5, 2025",18.0,90443,b18addf2-0b8c-4b62-a1e8-ed6ac4a90443,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,3430.0
+"Nov 5, 2025",14.0,DBD41,c664f832-54c6-4b21-a954-1401509dbd41,Little Italy,Westlands NRB,Uber KE,2100.0
+"Nov 5, 2025",16.0,2F699,3f2f6314-f435-42b9-99df-fa295ff2f699,ANDO Kitchens,Kilimani NRB,Uber KE,1830.0
+"Nov 5, 2025",12.0,85B84,7cecd415-02d4-492d-b38d-b1fb00d85b84,Little Italy,Cape Town SA,Uber SA,190.0
+"Nov 5, 2025",11.0,B7947,3ee8ffaa-73d4-48a3-9dc5-3af87b1b7947,Little Italy,Kilimani NRB,Uber KE,1700.0
+"Nov 5, 2025",13.0,6ECD3,21e2eaf8-60ea-48a4-bcab-dd6adc36ecd3,Siam - Thai Kitchen,NSK NRB,Uber KE,1290.0
+"Nov 5, 2025",19.0,AB5AF,4dba569e-4557-460d-8936-45ee30eab5af,Little Italy,Westlands NRB,Uber KE,1450.0
+"Nov 5, 2025",15.0,D287C,20b05f1f-b7fb-4601-b327-a0fa116d287c,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1350.0
+"Nov 5, 2025",12.0,63B35,d4b4a8d7-7d53-4bf3-9aef-480223d63b35,Little Italy,Westlands NRB,Uber KE,1220.0
+"Nov 5, 2025",19.0,1369B,d9f96f6e-072e-4076-b5d4-e5b9ffd1369b,Little Italy,Westlands NRB,Uber KE,1610.0
+"Nov 5, 2025",13.0,542A3,c56615b3-b4e9-46ee-9601-bb4d3fc542a3,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1365.0
+"Nov 5, 2025",17.0,C2B0E,597ac31f-97ba-4d00-b9a7-7eddb98c2b0e,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1390.0
+"Nov 5, 2025",20.0,101476658570,101476658570,DILLI! - Curries & Grill,Westlands NRB,Glovo,3360.0
+"Nov 5, 2025",18.0,101476538494,101476538494,Kai Sushi Bar,AURO,Glovo,8730.0
+"Nov 5, 2025",18.0,35763,e698a382-dce6-48d6-9db6-ac2808435763,Bibi's Swahili Kitchen,null,Uber KE,2725.0
+"Nov 5, 2025",19.0,24339,af09e43a-c6b5-4814-a160-2be5e9324339,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1090.0
+"Nov 5, 2025",19.0,8619B,852edc36-eda6-4886-af7f-cea69208619b,SuperWings,Kilimani NRB,Uber KE,2393.0
+"Nov 5, 2025",11.0,6A4E4,8ac97d70-82bc-4f37-8acd-91e6fe56a4e4,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1140.0
+"Nov 5, 2025",12.0,3F7E7,6c990c44-6e04-4822-8aa6-40098243f7e7,Little Italy,Kilimani NRB,Uber KE,1380.0
+"Nov 5, 2025",20.0,501BA,b7bce550-e1b8-41de-ae0b-0cf5ef0501ba,Marty's Famous Burgers,Hurlingham NRB,Uber KE,2180.0
+"Nov 5, 2025",13.0,F4CEE,a4ae7b61-94fc-4a40-b3a0-2cbe7e6f4cee,Siam - Thai Kitchen,Village Market NRB,Uber KE,1350.0
+"Nov 5, 2025",14.0,174CC,3cbe3911-27ea-47f4-86d8-7e602c1174cc,ANDO Kitchens,Kilimani NRB,Uber KE,2710.0
+"Nov 5, 2025",20.0,88B86,04cab823-1aee-4a4d-9817-9ad0c8b88b86,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1680.0
+"Nov 5, 2025",19.0,D9A1A,dbddb896-2d57-4522-bcc6-e6de497d9a1a,"Pot of Jollof Kitchen, Kilimani",Kilimani NRB,Uber KE,1290.0
+"Nov 5, 2025",14.0,7AE4C,1f6cb20e-6f07-43b1-a0dc-db67d0a7ae4c,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1730.0
+"Nov 5, 2025",17.0,22816,79b0cc20-b53e-4f06-9ec4-fcd46a322816,Siam - Thai Kitchen,Village Market NRB,Uber KE,2480.0
+"Nov 5, 2025",18.0,39137,0f4cc5c3-93b6-4794-8901-696ded239137,DILLI! - Curries & Grill,Village Market NRB,Uber KE,3370.0
+"Nov 5, 2025",18.0,0D5EB,2ef366d7-593a-4ba7-a61b-53e22d20d5eb,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1860.0
+"Nov 5, 2025",19.0,101476630542,101476630542,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,1450.0
+"Nov 5, 2025",17.0,B0763,ce9622db-ae82-4b8d-90b0-dd4dd48b0763,Kai Sushi Bar,Ngong Rd NRB,Uber KE,5730.0
+"Nov 5, 2025",20.0,E95FE,b26f9c28-1ad1-4cbd-8b4b-2eaa1a4e95fe,"Ichiban Sushi, Kilimani",Kilimani NRB,Uber KE,4380.0
+"Nov 5, 2025",18.0,8DEA4,12e12d9d-9f3b-42df-a3c5-12a9c048dea4,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1390.0
+"Nov 5, 2025",11.0,8E38E,dfe2f442-0670-4c90-b00a-d3215cc8e38e,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,2125.0
+"Nov 5, 2025",19.0,55753,429336c7-45f7-4e9b-9694-d78e1a655753,Tandoori Patio,null,Uber KE,2065.0
+"Nov 5, 2025",19.0,A63FD,8accf3a0-ed41-4c08-a5d8-08465b6a63fd,Siam - Thai Kitchen,Village Market NRB,Uber KE,3150.0
+"Nov 5, 2025",20.0,3A695,2b4cc333-88d2-4a4f-bda8-7f1baf83a695,Open House Restaurant,null,Uber KE,4090.0
+"Nov 5, 2025",9.0,9B679,f625a268-6d4e-46a1-a838-e10e91b9b679,SuperWings,null,Uber KE,3660.0
+"Nov 5, 2025",18.0,0550E,9d6f220a-3512-46d0-81ef-0e41fe40550e,Siam - Thai Kitchen,Village Market NRB,Uber KE,2580.0
+"Nov 5, 2025",14.0,FAC1E,5c94bdac-6fd8-4342-9f0a-18d0326fac1e,Little Italy,Westlands NRB,Uber KE,3180.0
+"Nov 5, 2025",16.0,834A6,8dd5bedd-72f8-4b40-828f-ef56b4f834a6,Siam - Thai Kitchen,Kilimani NRB,Uber KE,3819.0
+"Nov 5, 2025",18.0,CA5B0,e9ee0244-3733-438f-aae8-afb8161ca5b0,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1890.0
+"Nov 5, 2025",12.0,FDE80,6ee541b3-c381-4a27-a515-82847a2fde80,Little Italy,Kilimani NRB,Uber KE,1090.0
+"Nov 5, 2025",12.0,230CA,ae291352-35bc-4635-81a9-2f3a67e230ca,"Ando Foods, Village Market",Village Market NRB,Uber KE,1230.0
+"Nov 5, 2025",17.0,A2541,396ce0ca-57a6-45fd-a0d4-11567a6a2541,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1215.0
+"Nov 5, 2025",11.0,3F06F,6ef167a1-6011-4ea9-b973-b1fe8513f06f,Marty's Famous Burgers,Westlands NRB,Uber KE,1411.0
+"Nov 5, 2025",19.0,C735E,61b37c2c-59c9-40bc-84c6-8475b31c735e,Tandoori Patio,null,Uber KE,3960.0
+"Nov 5, 2025",18.0,A6675,41d4a736-cda3-45a3-9a1e-8c2c40da6675,Little Italy,Village Market NRB,Uber KE,2050.0
+"Nov 5, 2025",13.0,C2A03,c4fa7d31-f210-4286-8499-ae55730c2a03,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1290.0
+"Nov 5, 2025",16.0,AC506,dfa4938c-2c32-42d6-aee9-22ea622ac506,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1780.0
+"Nov 5, 2025",17.0,FBCD0,623562d4-0023-43f2-9659-0a06242fbcd0,Kai Sushi Bar,Ngong Rd NRB,Uber KE,5375.0
+"Nov 5, 2025",17.0,101476530949,101476530949,DILLI! - Curries & Grill,Westlands NRB,Glovo,3900.0
+"Nov 5, 2025",12.0,B2361,7d2ac56d-21ea-4b15-ba1a-18a3eb6b2361,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,620.0
+"Nov 5, 2025",7.0,138020,11974,Bibi's Swahili Kitchen,Kilimani NRB,ANDO App,1970.0
+"Nov 5, 2025",17.0,68B10,a2e5ec68-8fd6-4762-ae7e-23bf6a068b10,Little Italy,Westlands NRB,Uber KE,1190.0
+"Nov 5, 2025",13.0,DE0E7,7c626a1b-fcba-46b1-8054-f41be12de0e7,Pasta Della Nonna,NSK NRB,Uber KE,1960.0
+"Nov 5, 2025",19.0,30E09,0d5a92dd-6e56-4e56-a874-33eda5430e09,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1765.0
+"Nov 5, 2025",13.0,133972,11978,Little Italy,NSK NRB,ANDO App,1290.0
+"Nov 5, 2025",17.0,135379,11984,Khan's - Pakistani Kitchen,Westlands NRB,ANDO App,470.0
+"Nov 5, 2025",13.0,E1B71,5e6d15d9-4171-49ab-b98a-d734d40e1b71,Pasta Della Nonna,Hurlingham NRB,Uber KE,2220.0
+"Nov 5, 2025",19.0,B5C77,792b46d4-b371-45ae-8046-b7e8861b5c77,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1390.0
+"Nov 5, 2025",12.0,9C2C6,e3c23715-0c82-4320-9490-e19d6a59c2c6,TastiWOK,null,Uber KE,1250.0
+"Nov 5, 2025",18.0,88DFF,6da243b2-479d-43eb-b158-9bf5e6988dff,Little Italy,Kilimani NRB,Uber KE,1170.0
+"Nov 5, 2025",14.0,E82E4,b35d77b5-eb7e-484d-a66c-7dc54b5e82e4,Siam - Thai Kitchen,Village Market NRB,Uber KE,1415.0
+"Nov 5, 2025",19.0,53DF4,97e6639b-f911-4e47-a926-ae952ce53df4,Little Italy,Village Market NRB,Uber KE,1170.0
+"Nov 5, 2025",12.0,101476223126,101476223126,Siam - Thai Kitchen,NSK NRB,Glovo,4180.0
+"Nov 5, 2025",13.0,101476265194,101476265194,All Day Drinks,AURO,Glovo,2320.0
+"Nov 5, 2025",13.0,DEC28,cd4cf0b8-8d4b-453a-ac42-9a728fcdec28,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1860.0
+"Nov 5, 2025",18.0,AC99D,c26c2d9d-a14c-4628-aef1-b36cfa8ac99d,Siam - Thai Kitchen,NSK NRB,Uber KE,1420.0
+"Nov 5, 2025",15.0,130863,11982,Little Italy,Kilimani NRB,ANDO App,2630.0
+"Nov 5, 2025",12.0,134451,11977,Chicago Pizza,AURO,ANDO App,1940.0
+"Nov 5, 2025",13.0,139116,11979,Bibi's Swahili Kitchen,Kilimani NRB,ANDO App,1190.0
+"Nov 5, 2025",20.0,AEA54,8f17aa96-3e68-4e3b-af02-09e3be0aea54,Little Italy,Cape Town SA,Uber SA,190.0
+"Nov 5, 2025",18.0,1A324,a0f35479-3882-4423-9189-60106741a324,Little Italy,Kilimani NRB,Uber KE,2250.0
+"Nov 5, 2025",15.0,281D4,e2882d22-78e9-4831-a2fc-48763dc281d4,Little Italy,Kilimani NRB,Uber KE,1770.0
+"Nov 5, 2025",11.0,155F6,38c5f983-7c14-4ce2-9856-7d3c9ed155f6,Siam - Thai Kitchen,NSK NRB,Uber KE,1100.0
+"Nov 5, 2025",16.0,0E212,3dd6b962-7370-409f-9350-5de4a680e212,Pasta Della Nonna,Hurlingham NRB,Uber KE,1760.0
+"Nov 5, 2025",19.0,40571,29faa2b9-cf5e-427d-b47f-4cd562e40571,Marty's Famous Burgers,Kilimani NRB,Uber KE,1440.0
+"Nov 5, 2025",12.0,F2935,f0d027c3-c92d-43f4-bd8e-a1a90e4f2935,Siam - Thai Kitchen,NSK NRB,Uber KE,1190.0
+"Nov 5, 2025",18.0,1FF64,a67e90ad-3c7e-4fae-b0f3-87be4841ff64,ANDO Kitchens,Kilimani NRB,Uber KE,1290.0
+"Nov 5, 2025",17.0,139603,11985,"Pizza Corner, Since 1989",AURO,ANDO App,1950.0
+"Nov 5, 2025",15.0,5F804,ed132223-10a4-42cb-9b4f-57ee2785f804,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1350.0
+"Nov 5, 2025",20.0,2650F,92769163-0717-4334-93a1-75dfbae2650f,"Burger Hut, Since 1986",null,Uber KE,1580.0
+"Nov 5, 2025",14.0,0F810,31240b40-8a0f-43a2-bf0c-7dae92a0f810,Marty's Famous Burgers,Hurlingham NRB,Uber KE,1140.0
+"Nov 5, 2025",18.0,861E3,e1b83305-4c4d-4ec3-8076-54b9826861e3,"Om El Dunia, Authentic Arabian Flavors",null,Uber KE,6258.0
+"Nov 5, 2025",12.0,4A6E8,b190baa9-12fa-4d08-b132-2ea01734a6e8,Siam - Thai Kitchen,Kilimani NRB,Uber KE,3179.0
+"Nov 5, 2025",18.0,0D5D1,607cddce-0b5e-4ab7-978e-120c39a0d5d1,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1090.0
+"Nov 5, 2025",18.0,C6D6A,9ac6e505-a689-4ae2-9fb0-59a2458c6d6a,SuperWings,Hurlingham NRB,Uber KE,1570.0
+"Nov 5, 2025",12.0,C5F22,b711a8a6-42bc-49b4-bb32-a886c17c5f22,SuperWings,Westlands NRB,Uber KE,1110.0
+"Nov 5, 2025",20.0,70E00,1251b20e-9b44-42b4-b5af-82c57f070e00,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,2810.0
+"Nov 5, 2025",19.0,40091,3468c04f-13d0-4c31-b4ce-6c883ca40091,Kai Sushi Bar,Ngong Rd NRB,Uber KE,2920.0
+"Nov 5, 2025",12.0,AE564,1f54df1b-105e-421a-9203-1ef094aae564,"Pomona Fresh Juices, Since 1999",null,Uber KE,2090.0
+"Nov 5, 2025",14.0,85258,f9c3d472-8cad-4577-9dfa-505883785258,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,2200.0
+"Nov 5, 2025",12.0,59BBD,183d2513-1536-4d34-b1f4-7bff6d559bbd,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1575.0
+"Nov 5, 2025",20.0,AEE8B,be61bb0f-726a-4317-85bc-774da2eaee8b,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1530.0
+"Nov 5, 2025",19.0,D6AB3,cb36d962-94ff-4e4e-8c0b-731f1e3d6ab3,Little Italy,Kilimani NRB,Uber KE,3760.0
+"Nov 5, 2025",13.0,42AD5,ee5eb168-e5a9-4fd6-bb65-e82845442ad5,"Om El Dunia, Authentic Arabian Flavors",null,Uber KE,1611.0
+"Nov 5, 2025",19.0,A5E55,c20ec6b6-b5b8-4c5e-9818-8ff15f5a5e55,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1680.0
+"Nov 5, 2025",17.0,AMR01679,LTHCP9IOQW5X,Little Italy,null,ANDO,830.0
+"Nov 5, 2025",14.0,B254A,c6fd4eee-f393-4f87-a40f-3f926beb254a,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1739.0
+"Nov 5, 2025",14.0,FA835,1ab37773-68ef-4fbf-985f-9740fc0fa835,Siam - Thai Kitchen,Village Market NRB,Uber KE,1430.0
+"Nov 5, 2025",12.0,A7DA7,3774ada1-e1b5-40e3-ac47-859f584a7da7,Siam - Thai Kitchen,NSK NRB,Uber KE,1880.0
+"Nov 5, 2025",18.0,ABEC6,b32f3792-7386-4493-bb64-dc67f44abec6,Siam - Thai Kitchen,NSK NRB,Uber KE,3230.0
+"Nov 5, 2025",21.0,8AEF8,4ea87c1f-e808-4369-9566-0211cb68aef8,Siam - Thai Kitchen,Kilimani NRB,Uber KE,2569.0
+"Nov 5, 2025",18.0,5F028,645e3d08-5872-4a7e-9395-b51d8405f028,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1830.0
+"Nov 5, 2025",12.0,BDB93,e8d8a87c-3317-4bc0-b5d3-51f368cbdb93,Little Italy,Kilimani NRB,Uber KE,1810.0
+"Nov 5, 2025",12.0,8F2DD,d7a46d3c-6c28-417e-b796-c7d71b88f2dd,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1480.0
+"Nov 5, 2025",19.0,009C5,cc1fd323-4634-4351-bafd-febace8009c5,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1880.0
+"Nov 5, 2025",13.0,B2858,4c5fd9ae-012a-4904-9023-3e6d500b2858,Siam - Thai Kitchen,NSK NRB,Uber KE,1340.0
+"Nov 5, 2025",18.0,9CD95,ae6ef3da-0c4d-4f8f-8d14-e82274f9cd95,"Om El Dunia, Authentic Arabian Flavors",null,Uber KE,6789.0
+"Nov 5, 2025",14.0,F7ADD,74f31223-3f8b-41fd-b19b-9db1bf1f7add,ANDO Kitchens,Kilimani NRB,Uber KE,1150.0
+"Nov 5, 2025",20.0,C6FCB,9b1b169a-61a7-4655-a419-0c9caa2c6fcb,Siam - Thai Kitchen,NSK NRB,Uber KE,1740.0
+"Nov 5, 2025",18.0,FC27C,989f4fed-5fbb-4270-b649-1002bb2fc27c,Siam - Thai Kitchen,Kilimani NRB,Uber KE,3630.0
+"Nov 5, 2025",9.0,137474,11975,Bibi's Swahili Kitchen,Kilimani NRB,ANDO App,896.0
+"Nov 5, 2025",14.0,ALTI05300,LTHCP5FYZWUW,Little Italy,null,ANDO,2360.0
+"Nov 5, 2025",12.0,5E334,a877cf3d-def7-4acc-ae58-9d76ae85e334,Siam - Thai Kitchen,NSK NRB,Uber KE,1340.0
+"Nov 5, 2025",19.0,A5590,c35a908d-cb5e-447c-99b7-f2438a7a5590,Marty's Famous Burgers,Westlands NRB,Uber KE,4391.0
+"Nov 5, 2025",13.0,16F1D,3b2804a2-e477-4a75-917e-d42409816f1d,Kai Sushi Bar,Ngong Rd NRB,Uber KE,3155.0
+"Nov 5, 2025",20.0,CA136,1a116d0b-4e63-43c1-ac7c-eab04aeca136,Kai Sushi Bar,Ngong Rd NRB,Uber KE,2165.0
+"Nov 5, 2025",19.0,BB657,9202f5bc-a345-4ff0-8dbc-dad2b39bb657,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,4160.0
+"Nov 5, 2025",10.0,15CAE,f5915b1c-a46c-4ee9-b099-161ad1b15cae,"Om El Dunia, Authentic Arabian Flavors",null,Uber KE,2846.0
+"Nov 5, 2025",16.0,62DAE,c19edc0d-19ee-4019-a0ce-3b20abb62dae,All Day Drinks,Village Market NRB,Uber KE,1195.0
+"Nov 5, 2025",20.0,2B5D0,57d467e6-17d2-4d90-a199-ee243ee2b5d0,Kai Sushi Bar,null,Uber KE,3185.0
+"Nov 5, 2025",14.0,ALTI05299,LT4TIZI8K6XU6,Little Italy,null,ANDO,1580.0
+"Nov 5, 2025",12.0,020E6,a56ef732-a03d-4426-b130-414a7ef020e6,Little Italy,Westlands NRB,Uber KE,1320.0
+"Nov 5, 2025",13.0,4A51F,b5f301dc-0d1a-44b6-897f-3b6915d4a51f,SuperWings,Kilimani NRB,Uber KE,1693.0
+"Nov 5, 2025",16.0,B0613,1062f13d-edcb-4c90-9330-b144d1cb0613,Kai Sushi Bar,Village Market NRB,Uber KE,5990.0
+"Nov 5, 2025",18.0,58838,57a6fa7f-74b7-4932-b447-ed009fb58838,Open House Restaurant,null,Uber KE,2275.0
+"Nov 5, 2025",14.0,101476318076,101476318076,SuperWings,Kilimani NRB,Glovo,3900.0
+"Nov 5, 2025",16.0,6CBC2,099136f8-0659-4f4b-ad27-07d97f66cbc2,All Day Drinks,Village Market NRB,Uber KE,7625.0
+"Nov 5, 2025",20.0,F5ABD,6920c53a-11aa-4a33-a1dc-c36d9b7f5abd,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,3660.0
+"Nov 5, 2025",13.0,58BFE,85f33693-0610-42df-ad97-f8d9f9958bfe,Marty's Famous Burgers,Village Market NRB,Uber KE,1490.0
+"Nov 5, 2025",14.0,DVM31652,LTHCP5M9OMCL,ANDO,Village Market NRB,ANDO,250.0
+"Nov 5, 2025",18.0,18D0B,6bafe36b-f763-4e39-b4aa-a7250b718d0b,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,2440.0
+"Nov 5, 2025",19.0,34DBF,519b0985-ce6b-4bab-afbc-88c927834dbf,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1889.0
+"Nov 5, 2025",19.0,C05EB,52c4e730-8b19-4344-bc0d-660b32fc05eb,Little Italy,Kilimani NRB,Uber KE,1370.0
+"Nov 5, 2025",13.0,ANDOWES00327429,LTHCP2MYIDLX,ANDO,Westlands NRB,ANDO,1950.0
+"Nov 5, 2025",17.0,ANDOWES00327436,LTHCP9E3NTQU,ANDO,Westlands NRB,ANDO,2370.0
+"Nov 5, 2025",16.0,0139D,b7dec62d-b4c0-40d8-86d0-8cc10480139d,Little Italy,Kilimani NRB,Uber KE,5760.0
+"Nov 5, 2025",13.0,ANDOWES00327428,LTHCP2HY00KN,ANDO,Westlands NRB,ANDO,2100.0
+"Nov 5, 2025",18.0,82D95,3826dd4a-dbc9-48d4-86b1-4276e7082d95,Siam - Thai Kitchen,Village Market NRB,Uber KE,7525.0
+"Nov 5, 2025",18.0,ANDOWES00327437,LTHCPAMVCIHZ,ANDO,Westlands NRB,ANDO,2500.0
+"Nov 5, 2025",15.0,ANDOWES00327432,LTHCP62APHCP,ANDO,Westlands NRB,ANDO,1420.0
+"Nov 5, 2025",19.0,05634,680eae4f-6465-4723-973b-c87a58905634,Marty's Famous Burgers,Hurlingham NRB,Uber KE,1190.0
+"Nov 5, 2025",19.0,ANDOWES00327440,LTHCPCLQZQVQ,ANDO,Westlands NRB,ANDO,1090.0
+"Nov 5, 2025",15.0,67D52,acb3f482-e1b2-4da0-ba96-271e77067d52,"Burger Hut, Since 1986",null,Uber KE,830.0
+"Nov 5, 2025",20.0,F420F,84c12271-46fb-4c89-9fe1-29b1aabf420f,Siam - Thai Kitchen,NSK NRB,Uber KE,16200.0
+"Nov 5, 2025",18.0,ANDOWES00327439,LTHCPBZ4GHTM,ANDO,Westlands NRB,ANDO,2890.0
+"Nov 5, 2025",20.0,ANDOWES00327441,LTHCPEHIXSO7,ANDO,Westlands NRB,ANDO,1020.0
+"Nov 5, 2025",19.0,446B1,6e2088ea-d0d6-447a-99fa-5a4136e446b1,All Day Drinks,Village Market NRB,Uber KE,3230.0
+"Nov 5, 2025",18.0,AKLL10009,LTHCPB1SDFNR,ANDO,Kilimani NRB,ANDO,1740.0
+"Nov 5, 2025",16.0,AKLL10007,LT4TJ0D8YB2Q4,ANDO,Kilimani NRB,ANDO,1190.0
+"Nov 5, 2025",12.0,5F3B4,c3427f00-fe30-4d76-9905-a13dde95f3b4,"Pizza Corner, Since 1989",null,Uber KE,2590.0
+"Nov 5, 2025",18.0,AKLL10008,LT4TJ11OR1MHA,ANDO,Kilimani NRB,ANDO,2630.0
+"Nov 5, 2025",11.0,440C7,db84472a-9bdd-49c4-9ab8-9b3acbd440c7,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1809.0
+"Nov 5, 2025",20.0,AKLL10010,LTHCPDZ90051,ANDO,Kilimani NRB,ANDO,2450.0
+"Nov 5, 2025",20.0,ADLY05313,LTHCPDYMONWR,Little Italy,null,ANDO,2000.0
+"Nov 5, 2025",12.0,AKLL10006,LTHCP14XWGPC,ANDO,Kilimani NRB,ANDO,1070.0
+"Nov 5, 2025",18.0,B9B10,27740415-296f-4f94-94e2-dedf04ab9b10,SuperWings,Kilimani NRB,Uber KE,1063.0
+"Nov 5, 2025",13.0,86B62,460fadcb-09ca-4487-9402-e58ff2286b62,Little Italy,Cape Town SA,Uber SA,140.0
+"Nov 5, 2025",14.0,ANDOWES00327431,LT4TIZGGFE0QG,ANDO,Westlands NRB,ANDO,390.0
+"Nov 5, 2025",18.0,2A92B,4c370560-c59b-4303-8e00-918731e2a92b,All Day Drinks,Village Market NRB,Uber KE,1425.0
+"Nov 5, 2025",11.0,DVM31643,LTHCP0G4H9AZ,ANDO,Village Market NRB,ANDO,1210.0
+"Nov 5, 2025",17.0,3E9EF,60e657c3-65b0-4451-b607-4ff18903e9ef,Little Italy,Cape Town SA,Uber SA,145.0
+"Nov 5, 2025",19.0,96EA9,425b34f4-3aa5-481a-acde-fd8ceed96ea9,Marty's Famous Burgers,Westlands NRB,Uber KE,1101.0
+"Nov 5, 2025",20.0,3B722,d9fccdd8-5537-4cf2-99cf-ef501493b722,SuperWings,Village Market NRB,Uber KE,1343.0
+"Nov 5, 2025",20.0,DVM31656,LTHCPE1R15FY,ANDO,Village Market NRB,ANDO,1900.0
+"Nov 5, 2025",12.0,DVM31644,LTHCP12VWE8O,ANDO,Village Market NRB,ANDO,1900.0
+"Nov 5, 2025",19.0,DVM31655,LTHCPDCX8Q7G,ANDO,Village Market NRB,ANDO,4160.0
+"Nov 5, 2025",16.0,560FC,b18c8cb4-c29f-4097-9641-1fdb583560fc,Kai Sushi Bar,Village Market NRB,Uber KE,1565.0
+"Nov 5, 2025",12.0,DVM31646,LTHCP24WVTHN,ANDO,Village Market NRB,ANDO,390.0
+"Nov 5, 2025",20.0,ALTI05315,LTHCPEBQOKV4,Little Italy,null,ANDO,1090.0
+"Nov 5, 2025",18.0,53D1F,d2471bc9-91d5-4c13-8937-425df0653d1f,Open House Restaurant,null,Uber KE,3650.0
+"Nov 5, 2025",14.0,ALTI05301,LTHCP5GS3WD1,Little Italy,null,ANDO,1700.0
+"Nov 5, 2025",19.0,64643,50e131c3-076e-47ef-a2dd-19b118364643,Open House Restaurant,null,Uber KE,2340.0
+"Nov 5, 2025",14.0,DVM31650,LTHCP4N4WTM9,ANDO,Village Market NRB,ANDO,2140.0
+"Nov 5, 2025",16.0,101476473891,101476473891,Kai Sushi Bar,AURO,Glovo,14100.0
+"Nov 5, 2025",14.0,ALTI05297,LT4TIZDRS9B14,Little Italy,null,ANDO,2190.0
+"Nov 5, 2025",20.0,101476644738,101476644738,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,4440.0
+"Nov 5, 2025",14.0,61FC6,a49b3f0e-4742-410c-88a6-5a0d2ae61fc6,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1595.0
+"Nov 5, 2025",19.0,ALTI05309,LTHCPD1PFBIN,Little Italy,null,ANDO,2380.0
+"Nov 5, 2025",19.0,0AD8B,96b816bd-495b-43a1-8291-d14987c0ad8b,Bibi's Swahili Kitchen,null,Uber KE,1040.0
+"Nov 5, 2025",13.0,ALTI05296,LTHCP3DULK8W,Little Italy,null,ANDO,2700.0
+"Nov 5, 2025",19.0,ALTI05311,LTHCPDJGIVHD,Little Italy,null,ANDO,2580.0
+"Nov 5, 2025",19.0,D455A,6099643d-ff3c-4a6e-b90c-4736a18d455a,Marty's Famous Burgers,Westlands NRB,Uber KE,1601.0
+"Nov 5, 2025",19.0,826BE,d5b60ec1-d5db-445e-b1d6-b38d457826be,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1890.0
+"Nov 5, 2025",19.0,9F5E2,c3c87a94-55cf-4efe-8b52-93a61d29f5e2,Kai Sushi Bar,Ngong Rd NRB,Uber KE,2910.0
+"Nov 5, 2025",19.0,ALTI05310,LT4TJ1QIER2EG,Little Italy,null,ANDO,4860.0
+"Nov 5, 2025",13.0,ALTI05294,LTHCP2JUVTZS,Little Italy,null,ANDO,1090.0
+"Nov 5, 2025",13.0,AMR01674,LTHCP2U7U0ZL,Little Italy,null,ANDO,1780.0
+"Nov 5, 2025",19.0,ALTI05308,LT4TJ1JFPCQAS,Little Italy,null,ANDO,550.0
+"Nov 5, 2025",19.0,DVM31654,LTHCPCLVI2MO,ANDO,Village Market NRB,ANDO,500.0
+"Nov 5, 2025",12.0,101476233289,101476233289,Marty's Famous Burgers,Westlands NRB,Glovo,3980.0
+"Nov 5, 2025",14.0,0BD4A,74e7a446-054d-4f1d-8294-474fe170bd4a,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1660.0
+"Nov 5, 2025",13.0,005B3,95497e7f-8765-4632-9762-bd5bae0005b3,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1215.0
+"Nov 5, 2025",18.0,A55FE,b7c42206-6f92-48f1-843c-dc4e730a55fe,Tandoori Patio,null,Uber KE,2720.0
+"Nov 5, 2025",13.0,D39A8,fe2e39c7-01df-4648-8519-169591bd39a8,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,990.0
+"Nov 5, 2025",18.0,56239,cd8ccb9d-0659-442c-92d2-bdf6e6356239,"Pizza Corner, Since 1989",null,Uber KE,2625.0
+"Nov 5, 2025",18.0,ALTI05304,LTHCPBK4OKFO,Little Italy,null,ANDO,1320.0
+"Nov 5, 2025",13.0,53C8B,ba7fd1da-1f1c-459a-a4f5-a39ed3c53c8b,Siam - Thai Kitchen,NSK NRB,Uber KE,1340.0
+"Nov 5, 2025",20.0,AD66B,ea09bc2b-0b07-424f-ae12-3cd02a7ad66b,Little Italy,Kilimani NRB,Uber KE,990.0
+"Nov 5, 2025",18.0,ALTI05307,LTHCPC6UFBF5,Little Italy,null,ANDO,550.0
+"Nov 5, 2025",13.0,878BA,15fb44fb-6f3a-4ed3-8ae4-2c5e980878ba,"Burger Hut, Since 1986",null,Uber KE,528.0
+"Nov 5, 2025",11.0,88A1B,bf450851-5e13-4f11-8abe-cb1966988a1b,Pasta Della Nonna,Hurlingham NRB,Uber KE,1220.0
+"Nov 5, 2025",19.0,324AF,ae181f89-fbeb-4f05-abfd-38996c0324af,Kai Sushi Bar,null,Uber KE,1690.0
+"Nov 5, 2025",15.0,71EFA,f55992e0-e4c3-4a31-9f67-ba34dde71efa,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1090.0
+"Nov 5, 2025",18.0,101476585266,101476585266,Ichiban Sushi (Village Market) [NBO],Kilimani NRB,Glovo,4270.0
+"Nov 5, 2025",13.0,7AAE7,08bedf0b-1060-4abc-8d7d-a583a287aae7,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1090.0
+"Nov 5, 2025",16.0,35D0C,2a6f9494-5627-4436-b86a-9c6c07335d0c,SuperWings,null,Uber KE,3325.0
+"Nov 5, 2025",13.0,85389,12a717cf-3dd0-449e-b587-f0ccbc185389,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1359.0
+"Nov 5, 2025",21.0,101476719935,101476719935,Marty's Famous Burgers,Kilimani NRB,Glovo,5180.0
+"Nov 5, 2025",14.0,403F5,7bcc2867-75b6-4081-b373-2df08bf403f5,TastiWOK,null,Uber KE,2325.0
+"Nov 5, 2025",14.0,ALTI05298,LTHCP5CUJ8IS,Little Italy,null,ANDO,550.0
+"Nov 5, 2025",13.0,101476252046,101476252046,Siam - Thai Kitchen,NSK NRB,Glovo,2380.0
+"Nov 5, 2025",13.0,728FC,674451ec-741d-450b-9b05-7238d28728fc,Little Italy,Westlands NRB,Uber KE,2060.0
+"Nov 5, 2025",14.0,642C0,1c47204f-deab-44c1-ade0-754d330642c0,"Pot of Jollof Kitchen, Lavington",null,Uber KE,2060.0
+"Nov 5, 2025",18.0,3FC66,a2fc5ff3-cbcf-4643-95f7-f9f94fa3fc66,Bibi's Swahili Kitchen,null,Uber KE,875.0
+"Nov 5, 2025",18.0,580C6,b14bb2db-5b38-4413-b5a0-e9e83f4580c6,"Open House Restaurant, Karen (Crossroad)",null,Uber KE,5950.0
+"Nov 5, 2025",9.0,139328,11976,Chicago Pizza,AURO,ANDO App,790.0
+"Nov 5, 2025",12.0,711D3,59185353-299f-4864-81b5-1f20554711d3,All Day Drinks,Village Market NRB,Uber KE,2620.0
+"Nov 5, 2025",19.0,101476636956,101476636956,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,1940.0
+"Nov 5, 2025",17.0,5066B,b5fdca2b-e63e-49f4-b76e-003c2745066b,Kai Sushi Bar,null,Uber KE,3355.0
+"Nov 5, 2025",18.0,8E543,bfee52de-a529-4996-9998-c1810398e543,Kai Sushi Bar,Village Market NRB,Uber KE,3235.0
+"Nov 5, 2025",18.0,396F3,98bd27f0-f834-46bd-9eb5-ec2f998396f3,"Pot of Jollof Kitchen, Lavington",null,Uber KE,1690.0
+"Nov 5, 2025",19.0,C305F,22230f5b-21ac-4cd3-9039-39a8e56c305f,Marty's Famous Burgers,Kilimani NRB,Uber KE,1340.0
+"Nov 5, 2025",20.0,F6686,766da6b4-fe54-498a-8fec-0f6da9bf6686,Kai Sushi Bar,Ngong Rd NRB,Uber KE,4540.0
+"Nov 5, 2025",19.0,777FA,d877fa5b-db09-4543-b716-b8aeb8a777fa,Kai Sushi Bar,null,Uber KE,8595.0
+"Nov 5, 2025",12.0,4E03C,f311d611-2d3d-4a23-bb48-c22e6c54e03c,Little Italy,Westlands NRB,Uber KE,6650.0
+"Nov 5, 2025",17.0,ALTI05303,LTHCP9MNR9GB,Little Italy,null,ANDO,1580.0
+"Nov 5, 2025",17.0,76147,b8895a73-e6b3-40fb-8d24-8b38bc476147,Little Italy,Westlands NRB,Uber KE,4040.0
+"Nov 5, 2025",14.0,F74C3,4baff46e-8762-481c-a375-dce5995f74c3,Little Italy,Cape Town SA,Uber SA,145.0
+"Nov 5, 2025",11.0,0D227,5f1cf30e-3673-47da-a3ce-33c04f90d227,Little Italy,Westlands NRB,Uber KE,1490.0
+"Nov 5, 2025",16.0,59421,1ae5741a-841f-462a-a613-fad17bc59421,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1040.0
+"Nov 5, 2025",18.0,3C369,a8c7c831-457d-46ac-8462-8f163133c369,ANDO Kitchens,Kilimani NRB,Uber KE,1340.0
+"Nov 5, 2025",10.0,D7C31,b5ccd4cb-2bad-4cfe-a30b-2247579d7c31,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,940.0
+"Nov 5, 2025",13.0,2BA26,cc90ea69-4867-43fd-b7bf-7126a762ba26,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1140.0
+"Nov 5, 2025",12.0,AA0D1,a2fdbd96-7086-4f3e-898e-52b5a7faa0d1,Little Italy,Westlands NRB,Uber KE,1360.0
+"Nov 5, 2025",20.0,95B6A,39f8e80b-0160-4786-9a5e-c4c66bd95b6a,Little Italy,Kilimani NRB,Uber KE,1750.0
+"Nov 5, 2025",13.0,ANDOWES00327430,LTHCP2T947QN,ANDO,Westlands NRB,ANDO,1690.0
+"Nov 5, 2025",12.0,A9BB5,49313af9-26a2-4862-a01b-26fd367a9bb5,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1140.0
+"Nov 5, 2025",19.0,FC8E4,a1f21cb9-a4d8-4d0f-8e5c-350b511fc8e4,Siam - Thai Kitchen,NSK NRB,Uber KE,1540.0
+"Nov 5, 2025",13.0,D04A3,add904ee-020b-4e5b-b27c-53d370ed04a3,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1580.0
+"Nov 5, 2025",15.0,F37A3,5aedcd88-c5e2-4284-b115-d3eed6ff37a3,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,2080.0
+"Nov 5, 2025",19.0,265EB,ef90dabe-5900-4e83-879b-6ddf97c265eb,Little Italy,Kilimani NRB,Uber KE,1830.0
+"Nov 5, 2025",19.0,DA5B2,f2dbfae8-9621-4042-b08c-7dc8568da5b2,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1930.0
+"Nov 5, 2025",10.0,ANDOWES00327424,LTHCOXPKPQHZ,ANDO,Westlands NRB,ANDO,8290.0
+"Nov 5, 2025",12.0,F4EA3,7922b0d9-ccd0-4419-9c70-d2bab7ef4ea3,ANDO Kitchens,Kilimani NRB,Uber KE,1640.0
+"Nov 5, 2025",12.0,CC6A3,d424e131-a6b2-462a-b234-dec8a97cc6a3,Siam - Thai Kitchen,Kilimani NRB,Uber KE,3779.0
+"Nov 5, 2025",20.0,6C131,4dc84976-c86b-478b-957f-9b1e1cd6c131,Little Italy,Cape Town SA,Uber SA,145.0
+"Nov 5, 2025",14.0,6794B,4ecd8486-9267-4359-bd9a-537090c6794b,Little Italy,Cape Town SA,Uber SA,140.0
+"Nov 5, 2025",18.0,ANDOWES00327438,LT4TJ1440A9E6,ANDO,Westlands NRB,ANDO,3000.0
+"Nov 5, 2025",14.0,AMR01675,LTHCP4W2CKR3,Little Italy,null,ANDO,920.0
+"Nov 5, 2025",17.0,1ANDMBP05665,LTHCP9F8MDW4,ANDO,Westlands NRB,ANDO,1100.0
+"Nov 5, 2025",16.0,ANDOWES00327434,LT4TJ04T8ZR2O,ANDO,Westlands NRB,ANDO,1800.0
+"Nov 5, 2025",20.0,ANDOWES00327443,LTHCPFIHQ7S7,ANDO,Westlands NRB,ANDO,1410.0
+"Nov 5, 2025",21.0,8C4FE,31c74e7e-a4b0-47d6-a1d5-755166f8c4fe,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1290.0
+"Nov 5, 2025",20.0,ANDOWES00327442,LTHCPEJ2LZTO,ANDO,Westlands NRB,ANDO,470.0
+"Nov 5, 2025",15.0,136364,11983,Siam - Thai Kitchen,Kilimani NRB,ANDO App,1740.0
+"Nov 5, 2025",20.0,C6FCB,fa2073c8-1673-46d4-9cd8-99548eec6fcb,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1830.0
+"Nov 5, 2025",15.0,139578,11981,Pot of Jollof Kitchen,AURO,ANDO App,1890.0
+"Nov 5, 2025",12.0,ANDOWES00327426,LTHCP1XSRZKY,ANDO,Westlands NRB,ANDO,690.0
+"Nov 5, 2025",11.0,ANDOWES00327425,LTHCP0N1KMGD,ANDO,Westlands NRB,ANDO,2680.0
+"Nov 5, 2025",12.0,ANDOWES00327427,LT4TIYL8R9F6C,ANDO,Westlands NRB,ANDO,1410.0
+"Nov 5, 2025",17.0,43479,603b5dd4-aaba-4356-9833-bcc654343479,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1990.0
+"Nov 5, 2025",14.0,121783,11980,Khan's - Pakistani Kitchen,Westlands NRB,ANDO App,1100.0
+"Nov 5, 2025",17.0,09305,10b02dbe-403d-4139-87eb-1df779209305,Open House Restaurant,null,Uber KE,2090.0
+"Nov 4, 2025",19.0,8E0CD,08aa1474-eb48-4f1b-be80-45f73f08e0cd,"Open House Restaurant, Karen (Crossroad)",null,Uber KE,3700.0
+"Nov 4, 2025",13.0,5FD6F,1afffb9e-0a65-4a52-ab37-8e2fc0b5fd6f,Tandoori Patio,null,Uber KE,1845.0
+"Nov 4, 2025",12.0,101475422579,101475422579,Siam - Thai Kitchen,Kilimani NRB,Glovo,2420.0
+"Nov 4, 2025",18.0,101475730420,101475730420,DILLI! - Curries & Grill,Westlands NRB,Glovo,2380.0
+"Nov 4, 2025",18.0,6F21A,16ba6de3-06a1-4f10-ae40-9a9112b6f21a,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1765.0
+"Nov 4, 2025",20.0,5C93D,92fa8a52-b90d-4e7a-85a7-0fa727f5c93d,"Pot of Jollof Kitchen, Lavington",null,Uber KE,1465.0
+"Nov 4, 2025",14.0,8CE9C,895778aa-cf71-4317-ac0c-d3a04448ce9c,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1565.0
+"Nov 4, 2025",19.0,4625F,5a67d2db-641f-4bb4-a778-45eb9344625f,All Day Drinks,Village Market NRB,Uber KE,1275.0
+"Nov 4, 2025",10.0,74AF0,3c7733c9-ab3d-4c90-82a7-201909a74af0,"Pot of Jollof Kitchen, Lavington",null,Uber KE,940.0
+"Nov 4, 2025",13.0,AB57F,97f3ff9a-0d44-46eb-9f0b-cd100deab57f,Marty's Famous Burgers,Village Market NRB,Uber KE,1230.0
+"Nov 4, 2025",16.0,D0D47,7c3e3950-a824-48dc-bf86-297b25bd0d47,Siam - Thai Kitchen,Village Market NRB,Uber KE,7760.0
+"Nov 4, 2025",18.0,02B05,fc26ee78-755e-415c-92a3-601463002b05,Siam - Thai Kitchen,Village Market NRB,Uber KE,3570.0
+"Nov 4, 2025",15.0,B0860,0c5292fe-391b-484f-9422-8901055b0860,"Pomona Fresh Juices, Since 1999",null,Uber KE,3320.0
+"Nov 4, 2025",17.0,62A91,71cd49e0-3254-43e8-b786-963120762a91,Open House Restaurant,null,Uber KE,3000.0
+"Nov 4, 2025",10.0,139426,11947,Om El Dunia,AURO,ANDO App,2464.0
+"Nov 4, 2025",12.0,6F2DA,74da2ddd-dc1f-4d64-b904-4673e6a6f2da,Siam - Thai Kitchen,Village Market NRB,Uber KE,2680.0
+"Nov 4, 2025",21.0,63DF9,96f272d9-9f66-47b0-965b-47ab30e63df9,Tandoori Patio,null,Uber KE,2750.0
+"Nov 4, 2025",19.0,D7340,352cce57-78d3-44b7-baba-c5017b4d7340,"Open House Restaurant, Karen (Crossroad)",null,Uber KE,2550.0
+"Nov 4, 2025",18.0,69397,d3b33f3e-549b-4f6d-8f55-8751ea569397,Siam - Thai Kitchen,NSK NRB,Uber KE,2030.0
+"Nov 4, 2025",15.0,139579,11960,Steady pizza chicken house,Kigali Rwanda,ANDO App,1500.0
+"Nov 4, 2025",13.0,FF7B0,8d1acefb-ea4a-4063-8326-ef43edbff7b0,Siam - Thai Kitchen,Village Market NRB,Uber KE,1980.0
+"Nov 4, 2025",19.0,7B919,1858ec43-56dc-45b9-91e8-ab029727b919,Tandoori Patio,null,Uber KE,1820.0
+"Nov 4, 2025",12.0,2807D,9eadb85e-e048-4c57-94ed-796229b2807d,Siam - Thai Kitchen,Village Market NRB,Uber KE,1490.0
+"Nov 4, 2025",13.0,796A2,de9a2a04-f4d0-41c3-b498-f9b159e796a2,Biryani Blues,null,Uber KE,1050.0
+"Nov 4, 2025",16.0,EC968,baaae54b-1d75-40d1-9430-43a7b94ec968,Biryani Blues,null,Uber KE,1050.0
+"Nov 4, 2025",18.0,CEE2D,f19d79c6-68e3-41c1-8e6f-25832e9cee2d,DILLI! - Curries & Grill,Village Market NRB,Uber KE,2145.0
+"Nov 4, 2025",11.0,DA034,2b55f5b4-80bb-4b8e-9d54-be4bfcbda034,DILLI! - Curries & Grill,Village Market NRB,Uber KE,2205.0
+"Nov 4, 2025",13.0,2EC23,acba02a8-ff05-49f0-a3a3-46ed5992ec23,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,1375.0
+"Nov 4, 2025",17.0,101475707613,101475707613,Marty's Famous Burgers,Village Market NRB,Glovo,4600.0
+"Nov 4, 2025",15.0,CE9C5,33b222de-ae43-456d-b2fd-edd8462ce9c5,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,3270.0
+"Nov 4, 2025",15.0,45402,e9ca53ae-ad4a-46fd-a43c-3dae7cd45402,"Pizza Corner, Since 1989",null,Uber KE,2550.0
+"Nov 4, 2025",18.0,F7FD8,8931f9da-fc60-4587-a49c-b99bbd4f7fd8,Tandoori Patio,null,Uber KE,2630.0
+"Nov 4, 2025",16.0,F91CB,1ef9164e-d3c6-4ce2-922d-1258954f91cb,"Lagos Suya Spot, Nigerian Restaurant",null,Uber KE,2200.0
+"Nov 4, 2025",18.0,101475723658,101475723658,DILLI! - Curries & Grill,Westlands NRB,Glovo,2380.0
+"Nov 4, 2025",11.0,F5754,c55e6c48-5e38-4e36-bbb7-34bf345f5754,Pasta Della Nonna,NSK NRB,Uber KE,2200.0
+"Nov 4, 2025",11.0,8F8E9,806b1334-779a-4ebe-8504-be80ead8f8e9,TastiWOK,null,Uber KE,1150.0
+"Nov 4, 2025",15.0,B0814,b3d5936f-5edf-4db1-ad85-3a11d6ab0814,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1190.0
+"Nov 4, 2025",10.0,B81A1,c889b2ce-4aef-48ac-bcfb-ec4a943b81a1,Mike’s Cafe,null,Uber KE,1075.0
+"Nov 4, 2025",16.0,EBAC2,36081419-1b9e-4d77-9b8e-3e1b91cebac2,Siam - Thai Kitchen,Village Market NRB,Uber KE,2780.0
+"Nov 4, 2025",16.0,D1E39,44b38da5-6c9c-467f-a646-bb1d4bdd1e39,"Ando Foods, Village Market",Village Market NRB,Uber KE,1470.0
+"Nov 4, 2025",16.0,43186,179cfebe-607d-42db-8b3c-5f22de343186,"Ichiban Sushi, Kilimani",Kilimani NRB,Uber KE,3560.0
+"Nov 4, 2025",18.0,105B6,e38ed355-dd96-45a2-b9f5-d82e867105b6,Kai Sushi Bar,null,Uber KE,6400.0
+"Nov 4, 2025",18.0,F134A,e269c337-2f24-4211-b330-03af17af134a,"Pizza Corner, Since 1989",null,Uber KE,3900.0
+"Nov 4, 2025",18.0,B5EDA,9960252d-c6ff-4a22-9c03-bf1084bb5eda,TastiWOK,null,Uber KE,2500.0
+"Nov 4, 2025",18.0,E7000,a942d666-e22b-4ce9-9a8a-179ae0de7000,Siam - Thai Kitchen,NSK NRB,Uber KE,2670.0
+"Nov 4, 2025",15.0,6AB88,e7fe1fb5-0742-4c1a-a247-e9937706ab88,Little Italy,Westlands NRB,Uber KE,2840.0
+"Nov 4, 2025",17.0,81630,2739b3c6-7c28-40f7-9f8d-9db138d81630,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,2210.0
+"Nov 4, 2025",18.0,101475730366,101475730366,DILLI! - Curries & Grill,Westlands NRB,Glovo,2380.0
+"Nov 4, 2025",16.0,B4E6F,b40d9838-b858-4d4c-8abb-d5d70e3b4e6f,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,2030.0
+"Nov 4, 2025",14.0,4BC24,4d1c40a5-f400-4c92-81c9-9d6d13c4bc24,Tandoori Patio,null,Uber KE,2070.0
+"Nov 4, 2025",13.0,2BE2F,bd117c79-2d29-4676-9d37-5074b782be2f,Pasta Della Nonna,NSK NRB,Uber KE,1520.0
+"Nov 4, 2025",13.0,BFC2B,de51c99d-f7ac-4ea8-8cdf-b53d440bfc2b,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1290.0
+"Nov 4, 2025",20.0,3114E,2e34963d-6c37-47ef-ac7f-efe06af3114e,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1290.0
+"Nov 4, 2025",19.0,101475780785,101475780785,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,1170.0
+"Nov 4, 2025",19.0,3C420,b13a9646-7823-4247-af32-279782b3c420,Little Italy,Cape Town SA,Uber SA,490.0
+"Nov 4, 2025",18.0,ABFF1,3520ca30-a45d-4a58-a4a5-d4be621abff1,Little Italy,Cape Town SA,Uber SA,395.0
+"Nov 4, 2025",17.0,B158C,7a87109a-c78b-42c8-916d-86a764eb158c,Little Italy,Cape Town SA,Uber SA,300.0
+"Nov 4, 2025",18.0,7B9CB,86e443f6-6977-4010-9345-55a0d047b9cb,Little Italy,Cape Town SA,Uber SA,305.0
+"Nov 4, 2025",21.0,D8338,0dd79533-2d63-4aa8-9be0-beb8f9bd8338,Little Italy,Cape Town SA,Uber SA,260.0
+"Nov 4, 2025",13.0,EB4FD,062b5fe8-c8a3-4d41-913b-19a5564eb4fd,Little Italy,Cape Town SA,Uber SA,175.0
+"Nov 4, 2025",19.0,9C26E,b1e5aec8-20e8-4c92-b06c-52f2ade9c26e,Little Italy,Cape Town SA,Uber SA,204.0
+"Nov 4, 2025",18.0,4DB59,883e70d7-ae97-44a9-98d3-d91f9634db59,Little Italy,Cape Town SA,Uber SA,140.0
+"Nov 4, 2025",16.0,2E45B,7b66b5dd-de89-4826-a8c9-a59087f2e45b,Siam - Thai Kitchen,Kilimani NRB,Uber KE,6339.0
+"Nov 4, 2025",20.0,2003C,2f3a2990-703a-409c-ab18-86554c22003c,Bombay Canteen - Chai & Snacks,Westlands NRB,Uber KE,3819.0
+"Nov 4, 2025",17.0,1897C,0c0ef4f3-feb2-4313-a918-318bb391897c,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1779.0
+"Nov 4, 2025",14.0,595E0,0c06b5c0-e6eb-4269-8bd8-3955047595e0,Marty's Famous Burgers,Village Market NRB,Uber KE,1339.0
+"Nov 4, 2025",13.0,13461,d58a016d-f901-4857-91df-d7f855c13461,"Ichiban Sushi, Westlands ",Westlands NRB,Uber KE,12720.0
+"Nov 4, 2025",17.0,9D267,580ef50d-9eee-4656-8496-b567f4a9d267,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,4010.0
+"Nov 4, 2025",18.0,9B074,61bd1d2e-0695-4ed5-a596-f3a05c99b074,Siam - Thai Kitchen,NSK NRB,Uber KE,4000.0
+"Nov 4, 2025",19.0,06008,e5f7b4a2-cc80-4b98-a84b-280a44106008,Siam - Thai Kitchen,NSK NRB,Uber KE,3270.0
+"Nov 4, 2025",14.0,77BBD,a861a0ba-0a6c-4c63-a329-d2b140177bbd,Siam - Thai Kitchen,NSK NRB,Uber KE,2710.0
+"Nov 4, 2025",13.0,588DC,d2929b1f-7532-4b24-91ca-c7511e3588dc,Little Italy,Kilimani NRB,Uber KE,2810.0
+"Nov 4, 2025",19.0,A2996,690c24d4-7e21-46bf-87bb-18cd900a2996,Little Italy,Westlands NRB,Uber KE,3060.0
+"Nov 4, 2025",19.0,F69FF,b13c86bf-888c-4e4e-8a93-636fd23f69ff,Pasta Della Nonna,Hurlingham NRB,Uber KE,2600.0
+"Nov 4, 2025",14.0,58567,99b9f3b9-5782-4141-8ad7-e234c9b58567,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,2420.0
+"Nov 4, 2025",12.0,962AE,29885b85-7744-46cc-a2ac-700d0a8962ae,Little Italy,Kilimani NRB,Uber KE,2010.0
+"Nov 4, 2025",17.0,7F0B2,b2d9f617-084c-4152-817c-9565aa57f0b2,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1910.0
+"Nov 4, 2025",18.0,BB783,420652bc-4d41-4d1d-a053-6a66ec2bb783,Pasta Della Nonna,NSK NRB,Uber KE,2240.0
+"Nov 4, 2025",14.0,23009,de554b03-3dc8-4899-aab3-b8f2e0b23009,Little Italy,Kilimani NRB,Uber KE,2240.0
+"Nov 4, 2025",13.0,66AFA,c73d4d28-ee64-4058-a133-248e38a66afa,Little Italy,Kilimani NRB,Uber KE,2240.0
+"Nov 4, 2025",17.0,9C361,dab788aa-cc43-402c-970a-33f4f689c361,Little Italy,Kilimani NRB,Uber KE,1690.0
+"Nov 4, 2025",21.0,02249,f51be167-fbea-4144-849d-b9dbe8902249,Siam - Thai Kitchen,NSK NRB,Uber KE,1840.0
+"Nov 4, 2025",13.0,5D8D5,346d01f5-34d9-4a21-899a-1004c485d8d5,Little Italy,Westlands NRB,Uber KE,1710.0
+"Nov 4, 2025",19.0,9E666,c9cd8eeb-6587-4a4a-a14e-69afb539e666,Siam - Thai Kitchen,NSK NRB,Uber KE,1730.0
+"Nov 4, 2025",16.0,6AEB9,3e0a7b1b-fcb1-406f-91c3-4417f536aeb9,Little Italy,Kilimani NRB,Uber KE,1490.0
+"Nov 4, 2025",13.0,09A6A,b0c01bfc-ebbb-4480-a1a1-756af0009a6a,ANDO Kitchens,Westlands NRB,Uber KE,1670.0
+"Nov 4, 2025",11.0,46CE9,783adb85-8387-49ec-a76b-8de8bd046ce9,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1430.0
+"Nov 4, 2025",16.0,DA9E7,3dade36a-d9fd-40f2-a44b-6bbace2da9e7,Little Italy,Westlands NRB,Uber KE,1390.0
+"Nov 4, 2025",13.0,42A0B,a132c1d4-703f-48f3-8969-b5930fa42a0b,ANDO Kitchens,Kilimani NRB,Uber KE,1610.0
+"Nov 4, 2025",15.0,D3627,bb745e8e-909f-4c79-8d6a-f3d74cdd3627,Marty's Famous Burgers,Hurlingham NRB,Uber KE,1680.0
+"Nov 4, 2025",12.0,CC596,469d6491-576c-4464-9b32-748b2bdcc596,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1530.0
+"Nov 4, 2025",16.0,57B30,669d3f44-a534-4736-bd68-0c27c1357b30,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1320.0
+"Nov 4, 2025",18.0,12167,ead63424-831c-4a14-b08e-889f91312167,Little Italy,Kilimani NRB,Uber KE,1310.0
+"Nov 4, 2025",17.0,4A2CE,1e3fae5f-07b5-4369-8e9d-f5b71194a2ce,Marty's Famous Burgers,Hurlingham NRB,Uber KE,1490.0
+"Nov 4, 2025",14.0,811DC,c878a818-18c0-4a5b-8736-c7a1efc811dc,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1480.0
+"Nov 4, 2025",18.0,E16D6,e910f2bb-c360-4f66-945e-8102218e16d6,Siam - Thai Kitchen,NSK NRB,Uber KE,1270.0
+"Nov 4, 2025",14.0,33151,340233ab-5649-4bf4-8d72-814527833151,Little Italy,Kilimani NRB,Uber KE,1150.0
+"Nov 4, 2025",13.0,8D53A,24a6dae3-e787-4cef-aa8f-ce473248d53a,ANDO Kitchens,Westlands NRB,Uber KE,1150.0
+"Nov 4, 2025",13.0,55398,35b3d115-0afd-4bfb-8d84-3039c1955398,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1150.0
+"Nov 4, 2025",13.0,C6E89,2fc3a6bf-c49a-40d1-87a6-f7425c4c6e89,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1290.0
+"Nov 4, 2025",13.0,8C1E9,d0c9ba9a-c957-497c-926c-efbeb7a8c1e9,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1190.0
+"Nov 4, 2025",17.0,A28C8,af5d474e-75b1-4dd8-83be-0104f3fa28c8,Little Italy,Kilimani NRB,Uber KE,1190.0
+"Nov 4, 2025",18.0,E2C85,c19dcb14-f82f-4d11-9c45-d796378e2c85,Pasta Della Nonna,NSK NRB,Uber KE,1170.0
+"Nov 4, 2025",13.0,6F59B,c236d556-8c16-4d58-954f-72a7d456f59b,Little Italy,Kilimani NRB,Uber KE,950.0
+"Nov 4, 2025",21.0,101475883375,101475883375,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,8820.0
+"Nov 4, 2025",16.0,5B740,f993ab97-7524-4d4c-a392-8ef5c825b740,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1090.0
+"Nov 4, 2025",19.0,860FA,4ead1b8c-0173-4730-a632-57d5c94860fa,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1090.0
+"Nov 4, 2025",14.0,FE035,b84e470d-a48d-42e6-beea-07aa479fe035,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1090.0
+"Nov 4, 2025",17.0,3C010,a474e0c2-e8f1-4ba8-9023-8b678693c010,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1060.0
+"Nov 4, 2025",15.0,F337E,f1ad962c-b0de-4222-b061-9f8f315f337e,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1190.0
+"Nov 4, 2025",20.0,CD891,e43e865e-013c-4157-8084-a86d37dcd891,Marty's Famous Burgers,Westlands NRB,Uber KE,5061.0
+"Nov 4, 2025",16.0,E9A70,673e2b33-c331-463d-bb12-e34c73ee9a70,Marty's Famous Burgers,Westlands NRB,Uber KE,1111.0
+"Nov 4, 2025",12.0,29515,64c86c57-69a0-4103-8ba7-3d6877329515,Bombay Canteen - Chai & Snacks,Kilimani NRB,Uber KE,1100.0
+"Nov 4, 2025",20.0,BE38B,922ef00a-85c7-4436-b0bd-6060fbbbe38b,"Lagos Suya Spot, Nigerian Restaurant",null,Uber KE,6240.0
+"Nov 4, 2025",20.0,84F6A,5304d8e1-2fc6-4828-96c1-791bccc84f6a,Kai Sushi Bar,null,Uber KE,5150.0
+"Nov 4, 2025",16.0,EB89B,0e880490-a17c-45aa-8dc4-67dcf5eeb89b,Marty's Famous Burgers,Village Market NRB,Uber KE,3340.0
+"Nov 4, 2025",13.0,86EC5,bbbb24be-183d-40f9-b4be-9e35aec86ec5,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1595.0
+"Nov 4, 2025",19.0,1F82B,1db0f5c0-8b8d-485b-b076-7f9a0d41f82b,TastiWOK,null,Uber KE,1690.0
+"Nov 4, 2025",21.0,EDFFF,1ec1b5d7-f5ff-406b-884c-53782c7edfff,Siam - Thai Kitchen,Village Market NRB,Uber KE,1450.0
+"Nov 4, 2025",12.0,22DFE,27b22f2d-66bc-473b-837f-efc1f8d22dfe,Marty's Famous Burgers,Westlands NRB,Uber KE,2123.0
+"Nov 4, 2025",12.0,CDBA9,7932fb1a-e831-4360-8adb-1e52012cdba9,Siam - Thai Kitchen,Kilimani NRB,Uber KE,2639.0
+"Nov 4, 2025",13.0,D4BEA,899007a0-90a5-47ca-89af-f1a7430d4bea,Siam - Thai Kitchen,Kilimani NRB,Uber KE,2399.0
+"Nov 4, 2025",20.0,5116F,bd563bda-eee9-4a31-803b-84e14f05116f,Siam - Thai Kitchen,Kilimani NRB,Uber KE,2159.0
+"Nov 4, 2025",19.0,3843C,6bf198f7-8b42-403f-b947-d8ef53e3843c,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1909.0
+"Nov 4, 2025",13.0,CC489,a5f7a322-3d01-4896-92e2-d0edeaacc489,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1879.0
+"Nov 4, 2025",11.0,2BE07,cc45712c-c2e6-4c9c-9951-310ced12be07,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1459.0
+"Nov 4, 2025",17.0,A8902,eb60d446-270f-41b9-bcd0-9e414eca8902,Siam - Thai Kitchen,NSK NRB,Uber KE,5790.0
+"Nov 4, 2025",17.0,D9C7E,b53fe48a-fada-45fa-bf77-85ed3f3d9c7e,Pasta Della Nonna,Hurlingham NRB,Uber KE,4930.0
+"Nov 4, 2025",20.0,C215A,7bf6f0df-6b86-483a-a3ac-fd17fc4c215a,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,2850.0
+"Nov 4, 2025",20.0,2833F,d34e23ac-aa73-4abd-8be8-73104002833f,Little Italy,Kilimani NRB,Uber KE,2550.0
+"Nov 4, 2025",13.0,96175,57ed42e7-4126-4d9e-bab6-a19923996175,ANDO Kitchens,Kilimani NRB,Uber KE,2290.0
+"Nov 4, 2025",19.0,101475787442,101475787442,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,5190.0
+"Nov 4, 2025",19.0,DCDD2,a8c9a1c9-8bf3-405b-9509-bd36c7bdcdd2,Siam - Thai Kitchen,NSK NRB,Uber KE,2030.0
+"Nov 4, 2025",19.0,A44C9,e896fcff-1891-48ab-9a49-fd43b54a44c9,Little Italy,Kilimani NRB,Uber KE,2430.0
+"Nov 4, 2025",17.0,557AE,4a8d1743-b7a8-41ea-aebb-906768b557ae,Little Italy,Kilimani NRB,Uber KE,2150.0
+"Nov 4, 2025",20.0,AD49E,5abd9a33-4f27-4686-b1f9-9397b7bad49e,SuperWings,Hurlingham NRB,Uber KE,2100.0
+"Nov 4, 2025",12.0,11226,fdafe8db-7d55-470d-85cb-348d57f11226,SuperWings,Westlands NRB,Uber KE,1900.0
+"Nov 4, 2025",19.0,1DE69,a871a6d9-cd5f-4868-a464-7d7271a1de69,Little Italy,Kilimani NRB,Uber KE,1810.0
+"Nov 4, 2025",19.0,6EBE4,8a707f76-a4eb-4dfe-94a5-dd4ce936ebe4,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1700.0
+"Nov 4, 2025",11.0,F2959,8349d8d4-115f-47ec-aad5-2dad69ef2959,Siam - Thai Kitchen,NSK NRB,Uber KE,1340.0
+"Nov 4, 2025",15.0,E17C9,7e09d79b-ece3-46cc-82df-740a986e17c9,ANDO Kitchens,Kilimani NRB,Uber KE,1540.0
+"Nov 4, 2025",12.0,3185C,4b04ea0a-4d3f-426c-a742-159e5043185c,Pasta Della Nonna,Hurlingham NRB,Uber KE,1360.0
+"Nov 4, 2025",13.0,6BE1F,9ae64cc0-a3fe-42ac-960c-677aecb6be1f,Siam - Thai Kitchen,NSK NRB,Uber KE,1340.0
+"Nov 4, 2025",11.0,478D0,ad291236-06a8-4f9d-a183-aa3ae8f478d0,ANDO Kitchens,Kilimani NRB,Uber KE,1340.0
+"Nov 4, 2025",11.0,22732,9cfe7466-d4ef-4e42-a635-4098b4e22732,ANDO Kitchens,Kilimani NRB,Uber KE,1340.0
+"Nov 4, 2025",13.0,6C540,17a11b3e-b4ea-4b78-9568-2d6f1c26c540,Little Italy,Kilimani NRB,Uber KE,1220.0
+"Nov 4, 2025",14.0,A26C2,1a5a41aa-e53c-4740-9663-eaa23bea26c2,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1140.0
+"Nov 4, 2025",12.0,55E78,9ec83526-2e9b-493b-bf51-e3ce71f55e78,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,930.0
+"Nov 4, 2025",18.0,D55C4,7d9b385a-0afb-4d5b-8568-0f7eecfd55c4,Little Italy,Westlands NRB,Uber KE,1220.0
+"Nov 4, 2025",17.0,3D1C9,78a3a66c-8c9d-40aa-9d52-bd9d7ea3d1c9,Little Italy,Kilimani NRB,Uber KE,690.0
+"Nov 4, 2025",18.0,FFE4F,e9cbb25f-be07-4e29-ba01-8a0e46fffe4f,Kai Sushi Bar,Village Market NRB,Uber KE,12045.0
+"Nov 4, 2025",13.0,86769,2949b000-829d-490b-8ce4-3e7717a86769,Kai Sushi Bar,Ngong Rd NRB,Uber KE,2855.0
+"Nov 4, 2025",19.0,07E6E,eb356888-3ee1-4a08-8cd7-609dd0e07e6e,Open House Restaurant,null,Uber KE,2775.0
+"Nov 4, 2025",15.0,798DA,bb2b08f9-3baa-4a74-911f-9a37082798da,"Burger Hut, Since 1986",null,Uber KE,2145.0
+"Nov 4, 2025",12.0,F2D72,d6087c8a-dab1-4423-8095-1bd97d2f2d72,"Om El Dunia, Authentic Arabian Flavors",null,Uber KE,1646.0
+"Nov 4, 2025",14.0,7C0EB,46dfb088-baf5-4f0e-a981-1df582a7c0eb,"Burger Hut, Since 1986",null,Uber KE,1275.0
+"Nov 4, 2025",12.0,5696D,32807cfd-85f0-4b4c-8cf3-23430d25696d,Kai Sushi Bar,Ngong Rd NRB,Uber KE,1565.0
+"Nov 4, 2025",13.0,CF987,6d5875ea-6845-4d0c-8bb4-133a938cf987,Biryani Blues,null,Uber KE,1045.0
+"Nov 4, 2025",19.0,101475788395,101475788395,Little Italy,Kilimani NRB,Glovo,8000.0
+"Nov 4, 2025",19.0,101475775992,101475775992,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,8010.0
+"Nov 4, 2025",21.0,BB3FF,ea9713aa-0ee0-4565-bf5a-a9b4651bb3ff,Biryani Blues,null,Uber KE,1025.0
+"Nov 4, 2025",20.0,286E7,2ed0243f-4a8b-4190-9f95-4169e40286e7,"Pomona Fresh Juices, Since 1999",null,Uber KE,955.0
+"Nov 4, 2025",15.0,430A8,24ced3ef-74fd-4eef-a947-e9d9c07430a8,Mike’s Cafe,null,Uber KE,870.0
+"Nov 4, 2025",15.0,E85AB,f7bfeaf8-58c0-4480-922f-cb40422e85ab,"Ichiban Sushi, Kilimani",Kilimani NRB,Uber KE,1680.0
+"Nov 4, 2025",18.0,198C1,5d6fd8e3-43ee-40a9-866d-489d997198c1,Marty's Famous Burgers,Village Market NRB,Uber KE,1180.0
+"Nov 4, 2025",13.0,240CC,ae09ba61-4704-4805-97a8-861971a240cc,Tandoori Patio,null,Uber KE,3840.0
+"Nov 4, 2025",20.0,DA05F,0ef251ed-4767-4cc6-b640-92d87a4da05f,Marty's Famous Burgers,Kilimani NRB,Uber KE,3220.0
+"Nov 4, 2025",17.0,78501,a918afcd-f7c8-4bee-b871-e133bc078501,Siam - Thai Kitchen,Village Market NRB,Uber KE,2540.0
+"Nov 4, 2025",18.0,F7018,604095f0-6c94-43af-8339-5d6d1d8f7018,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1830.0
+"Nov 4, 2025",20.0,97794,906301fc-598f-4549-a5ec-ec7b3ad97794,Little Italy,Village Market NRB,Uber KE,1950.0
+"Nov 4, 2025",17.0,75642,019fa51c-9ffb-4d00-bde0-4ef635775642,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,2080.0
+"Nov 4, 2025",20.0,4B8B6,ddbe5319-2486-49b1-92d0-d57c73f4b8b6,Biryani Blues,null,Uber KE,2040.0
+"Nov 4, 2025",13.0,EE8AE,47accf0e-38b0-4a9f-a871-d73e65fee8ae,Little Italy,Westlands NRB,Uber KE,1590.0
+"Nov 4, 2025",17.0,D1D5B,1aac42b1-45ae-4d49-8cd1-a56aea6d1d5b,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1530.0
+"Nov 4, 2025",20.0,C8975,62766e57-0090-43db-9ccf-7097450c8975,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1390.0
+"Nov 4, 2025",11.0,92261,33d89f7d-573d-4244-8852-ca50bc292261,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1160.0
+"Nov 4, 2025",13.0,51923,3ae65773-a895-4c85-a7d2-cfca54851923,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1090.0
+"Nov 4, 2025",20.0,49247,043af0f8-5141-49a5-8da7-db3170549247,Biryani Blues,null,Uber KE,1050.0
+"Nov 4, 2025",19.0,3A557,6940e772-badb-4765-b2c5-3ef23aa3a557,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1915.0
+"Nov 4, 2025",11.0,09263,b8d32837-9331-480a-bdbd-83111c809263,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1445.0
+"Nov 4, 2025",19.0,AC54E,f26a9294-ad9c-4405-a870-799ff05ac54e,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,1475.0
+"Nov 4, 2025",15.0,4A5AB,6a36ffa2-804c-40c7-95d7-6aa3d6b4a5ab,"Pot of Jollof Kitchen, Westlands ",Westlands NRB,Uber KE,1940.0
+"Nov 4, 2025",21.0,A1CF4,7d6f62e6-ccb3-405a-97bc-f808a84a1cf4,Siam - Thai Kitchen,Kilimani NRB,Uber KE,2059.0
+"Nov 4, 2025",18.0,E8A81,c4ec052e-a54e-46d0-92ad-7c4cd2be8a81,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,4360.0
+"Nov 4, 2025",11.0,AC5CA,4eb11382-15ca-44eb-8ab5-a8e42e9ac5ca,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,2620.0
+"Nov 4, 2025",13.0,81858,db03b1d9-1314-47bd-bcc0-5db95d881858,"Open House Restaurant, Karen (Crossroad)",null,Uber KE,2650.0
+"Nov 4, 2025",21.0,101475887393,101475887393,Little Italy,NSK NRB,Glovo,3120.0
+"Nov 4, 2025",11.0,0A798,1e7920ec-87cd-4ad6-9373-b2caf260a798,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,1550.0
+"Nov 4, 2025",17.0,9ABC1,bebda636-1efc-4cd4-9ad2-57d1c4b9abc1,Little Italy,Kilimani NRB,Uber KE,1510.0
+"Nov 4, 2025",18.0,589E4,5c2fd23a-b044-49c9-ae06-16f1947589e4,ANDO Kitchens,Kilimani NRB,Uber KE,1490.0
+"Nov 4, 2025",13.0,80113,126f4d48-176e-4f61-9973-6a74e2580113,SuperWings,null,Uber KE,930.0
+"Nov 4, 2025",17.0,6CC60,bc2197df-ab09-4302-acbf-e3af6236cc60,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,1470.0
+"Nov 4, 2025",12.0,556FE,5a7d22a3-2aa2-4b3d-994b-ed3bf95556fe,TastiWOK,null,Uber KE,3500.0
+"Nov 4, 2025",16.0,C2D40,ad7c8cc9-75c1-4fff-9534-209bca1c2d40,ANDO Kitchens,Westlands NRB,Uber KE,2640.0
+"Nov 4, 2025",15.0,90E45,ebe6e2a0-f860-489f-9bb6-3a805c390e45,Kai Sushi Bar,Village Market NRB,Uber KE,3380.0
+"Nov 4, 2025",11.0,253BD,45c733e4-039b-4cae-8d84-72266cf253bd,Marty's Famous Burgers,Westlands NRB,Uber KE,2750.0
+"Nov 4, 2025",21.0,4A156,5e61cc6f-0458-46e3-82e9-af158b64a156,Marty's Famous Burgers,Westlands NRB,Uber KE,1650.0
+"Nov 4, 2025",12.0,941A5,5b3e6672-e6b1-411e-a108-b7baa27941a5,ANDO Kitchens,Westlands NRB,Uber KE,1450.0
+"Nov 4, 2025",18.0,19FBC,3f8fd754-c1db-43f2-abbb-388b18b19fbc,ANDO Kitchens,Westlands NRB,Uber KE,1390.0
+"Nov 4, 2025",18.0,EDB23,4874976b-e2a6-4552-b2f3-4877197edb23,Little Italy,Westlands NRB,Uber KE,1670.0
+"Nov 4, 2025",18.0,0366D,527951e9-8d63-4e28-a178-48ed3170366d,SuperWings,Village Market NRB,Uber KE,1450.0
+"Nov 4, 2025",19.0,4007C,dd803353-ca8e-4b91-a548-b8f60e04007c,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1390.0
+"Nov 4, 2025",14.0,101475503100,101475503100,Little Italy,NSK NRB,Glovo,4940.0
+"Nov 4, 2025",20.0,101475828943,101475828943,Little Italy,NSK NRB,Glovo,5140.0
+"Nov 4, 2025",13.0,101475462213,101475462213,Little Italy,NSK NRB,Glovo,5220.0
+"Nov 4, 2025",20.0,101475831417,101475831417,Little Italy,NSK NRB,Glovo,2540.0
+"Nov 4, 2025",10.0,AKLL09997,LT4TIMJNWWOG0,ANDO,Kilimani NRB,ANDO,100.0
+"Nov 4, 2025",14.0,101475497632,101475497632,Little Italy,Kilimani NRB,Glovo,3100.0
+"Nov 4, 2025",17.0,101475684394,101475684394,Little Italy,NSK NRB,Glovo,5940.0
+"Nov 4, 2025",12.0,AKLL09998,LT4TINIO676AS,ANDO,Kilimani NRB,ANDO,1280.0
+"Nov 4, 2025",12.0,AKLL09999,LTHCNYLM614J,ANDO,Kilimani NRB,ANDO,1700.0
+"Nov 4, 2025",16.0,138607,11969,Bibi's Swahili Kitchen,Westlands NRB,ANDO App,590.0
+"Nov 4, 2025",16.0,136716,11970,Kai Sushi Bar,AURO,ANDO App,2710.0
+"Nov 4, 2025",16.0,135858,11968,Bibi's Swahili Kitchen,Westlands NRB,ANDO App,3860.0
+"Nov 4, 2025",16.0,101475628063,101475628063,Kai Sushi Bar,AURO,Glovo,3410.0
+"Nov 4, 2025",13.0,AKLL10000,LTHCO00WPV6O,ANDO,Kilimani NRB,ANDO,2530.0
+"Nov 4, 2025",18.0,139402,11973,Siam - Thai Kitchen,NSK NRB,ANDO App,1410.0
+"Nov 4, 2025",9.0,138367,11944,Little Italy,NSK NRB,ANDO App,1560.0
+"Nov 4, 2025",9.0,135188,11945,Little Italy,Kilimani NRB,ANDO App,1280.0
+"Nov 4, 2025",15.0,138935,11958,Bibi's Swahili Kitchen,Kilimani NRB,ANDO App,1352.0
+"Nov 4, 2025",15.0,139423,11964,null,null,ANDO App,1900.0
+"Nov 4, 2025",15.0,139571,11957,Afrinaija Pots Restaurant,Kigali Rwanda,ANDO App,1500.0
+"Nov 4, 2025",18.0,AKLL10003,LTHCO7HJ9KX7,ANDO,Kilimani NRB,ANDO,1640.0
+"Nov 4, 2025",16.0,137560,11966,Mozy Pizza & Coffee,Kigali Rwanda,ANDO App,1500.0
+"Nov 4, 2025",15.0,139583,11962,null,null,ANDO App,3000.0
+"Nov 4, 2025",10.0,139536,11951,Tamu Tamu Dishes,AURO,ANDO App,1712.0
+"Nov 4, 2025",11.0,139537,11955,Tamu Tamu Dishes,AURO,ANDO App,956.0
+"Nov 4, 2025",10.0,139535,11950,Tamu Tamu Dishes,AURO,ANDO App,2160.0
+"Nov 4, 2025",16.0,137894,11965,Pot of Jollof Kitchen,AURO,ANDO App,3110.0
+"Nov 4, 2025",15.0,139570,11956,Afrinaija Pots Restaurant,Kigali Rwanda,ANDO App,1500.0
+"Nov 4, 2025",11.0,101475412871,101475412871,SuperWings,Kilimani NRB,Glovo,2100.0
+"Nov 4, 2025",18.0,101475753619,101475753619,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,2220.0
+"Nov 4, 2025",17.0,101475688322,101475688322,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,2220.0
+"Nov 4, 2025",19.0,101475793618,101475793618,Kai Sushi Bar,AURO,Glovo,4170.0
+"Nov 4, 2025",12.0,101475430349,101475430349,Kai Sushi Bar,AURO,Glovo,5670.0
+"Nov 4, 2025",18.0,DVM31638,LTHCO8B8K5BS,ANDO,Village Market NRB,ANDO,1100.0
+"Nov 4, 2025",16.0,C86B7,0b3ffcdd-3ec3-41ec-ae68-891b6aec86b7,Little Italy,Cape Town SA,Uber SA,560.0
+"Nov 4, 2025",15.0,139388,11959,Marty's Famous Burgers,Westlands NRB,ANDO App,2040.0
+"Nov 4, 2025",11.0,139545,11954,Little Italy,NSK NRB,ANDO App,1660.0
+"Nov 4, 2025",9.0,118576,11946,Marty's Famous Burgers,Kilimani NRB,ANDO App,1700.0
+"Nov 4, 2025",16.0,138404,11967,Marty's Famous Burgers,Kilimani NRB,ANDO App,1520.0
+"Nov 4, 2025",15.0,135761,11963,Marty's Famous Burgers,Westlands NRB,ANDO App,2040.0
+"Nov 4, 2025",15.0,139576,11961,null,null,ANDO App,3000.0
+"Nov 4, 2025",10.0,139531,11948,Om El Dunia,AURO,ANDO App,2450.0
+"Nov 4, 2025",10.0,139534,11949,Kai Sushi Bar,AURO,ANDO App,1800.0
+"Nov 4, 2025",17.0,DVM31636,LT4TIPOS5QCI6,ANDO,Village Market NRB,ANDO,1820.0
+"Nov 4, 2025",19.0,88773,6abee517-705b-4ac8-bf8d-ac8b5b988773,Little Italy,Cape Town SA,Uber SA,460.0
+"Nov 4, 2025",11.0,127463,11952,Marty's Famous Burgers,Westlands NRB,ANDO App,1640.0
+"Nov 4, 2025",11.0,139484,11953,Little Italy,NSK NRB,ANDO App,1660.0
+"Nov 4, 2025",16.0,139550,11971,Open House Restaurant,AURO,ANDO App,2900.0
+"Nov 4, 2025",17.0,138319,11972,Mozy Pizza & Coffee,Kigali Rwanda,ANDO App,17400.0
+"Nov 4, 2025",19.0,5F4CC,ec13187e-ae50-4ac3-8874-d801d275f4cc,Little Italy,Cape Town SA,Uber SA,390.0
+"Nov 4, 2025",21.0,C60EA,6338929d-c18d-4f12-8533-3603e7fc60ea,Little Italy,Cape Town SA,Uber SA,319.0
+"Nov 4, 2025",18.0,E9335,c1538c09-82e0-46eb-9776-6bb6642e9335,Little Italy,Cape Town SA,Uber SA,290.0
+"Nov 4, 2025",14.0,ANDOVM00009743,LT4TIOBODLAQ8,ANDO,Village Market NRB,ANDO,1060.0
+"Nov 4, 2025",19.0,96826,81a2593b-94aa-4b6e-98d0-5c37a3b96826,Little Italy,Cape Town SA,Uber SA,260.0
+"Nov 4, 2025",17.0,BE636,499129b3-adb5-419b-8e22-a875788be636,Little Italy,Cape Town SA,Uber SA,239.0
+"Nov 4, 2025",14.0,101475537113,101475537113,SuperWings,Kilimani NRB,Glovo,5200.0
+"Nov 4, 2025",19.0,101475781046,101475781046,DILLI! - Curries & Grill,Village Market NRB,Glovo,2540.0
+"Nov 4, 2025",14.0,101475517347,101475517347,Marty's Famous Burgers,Village Market NRB,Glovo,2300.0
+"Nov 4, 2025",15.0,AKLL10001,LT4TIOK369R82,ANDO,Kilimani NRB,ANDO,500.0
+"Nov 4, 2025",20.0,101475847240,101475847240,Pasta Della Nonna,NSK NRB,Glovo,2360.0
+"Nov 4, 2025",17.0,101475668335,101475668335,ANDO Kitchens,Village Market NRB,Glovo,7420.0
+"Nov 4, 2025",14.0,101475507318,101475507318,Pasta Della Nonna,NSK NRB,Glovo,4780.0
+"Nov 4, 2025",18.0,101475749857,101475749857,Little Italy,Kilimani NRB,Glovo,8380.0
+"Nov 4, 2025",20.0,C9850,496a1386-4f30-434d-9191-7bb50f4c9850,Little Italy,Cape Town SA,Uber SA,210.0
+"Nov 4, 2025",18.0,101475768452,101475768452,Little Italy,Kilimani NRB,Glovo,2700.0
+"Nov 4, 2025",11.0,101475401774,101475401774,Little Italy,Kilimani NRB,Glovo,2820.0
+"Nov 4, 2025",20.0,101475830948,101475830948,Little Italy,Kilimani NRB,Glovo,6360.0
+"Nov 4, 2025",19.0,DVM31641,LTHCO90YJFS6,ANDO,Village Market NRB,ANDO,340.0
+"Nov 4, 2025",21.0,AED54,e90999ee-daba-4896-b0e4-eaa75dfaed54,Little Italy,Cape Town SA,Uber SA,199.0
+"Nov 4, 2025",21.0,101475915025,101475915025,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,990.0
+"Nov 4, 2025",20.0,05659,cda259ac-db9c-48e2-abf9-e30d32905659,TastiWOK,null,Uber KE,1600.0
+"Nov 4, 2025",12.0,101475419354,101475419354,DILLI! - Curries & Grill,Westlands NRB,Glovo,1980.0
+"Nov 4, 2025",13.0,DEE4C,95acce8c-1eed-4ae2-b2ec-87629c1dee4c,Little Italy,Cape Town SA,Uber SA,165.0
+"Nov 4, 2025",20.0,101475877409,101475877409,Khan's - Pakistani Kitchen,Village Market NRB,Glovo,1940.0
+"Nov 4, 2025",20.0,101475838374,101475838374,Khan's - Pakistani Kitchen,Village Market NRB,Glovo,2340.0
+"Nov 4, 2025",19.0,D02C7,ecba386d-4e3f-4a97-92a8-201a795d02c7,TastiWOK,null,Uber KE,2200.0
+"Nov 4, 2025",16.0,8432C,46104807-d46f-4a79-b20a-33a15d18432c,Little Italy,Cape Town SA,Uber SA,180.0
+"Nov 4, 2025",19.0,101475777555,101475777555,Marty's Famous Burgers,Kilimani NRB,Glovo,4200.0
+"Nov 4, 2025",18.0,C6D56,b3e53e19-da75-4053-8894-4af4e50c6d56,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,1950.0
+"Nov 4, 2025",15.0,101475546149,101475546149,Marty's Famous Burgers,Westlands NRB,Glovo,1980.0
+"Nov 4, 2025",21.0,35780,3d8d4d0f-1b22-4c87-92de-5708a8d35780,Little Italy,Cape Town SA,Uber SA,145.0
+"Nov 4, 2025",16.0,101475634375,101475634375,Little Italy,NSK NRB,Glovo,1080.0
+"Nov 4, 2025",8.0,101475370789,101475370789,Bombay Canteen - Chai & Snacks,Westlands NRB,Glovo,2230.0
+"Nov 4, 2025",15.0,101475552630,101475552630,Kai Sushi Bar,AURO,Glovo,15960.0
+"Nov 4, 2025",12.0,DVM31629,LTHCNX13LFW9,ANDO,Village Market NRB,ANDO,250.0
+"Nov 4, 2025",17.0,61469,927355ba-d7a0-42e5-acd6-83420e761469,ANDO Kitchens,Kilimani NRB,Uber KE,2880.0
+"Nov 4, 2025",20.0,6F185,70ce6cc8-bad9-4a58-840d-a0721686f185,Little Italy,Cape Town SA,Uber SA,145.0
+"Nov 4, 2025",17.0,859C8,b93dc215-6157-43f8-aa05-946ed8e859c8,Little Italy,Cape Town SA,Uber SA,145.0
+"Nov 4, 2025",12.0,101475418699,101475418699,Siam - Thai Kitchen,Kilimani NRB,Glovo,3820.0
+"Nov 4, 2025",18.0,101475738865,101475738865,Siam - Thai Kitchen,NSK NRB,Glovo,2780.0
+"Nov 4, 2025",15.0,AF4D1,39e0a1e4-b94b-418c-8053-e2d7611af4d1,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1215.0
+"Nov 4, 2025",20.0,101475867978,101475867978,Siam - Thai Kitchen,NSK NRB,Glovo,8380.0
+"Nov 4, 2025",18.0,101475755689,101475755689,Siam - Thai Kitchen,NSK NRB,Glovo,3020.0
+"Nov 4, 2025",18.0,AAAA6,eb8db20d-4932-4e07-9692-fa76f83aaaa6,Little Italy,Cape Town SA,Uber SA,139.0
+"Nov 4, 2025",15.0,101475548485,101475548485,Siam - Thai Kitchen,NSK NRB,Glovo,4080.0
+"Nov 4, 2025",17.0,3DA46,6c592cc8-d6e3-4b25-afef-f3742e43da46,Siam - Thai Kitchen,Village Market NRB,Uber KE,4595.0
+"Nov 4, 2025",20.0,101475868119,101475868119,Siam - Thai Kitchen,NSK NRB,Glovo,5240.0
+"Nov 4, 2025",14.0,3DC66,b7523015-cb67-4daf-aadf-12e1a253dc66,Little Italy,Cape Town SA,Uber SA,140.0
+"Nov 4, 2025",18.0,101475735244,101475735244,Siam - Thai Kitchen,NSK NRB,Glovo,3180.0
+"Nov 4, 2025",19.0,101475817173,101475817173,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,1960.0
+"Nov 4, 2025",12.0,DVM31630,LT4TINHDGDT76,ANDO,Village Market NRB,ANDO,1870.0
+"Nov 4, 2025",17.0,B85CD,30be1b61-ea08-41d1-94ed-6cf619eb85cd,Little Italy,Cape Town SA,Uber SA,135.0
+"Nov 4, 2025",12.0,101475431258,101475431258,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,970.0
+"Nov 4, 2025",13.0,101475452092,101475452092,ANDO Kitchens,Westlands NRB,Glovo,2380.0
+"Nov 4, 2025",13.0,E35CB,dc8363f7-cce2-4706-9f57-27f4383e35cb,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1690.0
+"Nov 4, 2025",17.0,A3A25,5021bdcc-6e9b-451f-ba73-7a95311a3a25,DILLI! - Curries & Grill,Village Market NRB,Uber KE,1950.0
+"Nov 4, 2025",16.0,F727E,8b84beb0-a743-4a20-8d7d-4cbf647f727e,Little Italy,Cape Town SA,Uber SA,135.0
+"Nov 4, 2025",19.0,101475787900,101475787900,ANDO Kitchens,Westlands NRB,Glovo,6280.0
+"Nov 4, 2025",16.0,101475625949,101475625949,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,6540.0
+"Nov 4, 2025",11.0,6BFDD,5ac4e71c-f620-42a6-9dd2-c7bcedb6bfdd,Little Italy,Cape Town SA,Uber SA,135.0
+"Nov 4, 2025",16.0,300E1,58039eb9-75e1-4c81-9a98-3867a29300e1,"Open House Restaurant, Karen (Crossroad)",null,Uber KE,4800.0
+"Nov 4, 2025",11.0,101475411908,101475411908,Bibi's Swahili Kitchen,Kilimani NRB,Glovo,9510.0
+"Nov 4, 2025",13.0,101475479917,101475479917,Little Italy,NSK NRB,Glovo,2820.0
+"Nov 4, 2025",19.0,5679B,486e8ba9-be85-402a-a394-01dbaa15679b,Little Italy,Cape Town SA,Uber SA,145.0
+"Nov 4, 2025",12.0,101475425597,101475425597,Little Italy,NSK NRB,Glovo,3280.0
+"Nov 4, 2025",20.0,101475837817,101475837817,Kai Sushi Bar,AURO,Glovo,2980.0
+"Nov 4, 2025",17.0,101475715874,101475715874,Kai Sushi Bar,AURO,Glovo,8340.0
+"Nov 4, 2025",16.0,DVM31634,LTHCO4675XU3,ANDO,Village Market NRB,ANDO,900.0
+"Nov 4, 2025",15.0,AMR01667,LT4TIOU0P1XY2,Little Italy,null,ANDO,2910.0
+"Nov 4, 2025",20.0,101475872386,101475872386,Little Italy,Kilimani NRB,Glovo,4200.0
+"Nov 4, 2025",21.0,470EE,8b5e9323-9a30-48be-8319-144b45d470ee,Little Italy,Cape Town SA,Uber SA,140.0
+"Nov 4, 2025",13.0,101475456895,101475456895,All Day Drinks,AURO,Glovo,900.0
+"Nov 4, 2025",17.0,31318,0080ada2-f4fc-41b7-8082-bc5a74231318,Siam - Thai Kitchen,NSK NRB,Uber KE,2610.0
+"Nov 4, 2025",17.0,ALTI05286,LTHCO6C9ELRQ,Little Italy,null,ANDO,880.0
+"Nov 4, 2025",21.0,91B3B,e935dd01-ae79-413f-a735-5ffad5191b3b,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,1535.0
+"Nov 4, 2025",13.0,23FAA,1679b93b-e856-4bbb-958d-f0d9d7e23faa,"Pot of Jollof Kitchen, Westlands ",Westlands NRB,Uber KE,2850.0
+"Nov 4, 2025",20.0,6A348,504af34b-7572-40d1-964b-8b69aa16a348,"Pot of Jollof Kitchen, Lavington",null,Uber KE,2310.0
+"Nov 4, 2025",19.0,9423B,b886c881-37d7-44a6-818f-933f1439423b,Tandoori Patio,null,Uber KE,5635.0
+"Nov 4, 2025",18.0,DVM31637,LTHCO7G8TNS1,ANDO,Village Market NRB,ANDO,2090.0
+"Nov 4, 2025",17.0,AMR01669,LTHCO6I958UZ,Little Italy,null,ANDO,1080.0
+"Nov 4, 2025",17.0,1DC82,d69b3ebf-f119-4d44-ade4-01f0a891dc82,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1779.0
+"Nov 4, 2025",20.0,AFD96,3559522a-0ff1-49d3-aa4d-fc60d51afd96,Little Italy,Kilimani NRB,Uber KE,6530.0
+"Nov 4, 2025",15.0,5F449,b78e352b-2195-432d-aa54-29963fd5f449,Siam - Thai Kitchen,Kilimani NRB,Uber KE,2519.0
+"Nov 4, 2025",12.0,AEDCE,8e921f53-d4aa-4838-b2c4-6ff4c5faedce,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1099.0
+"Nov 4, 2025",19.0,46B28,33b6f9aa-82d4-40d0-9156-b5e3f3346b28,Pasta Della Nonna,Hurlingham NRB,Uber KE,1270.0
+"Nov 4, 2025",14.0,101475506790,101475506790,DILLI! - Curries & Grill,Westlands NRB,Glovo,4100.0
+"Nov 4, 2025",13.0,101475455161,101475455161,SuperWings,AURO,Glovo,1080.0
+"Nov 4, 2025",13.0,DVM31631,LTHCNZDARFCV,ANDO,Village Market NRB,ANDO,550.0
+"Nov 4, 2025",14.0,80B28,777d081a-289c-4d0c-8981-c2e6a2980b28,"Burger Hut, Since 1986",null,Uber KE,1975.0
+"Nov 4, 2025",13.0,30E4A,87cf4189-d040-4260-88d5-dd7a59f30e4a,Little Italy,Village Market NRB,Uber KE,1360.0
+"Nov 4, 2025",20.0,4A5DE,2d4e0e27-c3c7-4191-a2d0-7bed07a4a5de,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1099.0
+"Nov 4, 2025",18.0,0BB8D,dc9cbf55-684d-4b54-84e8-cdfeaaa0bb8d,Khan's - Pakistani Kitchen,Kilimani NRB,Uber KE,1089.0
+"Nov 4, 2025",17.0,B91B1,baab7f72-f141-4507-b042-d7ab107b91b1,"Pizza Corner, Since 1989",null,Uber KE,1675.0
+"Nov 4, 2025",18.0,3C956,ddfedab0-f88f-4a16-b736-d9da2283c956,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,4320.0
+"Nov 4, 2025",10.0,BF243,ab75d911-9b04-4f06-9efc-6a805f4bf243,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1370.0
+"Nov 4, 2025",21.0,D5484,326b7480-df39-4391-b7f6-4492b51d5484,ANDO Kitchens,Westlands NRB,Uber KE,4160.0
+"Nov 4, 2025",13.0,DVM31632,LTHCNZTIYDO2,ANDO,Village Market NRB,ANDO,950.0
+"Nov 4, 2025",17.0,2FE3C,cffd2f7f-26d7-473b-bdd5-7405f802fe3c,ANDO Kitchens,Kilimani NRB,Uber KE,4420.0
+"Nov 4, 2025",19.0,EF839,c7ee9d73-052c-4a54-b7d5-983f615ef839,DILLI! - Curries & Grill,Westlands NRB,Uber KE,3240.0
+"Nov 4, 2025",20.0,DB13E,ce31a45a-237f-48cd-a9e8-f788a56db13e,Little Italy,Westlands NRB,Uber KE,2490.0
+"Nov 4, 2025",18.0,E138A,6af7b3f7-b833-47da-9d87-5a1d4e0e138a,Little Italy,Kilimani NRB,Uber KE,3450.0
+"Nov 4, 2025",16.0,9F1C4,7fec9172-4412-4717-b6ba-ee5da669f1c4,Little Italy,Westlands NRB,Uber KE,3180.0
+"Nov 4, 2025",18.0,DVM31639,LT1C77BHMW10W0,ANDO,Village Market NRB,ANDO,2150.0
+"Nov 4, 2025",19.0,C6846,58e236d4-b20a-4d5e-8273-b51b51dc6846,Siam - Thai Kitchen,NSK NRB,Uber KE,2840.0
+"Nov 4, 2025",18.0,B5BEC,b02476a7-b4fb-4ecb-86c4-15a0d7cb5bec,Siam - Thai Kitchen,NSK NRB,Uber KE,2630.0
+"Nov 4, 2025",20.0,C7183,0658d963-977a-4f61-8f7c-c74207fc7183,Little Italy,Westlands NRB,Uber KE,3310.0
+"Nov 4, 2025",16.0,EE832,366f11e9-8168-4156-9dc7-2882434ee832,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,2610.0
+"Nov 4, 2025",20.0,D8F41,2c688bd5-2307-4559-841f-62d656cd8f41,Siam - Thai Kitchen,NSK NRB,Uber KE,2730.0
+"Nov 4, 2025",16.0,DVM31635,LT4TIP6430Q7I,ANDO,Village Market NRB,ANDO,900.0
+"Nov 4, 2025",10.0,24F99,729cd28e-3026-4294-aae8-4d9b6a524f99,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1339.0
+"Nov 4, 2025",20.0,D874E,d4eb7aef-da1e-463d-ac16-d62d833d874e,ANDO Kitchens,Kilimani NRB,Uber KE,2450.0
+"Nov 4, 2025",16.0,15F2C,3cbdde77-ed73-426d-a866-562c84915f2c,Siam - Thai Kitchen,NSK NRB,Uber KE,2260.0
+"Nov 4, 2025",14.0,3413C,1a4e8292-ade5-4add-b833-bb130e43413c,Little Italy,Kilimani NRB,Uber KE,2240.0
+"Nov 4, 2025",17.0,7EE2B,0c973ad4-a341-4136-9088-f810a987ee2b,Little Italy,Westlands NRB,Uber KE,2450.0
+"Nov 4, 2025",13.0,101475476879,101475476879,DILLI! - Curries & Grill,Westlands NRB,Glovo,2380.0
+"Nov 4, 2025",12.0,ANDOWES00327408,LTHCNX0RJ18S,ANDO,Westlands NRB,ANDO,200.0
+"Nov 4, 2025",11.0,259B5,2c4428de-ea9b-47df-8d19-145b482259b5,"Burger Hut, Since 1986",null,Uber KE,980.0
+"Nov 4, 2025",16.0,E3727,2ff9afe5-63d1-499f-a900-1ab6ca3e3727,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,2600.0
+"Nov 4, 2025",20.0,6D746,c7518b24-0d7b-404e-b10b-426b8c06d746,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,2080.0
+"Nov 4, 2025",18.0,1AB2E,744c3af0-8f0f-4280-a843-98c74621ab2e,Kai Sushi Bar,null,Uber KE,1830.0
+"Nov 4, 2025",19.0,AKLL10004,LTHCO9HGNZ76,ANDO,Kilimani NRB,ANDO,1850.0
+"Nov 4, 2025",16.0,AKLL10002,LTHCO45MIAY9,ANDO,Kilimani NRB,ANDO,2350.0
+"Nov 4, 2025",19.0,DVM31642,LT4TIQQRDTMB6,ANDO,Village Market NRB,ANDO,1390.0
+"Nov 4, 2025",14.0,DVM31633,LT4TIOC9REK56,ANDO,Village Market NRB,ANDO,2240.0
+"Nov 4, 2025",11.0,21B79,28b8e6f4-b63d-424f-a879-3893d9821b79,"Om El Dunia, Authentic Arabian Flavors",null,Uber KE,7267.0
+"Nov 4, 2025",19.0,E8792,ec221fa2-5ce4-4718-913a-54c89e3e8792,Siam - Thai Kitchen,NSK NRB,Uber KE,2460.0
+"Nov 4, 2025",19.0,DVM31640,LTHCO8MZE12C,ANDO,Village Market NRB,ANDO,2610.0
+"Nov 4, 2025",17.0,ANDOWES00327414,LT4TIPHPL3WS0,ANDO,Westlands NRB,ANDO,1050.0
+"Nov 4, 2025",20.0,06D64,a3a5e6d7-0bea-46ff-951e-100234c06d64,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,2070.0
+"Nov 4, 2025",18.0,1ANDMBP05662,LT4TIQ38VONWM,ANDO,Westlands NRB,ANDO,890.0
+"Nov 4, 2025",14.0,ANDOWES00327412,LT4TIO8V4AMQ8,ANDO,Westlands NRB,ANDO,200.0
+"Nov 4, 2025",18.0,ANDOWES00327417,LT4TIQ95488C4,ANDO,Westlands NRB,ANDO,1230.0
+"Nov 4, 2025",15.0,FE02C,a6c224d9-a88f-4b75-92ea-b106906fe02c,Siam - Thai Kitchen,NSK NRB,Uber KE,1670.0
+"Nov 4, 2025",16.0,FF6CC,e824696c-43e6-4676-8786-8d70108ff6cc,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1090.0
+"Nov 4, 2025",21.0,1ANDMBP05664,LTHCOCIFNCGN,ANDO,Westlands NRB,ANDO,850.0
+"Nov 4, 2025",12.0,ANDOWES00327409,LT4TINEKDZWRI,ANDO,Westlands NRB,ANDO,1850.0
+"Nov 4, 2025",12.0,C2C26,92536bb8-3271-40d0-8db6-c638468c2c26,Little Italy,Westlands NRB,Uber KE,1170.0
+"Nov 4, 2025",15.0,87A07,ddfcf800-7e5a-4f59-87f5-3a5bdbb87a07,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,2050.0
+"Nov 4, 2025",19.0,ANDOWES00327420,LTHCO97PA5IO,ANDO,Westlands NRB,ANDO,3860.0
+"Nov 4, 2025",13.0,820A4,900c6eb9-fc88-4f25-ac7e-23f36f0820a4,Little Italy,Westlands NRB,Uber KE,1220.0
+"Nov 4, 2025",18.0,ANDOWES00327415,LT4TIQ44OKS46,ANDO,Westlands NRB,ANDO,2040.0
+"Nov 4, 2025",19.0,A4981,579c7e29-9a55-41e7-97c4-1f08fafa4981,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1980.0
+"Nov 4, 2025",19.0,ANDOWES00327421,LT4TIQKJE3LFI,ANDO,Westlands NRB,ANDO,1080.0
+"Nov 4, 2025",19.0,ANDOWES00327422,LTHCOA82IGVP,ANDO,Westlands NRB,ANDO,2850.0
+"Nov 4, 2025",20.0,5E11A,f4d8b315-35cb-4bf6-92f3-ddb06845e11a,Little Italy,Kilimani NRB,Uber KE,1580.0
+"Nov 4, 2025",18.0,ANDOWES00327416,LTHCO7TG2B0I,ANDO,Westlands NRB,ANDO,1420.0
+"Nov 4, 2025",20.0,ALTI05290,LTHCOAIQ8F5H,Little Italy,null,ANDO,4560.0
+"Nov 4, 2025",19.0,ANDOWES00327418,LTHCO8QYTNRX,ANDO,Westlands NRB,ANDO,2500.0
+"Nov 4, 2025",13.0,7AC36,cd827f5c-f564-48dd-b880-c735c617ac36,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1480.0
+"Nov 4, 2025",20.0,0A1CD,e954fe60-c58d-4c47-ae9a-8e91ede0a1cd,Little Italy,Kilimani NRB,Uber KE,1760.0
+"Nov 4, 2025",11.0,8B843,8d736e5b-98bc-42d2-8e20-18bccdb8b843,Little Italy,Westlands NRB,Uber KE,1760.0
+"Nov 4, 2025",14.0,ALTI05283,LT4TIOGGSAEGA,Little Italy,null,ANDO,1090.0
+"Nov 4, 2025",15.0,AMR01665,LTHCO2JSSG6M,Little Italy,null,ANDO,1250.0
+"Nov 4, 2025",17.0,508CD,a95f5dd1-ceab-48c1-8ec2-77081cc508cd,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1530.0
+"Nov 4, 2025",12.0,AMR01661,LTHCNXI9NWIN,Little Italy,null,ANDO,2520.0
+"Nov 4, 2025",13.0,ALTI05281,LTHCNZDQFF1R,Little Italy,null,ANDO,550.0
+"Nov 4, 2025",20.0,78085,19a0b8c6-42e0-493b-8dc6-9aba46278085,Little Italy,Kilimani NRB,Uber KE,1420.0
+"Nov 4, 2025",20.0,CAD9F,245f4306-189a-4659-bf5d-9fecbb1cad9f,Little Italy,Westlands NRB,Uber KE,1280.0
+"Nov 4, 2025",14.0,ALTI05282,LTHCO0UL20GQ,Little Italy,null,ANDO,2180.0
+"Nov 4, 2025",18.0,ADLY05287,LTHCO8JZIVF3,Little Italy,null,ANDO,2120.0
+"Nov 4, 2025",13.0,428D8,51b041b0-bfb1-423e-874d-9404d87428d8,ANDO Kitchens,Westlands NRB,Uber KE,1090.0
+"Nov 4, 2025",16.0,ADLY05284,LTHCO4J1WBF7,Little Italy,null,ANDO,2540.0
+"Nov 4, 2025",12.0,AMR01662,LTHCNXX6THJS,Little Italy,null,ANDO,1560.0
+"Nov 4, 2025",18.0,E388E,f96d4c77-6063-4d38-8fc6-0ed298ce388e,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1910.0
+"Nov 4, 2025",21.0,ANDOWES00327423,LTHCOCGHKFJ7,ANDO,Westlands NRB,ANDO,1290.0
+"Nov 4, 2025",9.0,2820E,27822314-ff35-4349-9abe-f1613632820e,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1090.0
+"Nov 4, 2025",19.0,3BA8C,8e808ef6-e13b-432b-9730-441d52e3ba8c,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,1090.0
+"Nov 4, 2025",19.0,59F82,5b534f4a-3082-41c4-ad80-ba2519259f82,ANDO Kitchens,Kilimani NRB,Uber KE,1310.0
+"Nov 4, 2025",17.0,495FA,80e63714-a4e8-4d7f-830d-b530ef9495fa,Marty's Famous Burgers,Kilimani NRB,Uber KE,1070.0
+"Nov 4, 2025",17.0,101475698195,101475698195,Marty's Famous Burgers,Westlands NRB,Glovo,3000.0
+"Nov 4, 2025",19.0,101475809128,101475809128,Marty's Famous Burgers,Westlands NRB,Glovo,4460.0
+"Nov 4, 2025",12.0,ANDOWES00327410,LTHCNYM6VSV4,ANDO,Westlands NRB,ANDO,920.0
+"Nov 4, 2025",19.0,1E385,d855e796-b938-4aea-8015-e90c5b91e385,Little Italy,Kilimani NRB,Uber KE,2090.0
+"Nov 4, 2025",18.0,EF797,c45a0719-7dc6-446b-9bbb-d3bdd0cef797,Siam - Thai Kitchen,NSK NRB,Uber KE,2210.0
+"Nov 4, 2025",16.0,ANDOWES00327413,LT4TIPACUE786,ANDO,Westlands NRB,ANDO,2730.0
+"Nov 4, 2025",13.0,093AE,46676cc3-af47-41d4-a853-bd85f19093ae,Little Italy,Westlands NRB,Uber KE,1310.0
+"Nov 4, 2025",16.0,04238,f1f33b02-b616-4e64-a099-480c30f04238,Little Italy,Kilimani NRB,Uber KE,1220.0
+"Nov 4, 2025",15.0,0ADC7,6854d384-459d-4106-8001-af670ec0adc7,Little Italy,Kilimani NRB,Uber KE,1190.0
+"Nov 4, 2025",10.0,7B869,86366ff8-2277-48db-b46f-ce9d2ee7b869,Marty's Famous Burgers,Kilimani NRB,Uber KE,965.0
+"Nov 4, 2025",13.0,B4688,8c2983b6-f454-448b-9696-b88c93db4688,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1090.0
+"Nov 4, 2025",14.0,CF49C,02730fb1-dec9-437b-8b65-0c98cf4cf49c,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1290.0
+"Nov 4, 2025",18.0,A2F94,6414bced-f43e-4bff-9ecb-82fd001a2f94,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,880.0
+"Nov 4, 2025",17.0,CF01E,57847d2f-3bab-4c29-86ee-586f5cdcf01e,DILLI! - Curries & Grill,Westlands NRB,Uber KE,5790.0
+"Nov 4, 2025",14.0,751D0,d5bc8515-9290-42b6-9c1f-02683a0751d0,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1609.0
+"Nov 4, 2025",14.0,E5535,347857d5-84d5-4ec8-ad0b-eba6f1ae5535,Bibi's Swahili Kitchen,Kilimani NRB,Uber KE,990.0
+"Nov 4, 2025",14.0,ANDOWES00327411,LTHCO0R6Y6AH,ANDO,Westlands NRB,ANDO,2000.0
+"Nov 4, 2025",16.0,CC29F,496b94d1-b423-4891-8890-1931bfccc29f,Marty's Famous Burgers,Westlands NRB,Uber KE,1451.0
+"Nov 4, 2025",16.0,C3351,77b75b5f-9196-4ce4-9588-99ef34ec3351,All Day Drinks,Village Market NRB,Uber KE,9300.0
+"Nov 4, 2025",16.0,0663C,e3e8b825-acca-481b-9dfa-e4e4bc30663c,Little Italy,Cape Town SA,Uber SA,140.0
+"Nov 4, 2025",21.0,83397,58168392-fc48-4e08-a46f-26987b283397,Open House Restaurant,null,Uber KE,7590.0
+"Nov 4, 2025",20.0,15064,2f9a4200-c198-43e2-95a5-6eb92ec15064,Open House Restaurant,null,Uber KE,6140.0
+"Nov 4, 2025",19.0,ANDOWES00327419,LTHCO90ZUHMC,ANDO,Westlands NRB,ANDO,1090.0
+"Nov 4, 2025",17.0,CE49B,0abd4cbb-66ff-4b06-aa90-f0619c7ce49b,Kai Sushi Bar,null,Uber KE,4000.0
+"Nov 4, 2025",19.0,AB4ED,afb0b216-a8cc-4414-87ca-41c84d3ab4ed,Open House Restaurant,null,Uber KE,4840.0
+"Nov 4, 2025",10.0,8DAE3,39692e8d-7ef4-4016-aa60-f90e69b8dae3,Siam - Thai Kitchen,Village Market NRB,Uber KE,3700.0
+"Nov 4, 2025",18.0,C2F27,b7c7355d-3298-4d3f-a2eb-1bf03eec2f27,"Om El Dunia, Authentic Arabian Flavors",null,Uber KE,2964.0
+"Nov 4, 2025",19.0,1ANDMBP05663,LT1C77D4HWQ60W,ANDO,Westlands NRB,ANDO,1900.0
+"Nov 4, 2025",17.0,101475690357,101475690357,Khan's - Pakistani Kitchen,Westlands NRB,Glovo,1490.0
+"Nov 4, 2025",19.0,ALTI05288,LTHCO8NZ29ED,Little Italy,null,ANDO,1090.0
+"Nov 4, 2025",17.0,BF46F,d2dd8f9c-9dee-4373-b3a1-8ba2c2cbf46f,Open House Restaurant,null,Uber KE,2590.0
+"Nov 4, 2025",14.0,F22BD,4a3b1c92-a643-4062-94c4-ca8ecd1f22bd,Kai Sushi Bar,Ngong Rd NRB,Uber KE,2720.0
+"Nov 4, 2025",12.0,51F4E,811a3c9d-11c5-459e-bede-b8d161c51f4e,Siam - Thai Kitchen,Village Market NRB,Uber KE,2220.0
+"Nov 4, 2025",17.0,1E455,81b0c911-9160-464d-b4db-fbe37ea1e455,Bibi's Swahili Kitchen,Westlands NRB,Uber KE,1290.0
+"Nov 4, 2025",19.0,49CF1,ffff22a5-e2b7-4a99-a86c-12c5dc749cf1,Little Italy,Westlands NRB,Uber KE,2540.0
+"Nov 4, 2025",19.0,52B54,92eec6a4-68f5-40f9-bd33-44c3cf352b54,Siam - Thai Kitchen,Village Market NRB,Uber KE,2470.0
+"Nov 4, 2025",19.0,2803B,08cfc7dc-0e3a-401f-a855-f2067fc2803b,Tandoori Patio,null,Uber KE,1810.0
+"Nov 4, 2025",13.0,905B6,71a99389-da93-4fbe-88bb-7ad53ce905b6,All Day Drinks,Village Market NRB,Uber KE,1360.0
+"Nov 4, 2025",20.0,151C6,4d253be1-165b-468b-96ae-f047f85151c6,Bibi's Swahili Kitchen,null,Uber KE,1140.0
+"Nov 4, 2025",18.0,59E6E,031593a6-2a90-43eb-916e-692bba259e6e,Kai Sushi Bar,null,Uber KE,1530.0
+"Nov 4, 2025",13.0,ALTI05280,LTHCNYT3E3HB,Little Italy,null,ANDO,1090.0
+"Nov 4, 2025",20.0,CEF0A,bdde2ebc-242e-4691-adb4-1faf03acef0a,Marty's Famous Burgers,Village Market NRB,Uber KE,1180.0
+"Nov 4, 2025",21.0,D1C38,9c5a5290-6d6a-46ab-8a0c-16bc320d1c38,Siam - Thai Kitchen,Kilimani NRB,Uber KE,3839.0
+"Nov 4, 2025",13.0,04554,8cdef2c0-491f-4330-97cd-37ed79404554,Bombay Canteen - Chai & Snacks,Village Market NRB,Uber KE,1190.0
+"Nov 4, 2025",14.0,8BBAB,6a3c2a9d-140d-4c5c-98c1-7edf9558bbab,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1759.0
+"Nov 4, 2025",11.0,840A4,8ac47574-797e-45f8-bf2e-89c6b12840a4,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1439.0
+"Nov 4, 2025",20.0,AMR01672,LT4TIR8MO4TLG,Little Italy,null,ANDO,810.0
+"Nov 4, 2025",16.0,73480,f792ba92-dfe2-4d3a-828b-30e139273480,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1339.0
+"Nov 4, 2025",20.0,206CC,10f7c8bd-3db2-4bb1-b9f6-dc063ae206cc,Biryani Blues,null,Uber KE,1150.0
+"Nov 4, 2025",18.0,D72E4,5bd67db8-294c-43aa-a356-b3ce1fdd72e4,Siam - Thai Kitchen,Kilimani NRB,Uber KE,1339.0
+"Nov 4, 2025",18.0,EE430,12017342-1d3c-4d09-b310-914bd74ee430,Siam - Thai Kitchen,NSK NRB,Uber KE,6210.0
+"Nov 4, 2025",19.0,A3708,c53a08c8-1497-45a5-9925-de9c235a3708,ANDO Kitchens,Kilimani NRB,Uber KE,4570.0
+"Nov 4, 2025",16.0,101475645819,101475645819,Little Italy,NSK NRB,Glovo,2420.0
+"Nov 4, 2025",19.0,D978C,be5c8873-3855-4028-8126-75fce94d978c,TastiWOK,null,Uber KE,1600.0
+"Nov 4, 2025",21.0,ALTI05291,LTHCOCCHQC2O,Little Italy,null,ANDO,950.0
+"Nov 4, 2025",13.0,AMR01663,LTHCO0074JLK,Little Italy,null,ANDO,2620.0
+"Nov 4, 2025",20.0,12D32,384b99ca-7d76-4fd4-9f6e-3060d6f12d32,Little Italy,Westlands NRB,Uber KE,4350.0
+"Nov 4, 2025",20.0,EFFDF,66d20073-a73c-4625-ac95-afc2343effdf,DILLI! - Curries & Grill,Westlands NRB,Uber KE,2650.0
+"Nov 4, 2025",16.0,41748,84a2b52b-89ac-4d93-b7f9-11a8c5341748,DILLI! - Curries & Grill,Kilimani NRB,Uber KE,2120.0
+"Nov 4, 2025",17.0,ED654,6299c2de-9c42-4174-bf93-dcc559ded654,Little Italy,Village Market NRB,Uber KE,1740.0
+"Nov 4, 2025",14.0,AB27F,90e64e73-06c7-421e-9545-2393e92ab27f,Pasta Della Nonna,Hurlingham NRB,Uber KE,1540.0
+"Nov 4, 2025",21.0,4A979,fcd254d7-3f63-4402-a9d3-33fb6684a979,Little Italy,Kilimani NRB,Uber KE,1500.0
+"Nov 4, 2025",10.0,62FC0,c6a51329-cd65-43f1-93db-21034bf62fc0,Marty's Famous Burgers,Village Market NRB,Uber KE,2680.0
+"Nov 4, 2025",10.0,2BBEC,e7a1c97f-4f03-4e63-ada0-12d6a062bbec,Siam - Thai Kitchen,Village Market NRB,Uber KE,990.0
+"Nov 4, 2025",20.0,09312,61d2e900-5a91-4a64-92e4-23b224609312,Siam - Thai Kitchen,NSK NRB,Uber KE,1340.0
+"Nov 4, 2025",12.0,E1B02,c28c5a76-2b78-4f12-946c-538631ce1b02,Siam - Thai Kitchen,NSK NRB,Uber KE,1320.0
+"Nov 4, 2025",19.0,ALTI05289,LT4TIQU2OVG44,Little Italy,null,ANDO,1780.0
+"Nov 4, 2025",18.0,0EA46,e0307f8b-171d-4391-bb3b-6b302c00ea46,Khan's - Pakistani Kitchen,Westlands NRB,Uber KE,1430.0
+"Nov 4, 2025",20.0,10DDF,e020b4d6-8ac1-4cf2-ab7a-93a866410ddf,King's New York Pizza,null,Uber KE,1790.0
+"Nov 4, 2025",20.0,A0D43,f736b0be-1b6c-483b-9342-be19ae0a0d43,Little Italy,Village Market NRB,Uber KE,1220.0
+"Nov 4, 2025",16.0,AMR01668,LTHCO3VX78W1,Little Italy,null,ANDO,2180.0
+"Nov 4, 2025",18.0,AMR01670,LTHCO8DP7ZG5,Little Italy,null,ANDO,1540.0
+"Nov 4, 2025",15.0,AMR01666,LTHCO2P50U2P,Little Italy,null,ANDO,850.0
+"Nov 4, 2025",20.0,12BC8,74f9d06c-3723-4475-a599-f4c764312bc8,DILLI! - Curries & Grill,Westlands NRB,Uber KE,1400.0
+"Nov 4, 2025",19.0,AMR01671,LTHCOA49ZX9R,Little Italy,null,ANDO,1090.0
+"Nov 4, 2025",18.0,23F0B,a27167a0-c698-4e7e-9c01-4097c8823f0b,Marty's Famous Burgers,Kilimani NRB,Uber KE,1380.0
+"Nov 4, 2025",16.0,ADLY05285,LTHCO4Q9F9PF,Little Italy,null,ANDO,2540.0
+"Nov 4, 2025",15.0,1DCC2,b114a41b-a7e9-454f-a6c4-cd705fd1dcc2,Little Italy,Kilimani NRB,Uber KE,1360.0
+"Nov 4, 2025",11.0,30DB3,598c4e60-04e9-42eb-9277-36a62a330db3,Little Italy,Village Market NRB,Uber KE,1360.0
+"Nov 4, 2025",20.0,ED75F,aa461a0e-d9d2-4813-a996-404b263ed75f,Little Italy,Westlands NRB,Uber KE,1360.0
+"Nov 4, 2025",10.0,64CFC,47a805f0-b000-479d-bf05-6708f9f64cfc,ANDO Kitchens,Kilimani NRB,Uber KE,1340.0
+"Nov 4, 2025",18.0,9CFA2,7aac7baa-ba2c-49c9-b8e0-fdfde559cfa2,"Burger Hut, Since 1986",null,Uber KE,4700.0
+"Nov 4, 2025",20.0,56A9D,2f29d1f0-1c90-4926-8a51-df5b39356a9d,Bibi's Swahili Kitchen,null,Uber KE,1075.0
+"Nov 4, 2025",9.0,101475375557,101475375557,Bombay Canteen - Chai & Snacks,Westlands NRB,Glovo,740.0
+"Nov 4, 2025",21.0,ALTI05292,LTHCOD0Z6QYC,Little Italy,null,ANDO,1410.0
+"Nov 4, 2025",19.0,19E4E,fceb2a0e-55b3-4a1d-83a2-9ee7eb219e4e,ANDO Kitchens,Kilimani NRB,Uber KE,1340.0
+"Nov 4, 2025",13.0,54EC7,d44edf55-fddc-4a4f-b392-387145b54ec7,Little Italy,Westlands NRB,Uber KE,1270.0
+"Nov 4, 2025",15.0,9272D,ae9bbe40-fedf-405d-9aa5-9fdf4a09272d,Little Italy,Kilimani NRB,Uber KE,1220.0
+"Nov 4, 2025",16.0,E2799,f0d099d0-a035-4f0e-bddb-a6cdd35e2799,Open House Restaurant,null,Uber KE,18775.0
+"Nov 4, 2025",15.0,AMR01664,LTHCO27GXIOH,Little Italy,null,ANDO,1660.0
+"Nov 4, 2025",19.0,753AE,99b83bdd-b5ec-4f30-852b-ce5c8f4753ae,Open House Restaurant,null,Uber KE,5475.0
+"Nov 4, 2025",20.0,101475834087,101475834087,Marty's Famous Burgers,Village Market NRB,Glovo,2480.0
+"Nov 4, 2025",16.0,0407A,7fd49000-fb66-4121-8fe8-290ec420407a,Kai Sushi Bar,Ngong Rd NRB,Uber KE,5215.0
+"Nov 4, 2025",19.0,A9859,45732c0d-0b17-4053-9c25-3e96b89a9859,Open House Restaurant,null,Uber KE,5425.0
+"Nov 4, 2025",20.0,AAD33,f7ee98bb-a911-4441-a130-00814c5aad33,Open House Restaurant,null,Uber KE,4725.0
+"Nov 4, 2025",18.0,345CB,11434a8f-25ec-4440-a8be-223a582345cb,Open House Restaurant,null,Uber KE,3525.0
+"Nov 4, 2025",17.0,61238,9f17820e-e99a-44d1-9ca7-076059161238,Khan's - Pakistani Kitchen,Village Market NRB,Uber KE,3435.0
+"Nov 4, 2025",18.0,2BF70,b93c1340-7d66-44c0-a4ae-ced6c6f2bf70,Tandoori Patio,null,Uber KE,2445.0
+"Nov 4, 2025",17.0,7778A,5242a276-b662-430f-aa5b-9d826397778a,"Open House Restaurant, Karen (Crossroad)",null,Uber KE,2375.0
+"Nov 4, 2025",19.0,E52E4,07ddf183-7c04-4b27-b342-514e63ee52e4,Open House Restaurant,null,Uber KE,2575.0
+"Nov 4, 2025",18.0,9E73C,700d819e-d4db-4bdd-88f3-f6ff93e9e73c,Kai Sushi Bar,Ngong Rd NRB,Uber KE,2065.0
+"Nov 4, 2025",18.0,8D032,60a893d5-b7d3-4757-b7f7-647f5c08d032,Open House Restaurant,null,Uber KE,2275.0
+"Nov 4, 2025",18.0,4E153,d481e341-9515-4433-a42a-39386384e153,Little Italy,Cape Town SA,Uber SA,280.0
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

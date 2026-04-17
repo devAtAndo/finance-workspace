@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { headers } from 'next/headers';
 import { apps } from '@ando/config/apps';
 import { iam } from '@ando/db';
@@ -16,7 +17,7 @@ function readPrincipal(): Principal {
   return JSON.parse(raw) as Principal;
 }
 
-export default async function HomePage() {
+export default async function HomePage(): Promise<ReactNode> {
   const principal = readPrincipal();
   const grants = await iam.listAppAccess(principal.userId);
   const tiles = buildTiles(apps, grants);

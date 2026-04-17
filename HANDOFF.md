@@ -4,6 +4,55 @@ Living session log. Updated at the end of every work session. Top entry is curre
 
 ---
 
+## 2026-04-17 — Phase 3 MVP: Rider Payments dual-run
+
+### Shipped
+
+- `apps/rider-payments/` (Next.js 16.2, React 19) imported non-destructively from the legacy sibling repo. Original retains uncommitted state.
+- Rewired onto `@ando/auth` / `@ando/config` / `@ando/db` / `@ando/ui` / `@ando/tsconfig` / `@ando/eslint-config` via workspace protocol.
+- `src/lib/authDispatcher.ts` — reads `RIDER_CF_ACCESS`.
+- `src/proxy.ts` — Next 16 proxy (not middleware) dispatches between legacy Supabase gate and CF Access gate with lazy V2 imports, 503 on iam outage, `x-ando-principal` propagation.
+- `src/lib/api-auth.ts` — single dispatch point for every API route; `getCaller(req)` / `requireAuth(req)` now accept the Request and branch internally.
+- `src/app/auth/callback/route.ts` — 410 Gone in V2 mode.
+- `src/app/no-access/page.tsx` — 403 rewrite target.
+- `test/_shim-server-only.ts` + Vitest alias so we can import `server-only` modules in tests.
+- Root `pnpm.overrides` forces `@types/react ^19.0.0` / `@types/react-dom ^19.0.0` monorepo-wide to defuse cross-major hoisting conflicts (rider is on React 19; workspace + petty-cash on React 18 runtime but 19 types are forward-compatible for standard usage).
+- Explicit `ReactNode` return annotations on workspace's server pages (belt-and-suspenders against TS2742).
+- 18 new Vitest cases: authDispatcher (10), getCaller supabase/cfaccess (7), callback 410 guard (1).
+- Per-app docs: `SPEC.md`, `README.md`, `CLAUDE.md`, `HANDOFF.md`, `CHANGELOG.md`.
+- Changeset `.changeset/phase-3-rider-payments-dual-run.md`.
+
+### TDD catches this session
+
+- `server-only` imports broke Vitest — added shim + alias.
+- React 19 vs 18 type hoisting → TS2742 across multiple apps. Fixed via `pnpm.overrides`.
+- Rider-payments' original lint script pointed at top-level `proxy.ts` (file lives at `src/proxy.ts` in Next 16). Script fixed.
+
+### Validated
+
+- `pnpm typecheck / lint / test / build` all green across **12 tasks**.
+- Full Vitest count: **92** — 21 config + 13 auth + 2 db + 1 ui + 15 workspace + 22 petty-cash + 18 rider-payments.
+- Rider-payments Next 16 build compiles 13 routes + proxy cleanly.
+
+### In-progress
+
+_(Phase 3 MVP complete.)_
+
+### Next
+
+- **Phase 3.1:** rewrite RLS policies so authenticated Supabase writes in V2 mode don't have to funnel through the service-role admin client.
+- **Phase 3.2:** after 2-week dual-run bake, delete `/login` UI + magic-link code + the legacy sibling folder `/Users/asifkhan/claude-ak/coding-projects/rider-payments`.
+- **Phase 2.3:** Petty Cash `Header.tsx` client-side principal source.
+- **Phase 2.4:** Drop `User.password` in petty-cash after its own 2-week bake.
+- **Phase 4:** Workspace admin UI for grant/revoke/audit.
+- **Phase 5:** Passkeys via CF Access, log sink, SAML path.
+
+### Flags touched
+
+- `RIDER_CF_ACCESS` — wired into `apps/rider-payments/src/lib/authDispatcher.ts`, `apps/rider-payments/src/proxy.ts`, `apps/rider-payments/src/lib/api-auth.ts`, `apps/rider-payments/src/app/auth/callback/route.ts`. Default off.
+
+---
+
 ## 2026-04-17 — Phase 2.1 + 2.2: Petty Cash server-side migrations
 
 ### Shipped

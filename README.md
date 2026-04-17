@@ -83,8 +83,8 @@ See [CHANGELOG.md](./CHANGELOG.md) for the monorepo-level history and [HANDOFF.m
 
 - **Phase 0** ✅ — Monorepo + shared packages scaffolded.
 - **Phase 1** ✅ — Workspace launcher MVP at `apps/workspace/`.
-- **Phase 2** ✅ (MVP) — Petty Cash imported as `apps/petty-cash/` with dual-run infra behind `PETTY_CASH_AUTH_V2`. Per-route migrations follow in Phase 2.x.
-- **Phase 3** — Rider Payments migrates off Supabase Auth (dual-run `RIDER_CF_ACCESS`).
+- **Phase 2** ✅ — Petty Cash at `apps/petty-cash/` with dual-run behind `PETTY_CASH_AUTH_V2`; every server-side call site migrated (Phases 2.1 + 2.2). Client `Header.tsx` (2.3) and `User.password` Prisma drop (2.4) still pending.
+- **Phase 3** ✅ (MVP) — Rider Payments at `apps/rider-payments/` with dual-run behind `RIDER_CF_ACCESS`. RLS rewrite (3.1) follows.
 - **Phase 4** — Admin UI + audit log viewer.
 - **Phase 5** — Hardening (passkeys via CF, log streaming, SAML path).
 

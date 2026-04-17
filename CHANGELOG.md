@@ -8,6 +8,15 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ### Added
 
+- **Phase 3 — Rider Payments dual-run** (2026-04-17):
+  - Imported `rider-payments` as `apps/rider-payments/` (Next.js 16.2, React 19, Supabase Postgres + direct pg pools).
+  - `RIDER_CF_ACCESS` dispatcher; `src/proxy.ts` now branches between the legacy Supabase-session gate and a new `evaluateAccess(appSlug='rider-payments')` gate with lazy V2 imports.
+  - `src/lib/api-auth.ts` refactored as single dispatch point — `getCaller(req)` / `requireAuth(req)` covers every API route without per-route changes.
+  - `/auth/callback` returns 410 in V2 mode.
+  - 18 new Vitest cases. Added a `test/_shim-server-only.ts` alias so Vitest can import server-only modules.
+  - Root `pnpm.overrides` pin `@types/react` and `@types/react-dom` to `^19.0.0` to prevent cross-version hoisting conflicts between apps on React 18 (workspace, petty-cash) and React 19 (rider-payments).
+  - Monorepo Vitest count: **92**.
+
 - **Phase 2.1 + 2.2 — Petty Cash server-side call-site migration** (2026-04-17):
   - `src/lib/requirePrincipalOrRedirect.ts` thin page helper + 3 Vitest cases.
   - Every server-side `getServerSession(authOptions)` in petty-cash (4 API routes + 4 server pages) now resolves users via `getPrincipal`. Client-side `Header.tsx useSession` is the only remaining legacy reference; scheduled for Phase 2.3.

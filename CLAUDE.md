@@ -11,19 +11,20 @@ Guidance for future Claude sessions (and humans) working in this repo.
 
 ## Entry points by concern
 
-| Concern                     | File                                                                                                                    |
-| --------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Cloudflare Access JWT shape | `packages/auth/src/types.ts`, `packages/auth/SPEC.md`                                                                   |
-| JWT verification            | `packages/auth/src/verifyCfAccessJwt.ts`                                                                                |
-| Per-app middleware          | `packages/auth/src/middleware.ts`                                                                                       |
-| Env / flags / app registry  | `packages/config/src/{env,apps,flags}.ts`                                                                               |
-| iam schema (authoritative)  | `infra/migrations/0001_iam_schema.sql`                                                                                  |
-| iam data access             | `packages/db/src/iam.ts`                                                                                                |
-| Local subdomain dev         | `Caddyfile`                                                                                                             |
-| E2E auth scenarios          | `e2e/tests/auth.spec.ts`                                                                                                |
-| Cloudflare Access infra     | `infra/cloudflare/main.tf`                                                                                              |
-| Workspace launcher          | `apps/workspace/middleware.ts`, `apps/workspace/src/app/page.tsx`                                                       |
-| Petty Cash dual-run         | `apps/petty-cash/src/lib/authDispatcher.ts`, `apps/petty-cash/src/lib/getPrincipal.ts`, `apps/petty-cash/middleware.ts` |
+| Concern                     | File                                                                                                                           |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Cloudflare Access JWT shape | `packages/auth/src/types.ts`, `packages/auth/SPEC.md`                                                                          |
+| JWT verification            | `packages/auth/src/verifyCfAccessJwt.ts`                                                                                       |
+| Per-app middleware          | `packages/auth/src/middleware.ts`                                                                                              |
+| Env / flags / app registry  | `packages/config/src/{env,apps,flags}.ts`                                                                                      |
+| iam schema (authoritative)  | `infra/migrations/0001_iam_schema.sql`                                                                                         |
+| iam data access             | `packages/db/src/iam.ts`                                                                                                       |
+| Local subdomain dev         | `Caddyfile`                                                                                                                    |
+| E2E auth scenarios          | `e2e/tests/auth.spec.ts`                                                                                                       |
+| Cloudflare Access infra     | `infra/cloudflare/main.tf`                                                                                                     |
+| Workspace launcher          | `apps/workspace/middleware.ts`, `apps/workspace/src/app/page.tsx`                                                              |
+| Petty Cash dual-run         | `apps/petty-cash/src/lib/authDispatcher.ts`, `apps/petty-cash/src/lib/getPrincipal.ts`, `apps/petty-cash/middleware.ts`        |
+| Rider Payments dual-run     | `apps/rider-payments/src/lib/authDispatcher.ts`, `apps/rider-payments/src/lib/api-auth.ts`, `apps/rider-payments/src/proxy.ts` |
 
 ## Invariants (do not break)
 
