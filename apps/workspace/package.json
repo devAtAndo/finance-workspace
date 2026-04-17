@@ -14,10 +14,10 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "clean": "rm -rf .next .turbo dist .open-next",
-    "cf:build": "opennextjs-cloudflare build",
-    "cf:preview": "opennextjs-cloudflare preview",
-    "cf:deploy": "opennextjs-cloudflare deploy",
-    "cf:dryrun": "opennextjs-cloudflare build && wrangler deploy --dry-run"
+    "cf:build": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion",
+    "cf:preview": "opennextjs-cloudflare preview --dangerouslyUseUnsupportedNextVersion",
+    "cf:deploy": "opennextjs-cloudflare deploy --dangerouslyUseUnsupportedNextVersion",
+    "cf:dryrun": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion && wrangler deploy --dry-run"
   },
   "dependencies": {
     "@ando/auth": "workspace:*",
