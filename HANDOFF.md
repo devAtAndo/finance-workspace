@@ -4,6 +4,38 @@ Living session log. Updated at the end of every work session. Top entry is curre
 
 ---
 
+## 2026-04-17 — Phase 2.1 + 2.2: Petty Cash server-side migrations
+
+### Shipped
+
+- `apps/petty-cash/src/lib/requirePrincipalOrRedirect.ts` — thin page-level wrapper. 3 Vitest cases.
+- Every server-side `getServerSession(authOptions)` call in `apps/petty-cash` replaced with `getPrincipal()` / `requirePrincipalOrRedirect()`:
+  - API routes: `/api/branch/state`, `/api/expenses`, `/api/requests` (GET + POST), `/api/requests/[id]/review` — 4 files.
+  - Server pages: `/`, `/admin`, `/branch`, `/finance` — 4 files.
+  - Renamed `req` → `created` in the requests POST transaction to unshadow the Fetch `Request` param.
+- Changeset `.changeset/phase-2-1-route-migrations.md` (petty-cash minor).
+
+### Validated
+
+- `pnpm typecheck / lint / test / build` all green.
+- Vitest monorepo count: **74** (21 config + 13 auth + 2 db + 1 ui + 15 workspace + 22 petty-cash).
+
+### In-progress
+
+_(complete)_
+
+### Next
+
+- **Phase 2.3:** `apps/petty-cash/src/components/Header.tsx` client `useSession` — decision required on client-side principal source in V2 mode (cookie vs `/api/me` vs server-prop).
+- **Phase 2.4:** Prisma migration dropping `User.password` after 2-week dual-run bake.
+- **Phase 3:** Rider Payments migration behind `RIDER_CF_ACCESS`.
+
+### Flags touched
+
+- None. `PETTY_CASH_AUTH_V2` default off; no behavior change in production.
+
+---
+
 ## 2026-04-17 — Phase 2 MVP: Petty Cash dual-run scaffolding
 
 ### Shipped

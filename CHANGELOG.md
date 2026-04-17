@@ -8,6 +8,11 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ### Added
 
+- **Phase 2.1 + 2.2 — Petty Cash server-side call-site migration** (2026-04-17):
+  - `src/lib/requirePrincipalOrRedirect.ts` thin page helper + 3 Vitest cases.
+  - Every server-side `getServerSession(authOptions)` in petty-cash (4 API routes + 4 server pages) now resolves users via `getPrincipal`. Client-side `Header.tsx useSession` is the only remaining legacy reference; scheduled for Phase 2.3.
+  - Monorepo Vitest count: 74.
+
 - **Phase 2 — Petty Cash dual-run** (2026-04-17):
   - Imported petty-cash as `apps/petty-cash/` (Next.js 14.2, Prisma + Postgres).
   - `PETTY_CASH_AUTH_V2` dispatcher in `src/lib/authDispatcher.ts`; `getPrincipal` / `requirePrincipal` wraps both NextAuth and `@ando/auth` paths behind a single call site.

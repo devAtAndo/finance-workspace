@@ -1,11 +1,8 @@
 import { redirect } from 'next/navigation';
-import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
+import { requirePrincipalOrRedirect } from '@/lib/requirePrincipalOrRedirect';
 
 export default async function Home() {
-  const session = await getServerSession(authOptions);
-  if (!session) redirect('/login');
-  const role = (session.user as any).role;
+  const { role } = await requirePrincipalOrRedirect();
   if (role === 'ADMIN') redirect('/admin');
   redirect(role === 'FINANCE' ? '/finance' : '/branch');
 }

@@ -1,14 +1,14 @@
 import { NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
+import { getPrincipal } from '@/lib/getPrincipal';
 import { prisma } from '@/lib/prisma';
 
-export async function GET() {
-  const session = await getServerSession(authOptions);
-  const user = session?.user as any;
-  if (!user || !user.branchId) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+export async function GET(req: Request) {
+  const principal = await getPrincipal({ req });
+  if (!principal?.branchId) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
 
-  const branch = await prisma.branch.findUnique({ where: { id: user.branchId } });
+  const branch = await prisma.branch.findUnique({ where: { id: principal.branchId } });
   if (!branch) return NextResponse.json({ error: 'Branch not found' }, { status: 404 });
 
   const pendingExpenses = await prisma.expense.findMany({

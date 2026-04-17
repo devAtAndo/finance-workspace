@@ -4,6 +4,49 @@ Living log for this app. Top entry is current.
 
 ---
 
+## 2026-04-17 — Phase 2.1 + 2.2: server-side call-site migrations
+
+### Shipped
+
+- `src/lib/requirePrincipalOrRedirect.ts` + 3 Vitest cases (happy path, missing principal → `/login`, custom redirect target).
+- Every server-side `getServerSession(authOptions)` call site now goes through `getPrincipal` / `requirePrincipalOrRedirect`:
+  - **API routes (4):** `/api/branch/state`, `/api/expenses`, `/api/requests` (GET + POST — note: renamed the transaction-local `req` to `created` to unshadow the Fetch `Request` param), `/api/requests/[id]/review`.
+  - **Pages (4):** `/`, `/admin`, `/branch`, `/finance`.
+- `.id` → `.userId` shape follow-through at every migrated call site.
+- Changeset `.changeset/phase-2-1-route-migrations.md` (petty-cash minor).
+
+### Validated
+
+- `pnpm --filter @ando/petty-cash test` ✅ — 22 cases now (was 19).
+- `pnpm typecheck` ✅
+- `pnpm lint` ✅
+- `pnpm build` ✅ — all 15 petty-cash routes still compile cleanly.
+
+### Remaining legacy auth references
+
+- Only `src/components/Header.tsx` `useSession()` remains — client-side, needs a Phase 2.3 design decision on V2-mode principal source (cookie, `/api/me` endpoint, or initial server-rendered prop).
+
+### In-progress
+
+_(Phase 2.1–2.2 complete; ready for 2.3.)_
+
+### Next
+
+- **Phase 2.3:** migrate `Header.tsx` — client-side principal read; design decision required.
+- **Phase 2.4:** Prisma migration dropping `User.password` after 2-week dual-run bake.
+- **Phase 3:** Rider Payments migration behind `RIDER_CF_ACCESS`.
+
+### Flags touched
+
+- No flag changes in this slice. `PETTY_CASH_AUTH_V2` still default-off.
+
+### Notes
+
+- No regressions in legacy mode verified by type-check of existing roles/branch semantics.
+- The V2 iam→Prisma JIT path is exercised by `getPrincipal.test.ts` already.
+
+---
+
 ## 2026-04-17 — Phase 2 MVP: dual-run scaffolding
 
 ### Shipped

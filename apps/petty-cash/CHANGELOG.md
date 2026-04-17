@@ -21,10 +21,18 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 - `src/app/api/admin/users/[id]/route.ts` — updated to read `admin.userId` after `requireAdmin` refactor.
 - `postcss.config.js` → `postcss.config.cjs` — package now declares `"type": "module"`, so the CommonJS config must use `.cjs`.
 
+### Phase 2.1 + 2.2 (same day)
+
+- `src/lib/requirePrincipalOrRedirect.ts` — thin page-level helper that redirects to `/login` when no principal; covered by 3 Vitest cases.
+- Migrated every remaining server-side `getServerSession(authOptions)` call:
+  - API routes: `/api/branch/state`, `/api/expenses`, `/api/requests` (GET + POST), `/api/requests/[id]/review`.
+  - Pages: `/`, `/admin`, `/branch`, `/finance`.
+- The only legacy-auth reference left in app code is client-side `Header.tsx useSession`, scheduled for Phase 2.3.
+
 ### Deferred
 
-- `User.password` column removal — postponed to a standalone Prisma migration after the 2-week V2 dual-run proves stable. Keeps NextAuth rollback viable.
-- Per-route migrations of remaining `getServerSession(authOptions)` call sites — each will land as its own PR + changeset in Phase 2.x.
+- `User.password` column removal — still postponed to a standalone Prisma migration after the 2-week V2 dual-run proves stable. Keeps NextAuth rollback viable.
+- `Header.tsx` migration — Phase 2.3, pending a decision on client-side principal source in V2 mode.
 
 ## [0.1.0] — 2026-04-17
 

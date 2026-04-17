@@ -1,14 +1,12 @@
 import { NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
+import { getPrincipal } from '@/lib/getPrincipal';
 import { prisma } from '@/lib/prisma';
 import { sendEmail } from '@/lib/email';
 import { formatKsh } from '@/lib/money';
 
 export async function POST(req: Request, { params }: { params: { id: string } }) {
-  const session = await getServerSession(authOptions);
-  const user = session?.user as any;
-  if (!user || (user.role !== 'FINANCE' && user.role !== 'ADMIN')) {
+  const principal = await getPrincipal({ req });
+  if (!principal || (principal.role !== 'FINANCE' && principal.role !== 'ADMIN')) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
   const { action, notes } = await req.json();
@@ -34,7 +32,7 @@ export async function POST(req: Request, { params }: { params: { id: string } })
         status,
         notes: notes || null,
         reviewedAt: new Date(),
-        reviewedById: user.id,
+        reviewedById: principal.userId,
       },
     });
     if (status === 'APPROVED') {

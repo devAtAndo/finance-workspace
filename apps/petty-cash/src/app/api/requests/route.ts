@@ -1,17 +1,18 @@
 import { NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
+import { getPrincipal } from '@/lib/getPrincipal';
 import { prisma } from '@/lib/prisma';
 import { sendEmail } from '@/lib/email';
 import { formatKsh } from '@/lib/money';
 import { getFinanceEmails } from '@/lib/notifications';
 
-export async function GET() {
-  const session = await getServerSession(authOptions);
-  const user = session?.user as any;
-  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+export async function GET(req: Request) {
+  const principal = await getPrincipal({ req });
+  if (!principal) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
-  const where = user.role === 'FINANCE' || user.role === 'ADMIN' ? {} : { branchId: user.branchId };
+  const where =
+    principal.role === 'FINANCE' || principal.role === 'ADMIN'
+      ? {}
+      : { branchId: principal.branchId ?? '__none__' };
   const requests = await prisma.reimbursementRequest.findMany({
     where,
     orderBy: { submittedAt: 'desc' },
@@ -24,15 +25,14 @@ export async function GET() {
   return NextResponse.json({ requests });
 }
 
-export async function POST() {
-  const session = await getServerSession(authOptions);
-  const user = session?.user as any;
-  if (!user || user.role !== 'BRANCH_USER' || !user.branchId) {
+export async function POST(req: Request) {
+  const principal = await getPrincipal({ req });
+  if (!principal || principal.role !== 'BRANCH_USER' || !principal.branchId) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
   const pendingExpenses = await prisma.expense.findMany({
-    where: { branchId: user.branchId, requestId: null },
+    where: { branchId: principal.branchId, requestId: null },
   });
   if (pendingExpenses.length === 0) {
     return NextResponse.json({ error: 'No expenses to reimburse' }, { status: 400 });
@@ -46,21 +46,21 @@ export async function POST() {
   }
 
   const total = pendingExpenses.reduce((s, e) => s + e.amount, 0);
-  const branch = await prisma.branch.findUnique({ where: { id: user.branchId } });
+  const branch = await prisma.branch.findUnique({ where: { id: principal.branchId } });
 
   const request = await prisma.$transaction(async (tx) => {
-    const req = await tx.reimbursementRequest.create({
+    const created = await tx.reimbursementRequest.create({
       data: {
-        branchId: user.branchId,
-        submittedById: user.id,
+        branchId: principal.branchId!,
+        submittedById: principal.userId,
         totalAmount: total,
       },
     });
     await tx.expense.updateMany({
       where: { id: { in: pendingExpenses.map((e) => e.id) } },
-      data: { requestId: req.id },
+      data: { requestId: created.id },
     });
-    return req;
+    return created;
   });
 
   const financeEmails = await getFinanceEmails();

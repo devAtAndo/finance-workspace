@@ -1,14 +1,12 @@
 import { NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
+import { getPrincipal } from '@/lib/getPrincipal';
 import { prisma } from '@/lib/prisma';
 import { saveReceipt } from '@/lib/uploads';
 import { checkThresholdAndNotify } from '@/lib/threshold';
 
 export async function POST(req: Request) {
-  const session = await getServerSession(authOptions);
-  const user = session?.user as any;
-  if (!user || user.role !== 'BRANCH_USER' || !user.branchId) {
+  const principal = await getPrincipal({ req });
+  if (!principal || principal.role !== 'BRANCH_USER' || !principal.branchId) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
@@ -23,7 +21,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'Amount and description required' }, { status: 400 });
   }
 
-  const branch = await prisma.branch.findUnique({ where: { id: user.branchId } });
+  const branch = await prisma.branch.findUnique({ where: { id: principal.branchId } });
   if (!branch) return NextResponse.json({ error: 'Branch not found' }, { status: 404 });
   if (amount > branch.currentBalance) {
     return NextResponse.json({ error: 'Amount exceeds current balance' }, { status: 400 });
@@ -36,7 +34,7 @@ export async function POST(req: Request) {
     prisma.expense.create({
       data: {
         branchId: branch.id,
-        userId: user.id,
+        userId: principal.userId,
         amount,
         description,
         receiptUrl,
