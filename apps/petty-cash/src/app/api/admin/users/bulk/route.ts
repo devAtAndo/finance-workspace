@@ -35,7 +35,10 @@ export async function POST(req: Request) {
   }
 
   const branches = await prisma.branch.findMany();
-  const branchByName = new Map(branches.map((b) => [b.name.toLowerCase(), b]));
+  const branchByName = new Map<string, { id: string; name: string }>();
+  for (const b of branches as Array<{ id: string; name: string }>) {
+    branchByName.set(b.name.toLowerCase(), b);
+  }
 
   const results: { row: number; email: string; ok: boolean; error?: string }[] = [];
 

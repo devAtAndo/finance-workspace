@@ -37,7 +37,9 @@ export async function POST(req: Request) {
   if (pendingExpenses.length === 0) {
     return NextResponse.json({ error: 'No expenses to reimburse' }, { status: 400 });
   }
-  const missingReceipts = pendingExpenses.filter((e) => !e.receiptUrl);
+  const missingReceipts = pendingExpenses.filter(
+    (e: { receiptUrl: string | null }) => !e.receiptUrl,
+  );
   if (missingReceipts.length > 0) {
     return NextResponse.json(
       { error: `${missingReceipts.length} expense(s) missing receipts` },
@@ -45,10 +47,10 @@ export async function POST(req: Request) {
     );
   }
 
-  const total = pendingExpenses.reduce((s, e) => s + e.amount, 0);
+  const total = pendingExpenses.reduce((s: number, e: { amount: number }) => s + e.amount, 0);
   const branch = await prisma.branch.findUnique({ where: { id: principal.branchId } });
 
-  const request = await prisma.$transaction(async (tx) => {
+  const request = await prisma.$transaction(async (tx: typeof prisma) => {
     const created = await tx.reimbursementRequest.create({
       data: {
         branchId: principal.branchId!,
@@ -57,7 +59,7 @@ export async function POST(req: Request) {
       },
     });
     await tx.expense.updateMany({
-      where: { id: { in: pendingExpenses.map((e) => e.id) } },
+      where: { id: { in: pendingExpenses.map((e: { id: string }) => e.id) } },
       data: { requestId: created.id },
     });
     return created;

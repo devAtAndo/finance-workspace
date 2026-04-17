@@ -25,7 +25,7 @@ export async function POST(req: Request, { params }: { params: { id: string } })
 
   const status = action === 'approve' ? 'APPROVED' : 'REJECTED';
 
-  await prisma.$transaction(async (tx) => {
+  await prisma.$transaction(async (tx: typeof prisma) => {
     await tx.reimbursementRequest.update({
       where: { id: request.id },
       data: {
