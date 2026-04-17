@@ -8,6 +8,14 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ### Added
 
+- **Phase 1 — Workspace launcher MVP** (2026-04-17):
+  - `apps/workspace` (Next.js 14.2) scaffolded at `workspace.andofoods.co`.
+  - Flag-gated middleware (`WORKSPACE_ENABLED`) + `iam`-tolerant 503 path.
+  - Launcher page renders `TileGrid` from `iam.listAppAccess`.
+  - Dev-only `POST /api/test/grant` (404 in production) so Playwright can seed before the admin UI exists.
+  - 15 new Vitest cases (tiles, login-url with open-redirect guards, middleware branches, grant-route validation).
+  - `_resetJwksCacheForTests` promoted to `@ando/auth` public surface for consumer-app test isolation.
+
 - **Phase 0 scaffold** (2026-04-17):
   - Turborepo + pnpm workspaces at `/workspace-monorepo`.
   - `@ando/tsconfig`, `@ando/eslint-config` shared tooling presets.

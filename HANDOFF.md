@@ -4,6 +4,48 @@ Living session log. Updated at the end of every work session. Top entry is curre
 
 ---
 
+## 2026-04-17 — Phase 1: Workspace launcher MVP
+
+### Shipped
+
+- `apps/workspace` (Next.js 14.2) scaffolded with Vitest + flat ESLint wired through `@ando/eslint-config/next`.
+- `src/lib/tiles.ts`, `src/lib/loginUrl.ts`, `src/lib/auth.ts` — all covered by tests; no auth logic duplicated, everything routes through `@ando/auth`.
+- `middleware.ts` — gates all routes except `_next/`, `favicon`, `no-access`, `api/test/*`; returns 503 when `WORKSPACE_ENABLED=false` or when `iam` is unavailable; attaches `x-ando-principal` on success.
+- Pages: `/` launcher using `AppShell` + `TileGrid`, `/no-access` using `NoAccess`.
+- `/api/test/grant` dev-only seeding route (hard 404 in production) so Playwright can populate `iam.app_access` before the admin UI exists.
+- 15 new Vitest cases: tiles (4), loginUrl (3, includes open-redirect guards), middleware (3), grant route (5).
+- `_resetJwksCacheForTests` promoted to `@ando/auth` public API so consumer apps can isolate JWKS cache between tests.
+- Per-app docs: `SPEC.md`, `README.md`, `CLAUDE.md`, `HANDOFF.md`, `CHANGELOG.md`.
+- Changeset `.changeset/phase-1-workspace-launcher.md` (workspace minor, auth patch).
+
+### Validated
+
+- `pnpm typecheck` ✅ (9/9)
+- `pnpm lint` ✅ (10/10)
+- `pnpm test` ✅ (10/10 tasks, 52 total Vitest + 4 skipped Playwright)
+- `pnpm build` ✅ — `next build` produces `/`, `/no-access`, `/api/test/grant` routes cleanly.
+
+### In-progress
+
+_(none)_
+
+### Next
+
+- Wire Playwright scenarios against a running dev server (`WORKSPACE_TEST_JWKS_JSON` set by `cfAccessHarness`); currently all `.skip`.
+- **Phase 2:** migrate Petty Cash onto `@ando/auth` behind `PETTY_CASH_AUTH_V2`; `git mv` it into `apps/petty-cash/`; drop `User.password` in a Prisma migration.
+
+### Open questions
+
+Same four as Phase 0 (hosting, audit retention, email sender, migration ownership). Add one:
+
+- `/admin` route strategy: separate Cloudflare Access application with 1h session, or same app with in-code role gate?
+
+### Flags touched
+
+- `WORKSPACE_ENABLED` — now consumed by `apps/workspace/middleware.ts`. Default (dev=true, prod=false) means prod deploys must opt in explicitly.
+
+---
+
 ## 2026-04-17 — Phase 0 scaffold
 
 ### Shipped

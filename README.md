@@ -82,7 +82,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the monorepo-level history and [HANDOFF.m
 ## Phased rollout (see `~/.claude/plans/i-have-two-finance-delightful-boot.md`)
 
 - **Phase 0** ✅ — Monorepo + shared packages scaffolded.
-- **Phase 1** — Workspace launcher MVP.
+- **Phase 1** ✅ — Workspace launcher MVP at `apps/workspace/`.
 - **Phase 2** — Petty Cash migrates off NextAuth (dual-run `PETTY_CASH_AUTH_V2`).
 - **Phase 3** — Rider Payments migrates off Supabase Auth (dual-run `RIDER_CF_ACCESS`).
 - **Phase 4** — Admin UI + audit log viewer.
